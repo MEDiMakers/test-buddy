@@ -1,1 +1,13 @@
-When a portion of the heart muscles dies, it affects the electrical impulses within the heart. The orderly flow of electrical signals within the heart is disrupted. This is a dangerous situation and an irregular, chaotic electrical rhythm called Ventricular Fibrillation (VF) develops in many cases (see figure 1.12). Figure 1-12-Normal Sinus Rhythm to Ventricular When VF occurs, the heart does not pump the blood to the rest of the body. This is a state of cardiac arrest and the casualty will be unconscious and stops breathing normally. Biological death and Clinical death Figure 1-13-Irreversible brain damage after 10 minutes When cardiac arrest occurs, the heart stops pumping and circulation stops. The oxygen level in the blood decreases, causing brain damage. If this situation is reversed immediately, survival chance could be as high as 90%. With a 6 minutes delay, this drops to 40–50% and at 9 minutes, it is a dismal 10%. (See figure 1-13) This is known as clinical death. Unless the circulation is restarted quickly, organ death will start to occur. The most sensitive organ is the brain and if the 
+1.5: WHAT HAPPENS IN A CARDIAC ARREST?
+When a portion of the heart muscles dies, it affects the electrical impulses within the heart. The orderly flow of electrical signals within the heart is disrupted. This is a dangerous situation and an irregular, chaotic electrical rhythm called Ventricular Fibrillation (VF) develops in many cases.
+When VF occurs, the heart does not pump the blood to the rest of the body. This is a state of cardiac arrest and the casualty will be unconscious and stops breathing normally. 
+Biological death and Clinical death 
+
+Figure 1-13: Irreversible brain damage after 10 minutes 
+description:
+0 minutes: Breathing stops. Heart will soon stop beating.
+4-6 minutes: Brain damage possible.
+6-10 minutes: Brain damage likely.
+Over 10 minutes: Irreversible brain damage certain.
+
+When cardiac arrest occurs, the heart stops pumping and circulation stops. The oxygen level in the blood decreases, causing brain damage. If this situation is reversed immediately, survival chance could be as high as 90%. With a 6 minutes delay, this drops to 40–50% and at 9 minutes, it is a dismal 10%. (See figure 1-13) This is known as clinical death. Unless the circulation is restarted quickly, organ death will start to occur. The most sensitive organ is the brain and if the 
