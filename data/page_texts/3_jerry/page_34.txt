@@ -1,1 +1,13 @@
-Automated External Defibrillators (AED) are devices that deliver electrical shocks to shockable rhythms like Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (VT), allowing the heart to restore its function. AEDs are defibrillators designed to be small in size, lightweight, and portable. They generally work on similar basic principles and do the following: Analyze the electrical rhythm of the heart. Determine whether the heart needs to be shocked. If a shock is required, it automatically charges to a pre-set energy level. If no shock is required, the device will not charge-up. Deliver electric shocks via attached AED pads. Advise the rescuer through voice prompts on key actions to deliver the shock, check the casualty or continue Cardiopulmonary Resuscitation (CPR). Some AEDs provide counting tempo to assist rescuers in chest compressions. 3.3: PREPARATION FOR AED USE The rescuer must first ascertain that the scene is safe for use of an AED. Avoid the following: Metallic surface - Remove casualty from contact with metal surfaces. These can conduct electric currents to the rescuer. Water - Sweat and moisture are good conductors of electricity and pose danger to the rescuer. It also reduces the adhesion of pads to the chest wall. If the chest is wet, wipe dry quickly with a towel. Gas - Flammable gases and oxygen sources are fire hazards. Move the casualty away from these before applying AED.
+3.2: AUTOMATED EXTERNAL DEFIBRILLATORS (AEDs):
+Automated External Defibrillators (AED) are devices that deliver electrical shocks to shockable rhythms like Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (VT), allowing the heart to restore its function. AEDs are defibrillators designed to be small in size, lightweight, and portable. They generally work on similar basic principles and do the following: 
+(a)Analyze the electrical rhythm of the heart. 
+(b)Determine whether the heart needs to be shocked. 
+(c)If a shock is required, it automatically charges to a pre-set energy level. 
+(d)If no shock is required, the device will not charge-up. Deliver electric shocks via attached AED pads. 
+(e)Advise the rescuer through voice prompts on key actions to deliver the shock, check the casualty or continue Cardiopulmonary Resuscitation (CPR). 
+(f)Some AEDs provide counting tempo to assist rescuers in chest compressions. 
+
+3.3: PREPARATION FOR AED USE The rescuer must first ascertain that the scene is safe for use of an AED. Avoid the following: 
+Metallic surface - Remove casualty from contact with metal surfaces. These can conduct electric currents to the rescuer. 
+Water - Sweat and moisture are good conductors of electricity and pose danger to the rescuer. It also reduces the adhesion of pads to the chest wall. If the chest is wet, wipe dry quickly with a towel. 
+Gas - Flammable gases and oxygen sources are fire hazards. Move the casualty away from these before applying AED.

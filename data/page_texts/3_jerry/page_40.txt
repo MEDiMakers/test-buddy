@@ -1,1 +1,44 @@
-Figure 3-8 – Flowchart of CPR and AED algorithm. 
+The flowchart titled "Algorithm for One-Rescuer Cardiopulmonary Resuscitation (CPR) and Use of Automated External Defibrillator (AED)" provides a step-by-step guide for performing Cardiopulmonary Resuscitation (CPR) and using an Automated External Defibrillator (AED). Here is a detailed step-by-step flow of the chart:
+
+1. Check for Danger (D):
+Ensure the area is safe for both the rescuer and the casualty.
+
+2. Check Responsiveness (R):
+Try to get a response from the casualty.
+
+3. Shout for Help (S):
+(a) Shout "Help!"
+(b) Call 995 for Singapore Civil Defence Force Emergency Medical Services (SCDF EMS) and follow the dispatcher’s instructions or activate the emergency response system (for in-facility/in-hospital cardiac arrest).
+
+4. Get the Automated External Defibrillator (AED) (A):
+If there is another person around, ask him/her to get the Automated External Defibrillator (AED).
+If alone, do not leave the casualty.
+
+5. Check for Normal Breathing and Pulse (B):
+Look for the rise and fall of the chest (not more than 10 seconds).
+If normal breathing (gasping is not normal breathing) is absent or unsure, start Cardiopulmonary Resuscitation (CPR).
+Healthcare Provider only: Check for carotid pulse as well.
+
+6. Provide Continuous Chest Compressions (C):
+Expose the chest adequately.
+Perform chest compressions:
+    Lower half of sternum
+    Depth: 4-6 cm
+    Rate: 100-120 per minute
+    Allow complete chest recoil
+Healthcare Provider only: After 30 chest compressions
+    Head-Tilt, Chin-Lift
+    Provide 2 ventilations via Bag-Valve-Mask (BVM)
+    1 second per ventilation
+    Tidal Volume 400-600 milliliters or chest rises
+
+7. Automated External Defibrillator (AED) Arrives:
+
+Check for Automated External Defibrillator (AED) Hazards:
+    Wet surfaces
+    Metallic surfaces
+    Flammable gases nearby
+Continue Cardiopulmonary Resuscitation (CPR)
+Turn on the Automated External Defibrillator (AED)
+Ensure the chest is bare and dry
+Apply pads as printed on the Automated External Defibr
