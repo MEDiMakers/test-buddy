@@ -1,0 +1,182 @@
+[
+   {
+      "page_1": {
+         "Text": "SRFAC\nSINGAPORE RESUSCITATION AND FIRST AID COUNCIL\nBasic Cardiac Life Support and Automated External Defibrillation (BCLS+AED) Provider Course Manual \n\nSingapore Resuscitation and First Aid Council \nAll rights reserved.\nNo part of this book may be reproduced, in any form or by any means, without prior written permission of SRFAC. \nREV 1 / 2022 ",
+         "Page": 1
+      }
+   },
+   {
+      "page_2": {
+         "Text": "CONTENTS\n1: CARDIAC ARREST AND YOU \n1.1: Introduction 02 \n1.2: The Heart, the Lungs and the Circulation 03 \n1.3: Risk Factors for Heart Attack 06 \n1.4: What Happens in a Heart Attack 07 \n1.5: What Happens in a Cardiac Arrest 08 \n1.6: Other Common Causes of Cardiac Arrest 10 \n1.7: The Chain of Survival 11 \n1.8: SCDF myResponder Mobile Application 13 \n\n2: CARDIO PULMONARY RESUSCITATION (CPR) \n2.1: The Importance of Early CPR 16 \n2.2: Adult One-Rescuer CPR 17 \n2.3: CPR in Special Circumstances 27 \n\n3: AUTOMATED EXTERNAL DEFIBRILLATION (AED) \n3.1: The Importance of Early Defibrillation 30 \n3.2: Automated External Defibrillators (AEDs) 32 \n3.3: Preparation for AED use 32 \n3.4: Placement of AED Electrode Pads 34 \n3.5: Defibrillation Procedures 36 \n3.6: Post-Incident Procedures 39 \n3.7: Retrieval of Automated External Defibrillator 41 \n3.8: Sample Practical Scenarios (For Adults) 43 \n3.9: Child/Infant Defibrillation 44 \n\n4: CHILD CARDIO PULMONARY RESUSCITATION (CPR) \n4.1: Child CPR 48 \n\n5: ADULT/CHILD FOREIGN BODY AIRWAY OBSTRUCTION (FBAO) \n5.1: Introduction 55 \n5.2: Recognition of Foreign Body Airway Obstruction (FBAO) 56 \n5.3: Relief of Foreign Body Airway Obstruction (FBAO) 58 \n5.4: Heimlich Maneuver 59 5.5: Chest Thrusts 62 \n5.6: Relief of Unconscious Adult/Child FBAO 64 \n\n6: INFANT CARDIO PULMONARY RESUSCITATION (CPR) \n6.1: Infant CPR 70 \n\n7: INFANT FOREIGN BODY AIRWAY OBSTRUCTION (FBAO) \n7.1: Introduction 78 \n7.2: Recognition of Foreign Body Airway Obstruction (FBAO) 78 \n7.3: Relief of Conscious Infant Foreign Body Airway Obstruction (FBAO) using Back Blows and Chest Thrusts 80 \n7.4: Relief of Unconscious Infant FBAO 84 \n\nThe Singapore Resuscitation and First Aid Council (SRFAC) would like to thank the members of the Basic Cardiac Life Support and Automated External Defibrillation Sub-Committee for contributing to the creation of this manual. ",
+         "Page": 2
+      }
+   },
+   {
+      "page_3": {
+         "Text": "Cardiac Arrest and You \n\n1. 1: INTRODUCTION \n1.2: THE HEART, LUNGS AND CIRCULATION \n1.3: RISK FACTORS FOR HEART ATTACK \n1.4: WHAT HAPPENS IN A HEART ATTACK \n1.5: WHAT HAPPENS IN A CARDIAC ARREST \n1.6: OTHER COMMON CAUSES OF CARDIAC ARREST \n1.7: THE CHAIN OF SURVIVAL \n1. 8: SCDF MYRESPONDER MOBILE APPLICATION \n\nSingapore Resuscitation and First Aid Council\nAll rights reserved. \nNo part of this book may be reproduced, in any form or by any means, without prior written permission of the copyright owner. \nRev 1 / 2022 ",
+         "Page": 3
+      }
+   },
+   {
+      "page_4": {
+         "Text": "Based on national health statistics from the Ministry of Health in 2019, Singapore, ischemic heart disease (lack of blood circulation to heart muscles) is the third most common cause of death, contributing to 18.8% of total mortality. \nA person with heart disease is prone to a heart attack, which could result in cardiac arrest and sudden death. According to a study conducted in Singapore*, the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in 2019 was 56.7 per 100,000 population in 2019 (3233 casualties), of which, 2239 cases (74%) of cardiac arrests occur in the home. Bystander CPR was performed on 1937 casualties (60%) and bystander defibrillation was performed on 340 (10.5%) of them. Out of 200 survivors (6.2%), 156 (4.8%) of them survived to be discharged with good-to-moderate neurological functions. \nSurvival from sudden death can be maximized with the prompt application of basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs). These can be performed by anyone, anywhere and anytime. All that is needed is the rescuer\u2019s two hands. \n\n* White AE, Shaidah N, Asyikin N et al. Singapore Out-of-Hospital Cardiac Arrest Registry Report 2011-2019. July 2021. Republic of Singapore. Unit for Pre-hospital Emergency Care. ",
+         "Page": 4
+      }
+   },
+   {
+      "page_5": {
+         "Text": "The heart is a muscular pump located in the center of the chest and slightly towards the left. \nThe heart has two halves. The right side receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen.\nThe left side receives oxygen-rich blood from the lungs through the pulmonary veins and delivers it to all parts of the body, including the vital organs such as the heart, lungs, kidneys and brain.",
+         "Page": 5
+      }
+   },
+   {
+      "page_6": {
+         "Text": "The heart muscles receive oxygen rich blood via a set of coronary arteries. \nThe pumping action of the heart is initiated by electrical signals from a pacemaker (sinoatrial or SA node), these signals travel to other parts of the heart in an orderly manner through a conductive network. The electrical signals from the heart can be picked up by an electrocardiogram (ECG).\nThe pumping action gives rise to an organized heart-beat at regular rate of 60-100 beats per minute in a normal person. ",
+         "Page": 6
+      }
+   },
+   {
+      "page_7": {
+         "Text": "On an ECG, normal heart rhythm, also known as the Normal Sinus Rhythm, appears as below:\n5 large squares = 1second\n1 small square = 0.04 s \n1 large square = 0.2 s\n1 QRS per second\nHeart rate = 60 per min\nCount the number of large intervals and divide into 300 squares between 2 RR\nThe human body has two lungs which absorb oxygen from the air that is breathed in. 21% of air consists of oxygen, of which 5% is extracted by the lungs. The extracted oxygen is passed to the blood within the capillaries of the lungs. The capillaries confluence into the pulmonary vein, which transports the oxygenated blood into the left side of the heart. \nExchange of Oxygen and Carbon Dioxide in the lungs \nThe remaining 16% of unabsorbed oxygen is breathed out. This is extremely important in the context of mouth-to-mouth ventilation; the air that the rescuer ventilate into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life. ",
+         "Page": 7
+      }
+   },
+   {
+      "page_8": {
+         "Text": "1.3: RISK FACTORS FOR HEART ATTACK\nSurvival rates of Sudden Cardiac Arrest is dismal even in the best cities. Prevention is of paramount importance to prevent heart attack from occurring. Several key risk factors contribute to the development of a heart attack. Human Beings can minimize the chance of getting a heart attack by controlling the risk factors. These are: \nSmoking \u2013 Smoking promotes the development of plaques within the coronary arteries and increases the risk of heart attack by two-fold. This habit should be avoided altogether.\nBlood Pressure \u2013 If the blood pressure is high, there will be tremendous stress on the heart. Frequent blood pressure checks and reduction of salt in the diet is important. Those with high blood pressure should take their medicines and check their blood pressure regularly as instructed. \nBlood Sugars \u2013 Avoid a diet high in carbohydrates or refined sugars and control body weight through diet and exercise. If you have diabetes, take your medications regularly as instructed. \nBlood Lipids - Manage blood lipids (fats) by avoiding foods high in fats. Doing regular exercise could improve your blood lipid profile and take your medications regularly as instructed. \nAdopting healthy lifestyles by not smoking, eating foods in moderate amounts and regular exercise will decrease the risk of heart disease and other illnesses. ",
+         "Page": 8
+      }
+   },
+   {
+      "page_9": {
+         "Text": "1.4: WHAT HAPPENS IN A HEART ATTACK?\nA heart attack occurs when cholesterol deposits and / or blood clots block one of the coronary arteries supplying the heart muscle. (See figure 1-10) The heart muscles beyond the blocked vessel dies due to lack of oxygenated blood. This is heart attack. \n\nFigure 1-10 Blocked coronary artery:\ndescription:\nThis figure illustrates a blocked coronary artery, as seen in two sections labeled A and B.\nSection A shows an overall view of the heart, highlighting the coronary arteries which supply blood and oxygen to the heart muscle. One of these arteries is indicated as being blocked.\nSection B provides a detailed close-up view of the blocked area within the coronary artery. It shows:\nHealthy heart muscle surrounding the artery. The blockage in the artery caused by a blood clot and plaque buildup, which impedes blood flow. A section of dead heart muscle affected by the reduced blood supply.\n\nSymptoms of a Heart Attack \nA person who has a heart attack may experience any of these: \nPain \u2013 described as tightness or discomfort either over the chest or upper part of the abdomen. This pain may also spread to the left shoulder, left arm, neck or lower jaw. Some may mistake this for indigestion or fatigue. \nShortness of breath \u2013 A sudden difficulty in breathing may be a warning sign of a heart attack. \nOther Symptoms - Sweating, nausea, vomiting or dizziness \nIf a heart attack is not treated promptly, deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest. \nLearn to recognize the symptoms of a heart attack. When someone experiences these, it is best to call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation. ",
+         "Page": 9
+      }
+   },
+   {
+      "page_10": {
+         "Text": "1.5: WHAT HAPPENS IN A CARDIAC ARREST?\nWhen a portion of the heart muscles dies, it affects the electrical impulses within the heart. The orderly flow of electrical signals within the heart is disrupted. This is a dangerous situation and an irregular, chaotic electrical rhythm called Ventricular Fibrillation (VF) develops in many cases.\nWhen VF occurs, the heart does not pump the blood to the rest of the body. This is a state of cardiac arrest and the casualty will be unconscious and stops breathing normally. \nBiological death and Clinical death \n\nFigure 1-13: Irreversible brain damage after 10 minutes \ndescription:\n0 minutes: Breathing stops. Heart will soon stop beating.\n4-6 minutes: Brain damage possible.\n6-10 minutes: Brain damage likely.\nOver 10 minutes: Irreversible brain damage certain.\n\nWhen cardiac arrest occurs, the heart stops pumping and circulation stops. The oxygen level in the blood decreases, causing brain damage. If this situation is reversed immediately, survival chance could be as high as 90%. With a 6 minutes delay, this drops to 40\u201350% and at 9 minutes, it is a dismal 10%. (See figure 1-13) This is known as clinical death. Unless the circulation is restarted quickly, organ death will start to occur. The most sensitive organ is the brain and if the ",
+         "Page": 10
+      }
+   },
+   {
+      "page_11": {
+         "Text": "circulation to the brain is not started within about 4 minutes, permanent and irreversible brain damage will start to occur. This is known as biological death. It is therefore important to start CPR as quickly as possible.\nAir contains approximately 21% oxygen at sea level. During its passage through the body, only about \u00bc of oxygen is utilised and hence exhaled air contains approximately 16% oxygen. When mouth-to-mouth ventilation is done during CPR, there is sufficient oxygen in the exhaled air to keep the casualty alive. Chest compression squeezes the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain. \nImmediate CPR and defibrillation are key components for increased chances of survival. ",
+         "Page": 11
+      }
+   },
+   {
+      "page_12": {
+         "Text": "1.6:  OTHER  COMMON  CAUSES  OF  CARDIAC ARREST\nA heart attack is the most common cause of cardiac arrest. There are other causes, which include: \nDrug overdose, Choking, Smoke inhalation, Severe Trauma, Drowning, Electrocution, Severe allergy, Stroke\nDeath in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help. ",
+         "Page": 12
+      }
+   },
+   {
+      "page_13": {
+         "Text": "1.7: THE CHAIN OF SURVIVAL\nThe essential steps for helping a cardiac arrest victim are illustrated in a system called the \u201cChain of Survival\u201d. The seven rings in this chain are: Prevention, Early Recognition and Access, Early CPR, Early Defibrillation, Emergency Medical Services (Ambulance), Advanced Cardiac Life Support, Recovery.\n\nFirst Ring: Prevention \nPrevention is better than intervention. A healthy diet and lifestyle can reduce the risk of heart diseases. Going for regular medical check-ups can help detect problems early and prompt the individuals to seek treatment early and adjust their diet and lifestyles. \n\nSecond Ring: Early Activation and AED Access \nCall for ambulance (dial 995) and get an AED if visible and near-by. Follow the SCDF dispatcher\u2019s instructions. \n\nThird Ring: Early CPR \nThe brain cells start dying within 4-6 minutes of cardiac arrest. CPR must be initiated as soon as possible to provide blood and oxygen flow to the brain and heart. \n\nFourth Ring: Early Defibrillation \nAutomated external defibrillators (AEDs) are increasingly available in the community, at lift lobbies, void decks, gymnasium, shopping malls, hotels, airports and schools etc. Apply onto the casualty and be ready to defibrillate. \n\nFifth Ring: Emergency Medical Services (Ambulance) \nQuick access to the scene and transport to the hospital makes a difference to the casualty\u2019s chances of survival. ",
+         "Page": 13
+      }
+   },
+   {
+      "page_14": {
+         "Text": "Sixth Ring: Advanced Cardiac Life Support\nMedical teams will provide advanced cardiac life support at the hospital with the use of Intravenous/Intraosseous (IV/IO) medication and delivery of oxygen via mechanical systems (ie. Bag-Valve Masks and ventilators). \n\nSeventh Ring: Recovery \nTo ensure a good survival outcome after OHCA requires continued community and medical support (ie. social services, physio/occupational therapy, nutritional guidance, etc) and therapy to re-habilitate the individual back to normalcy. ",
+         "Page": 14
+      }
+   },
+   {
+      "page_15": {
+         "Text": "1.8: SCDF MYRESPONDER MOBILE APPLICATION\nIn Singapore, many of the emergency cases SCDF responds to could be quickly attended to by members of the public even before SCDF\u2019s arrival. For example, more than 3000 people suffer from Out-of-Hospital Cardiac Arrest (OHCA), with a survival rate of just 5%, which could be improved by simple medical intervention within the first few critical minutes. At the same time, there are more than 1,000 minor fires (such as rubbish chute/bin fire) that could easily be extinguished using publicly-available means. (See figure 1-16) \n\nFigure 1-16 \u2013 Incidents that will trigger myResponder notifications\ndescription:\nCardiac Arrest\nAccept the myResponder alert and proceed to the specified location.\n- Use the app to locate nearby Automated External Defibrillators (AEDs).\n- Upon reaching the patient, perform CPR or apply an AED.\n- Hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival.\n\nMinor Fire\n- Accept the myResponder alert and go to the designated location.\n- Extinguish the fire using available resources such as extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes.\n- Provide the SCDF with up to three photos for scene assessment.\n\nMajor Incident\n- Accept the myResponder alert but do not approach closer to the specified location.\n- Provide SCDF with up to three photos and one video of the developing incident, if it is safe to do so.\n- Follow any instructions for evacuation immediately.\n\nThe myResponder mobile application is available on Apple and Android stores. ",
+         "Page": 15
+      }
+   },
+   {
+      "page_31": {
+         "Text": "CHAPTER 3:\nAUTOMATED EXTERNAL DEFIBRILLATION (AED) \n3.1: THE IMPORTANCE OF EARLY DEFIBRILLATION \n3.2: AUTOMATED EXTERNAL DEFIBRILLATION (AED) \n3.3: PREPARATION FOR AED USE \n3.4: PLACEMENT OF AED ELECTRODE PADS \n3.5: DEFIBRILLATION PROCEDURES \n3.6: POST-INCIDENT PROCEDURES \n3.7: RETRIEVAL OF AUTOMATED EXTERNAL DEFIBRILLATOR \n3.8: SAMPLE PRACTICAL SCENARIOS (FOR ADULTS) \n3.9: CHILD/INFANT DEFIBRILLATION ",
+         "Page": 31
+      }
+   },
+   {
+      "page_32": {
+         "Text": "3.1: The Importance of Early Defibrillation:\nAt the time of a sudden cardiac arrest, the most common underlying cardiac rhythm is an irregular and chaotic electrical rhythm (shockable rhythms) called Ventricular Fibrillation (VF) or Ventricular Tachycardia (VT) without pulse. However, not all cardiac arrests present as Ventricular Fibrillation and may appear as other electrical rhythms (for example, asystole which is non-shockable). \nDuring Ventricular Fibrillation, the heart muscles do not contract effectively and delivery of blood to the rest of the body ceases. The treatment for Ventricular Fibrillation is a shock administered using an Automated External Defibrillator (AED). This shock, together with chest compressions, will reinstate normal heart rhythm and contractility if administered as soon as possible (within 4 minutes). The survival rate decreases by 7-10% for every minute of delay in treating Ventricular Fibrillation. If delayed or untreated, Ventricular Fibrillation eventually degenerates into a fatal rhythm known as asystole where the heart has no electrical activity as reflected by a flat line tracing. At this juncture, the only treatment possible is to administer Cardiopulmonary Resuscitation (CPR). \nIn the past, only trained doctors, nurses, and paramedics could perform manual defibrillation as it requires the operator to recognize the cardiac rhythm of the casualty, whether it is shockable or non-shockable. Since the invention of Automated External Defibrillators, which are able to analyze the casualty\u2019s cardiac rhythm through the electrode pads and advise if a shock is needed, a lay rescuer can now perform the defibrillation, thus improving survival rates.",
+         "Page": 32
+      }
+   },
+   {
+      "page_33": {
+         "Text": "The Automated External Defibrillator (AED) should be brought to every person in cardiac arrest. Therefore, when calling 995 for the Singapore Civil Defence Force (SCDF) ambulance, also call for an AED by instructing others nearby \u201cGet an AED\u201d. However, if you are the lone rescuer, do not leave the casualty. \nResearch has shown that cardiac arrest casualties with Ventricular Fibrillation (VF) who are treated promptly have the best chances of survival. Similar experiences from around the world have also demonstrated that more lives are saved if early Cardiopulmonary Resuscitation (CPR) is combined with early defibrillation.",
+         "Page": 33
+      }
+   },
+   {
+      "page_34": {
+         "Text": "3.2: AUTOMATED EXTERNAL DEFIBRILLATORS (AEDs):\nAutomated External Defibrillators (AED) are devices that deliver electrical shocks to shockable rhythms like Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (VT), allowing the heart to restore its function. AEDs are defibrillators designed to be small in size, lightweight, and portable. They generally work on similar basic principles and do the following: \n(a)Analyze the electrical rhythm of the heart. \n(b)Determine whether the heart needs to be shocked. \n(c)If a shock is required, it automatically charges to a pre-set energy level. \n(d)If no shock is required, the device will not charge-up. Deliver electric shocks via attached AED pads. \n(e)Advise the rescuer through voice prompts on key actions to deliver the shock, check the casualty or continue Cardiopulmonary Resuscitation (CPR). \n(f)Some AEDs provide counting tempo to assist rescuers in chest compressions. \n\n3.3: PREPARATION FOR AED USE The rescuer must first ascertain that the scene is safe for use of an AED. Avoid the following: \nMetallic surface - Remove casualty from contact with metal surfaces. These can conduct electric currents to the rescuer. \nWater - Sweat and moisture are good conductors of electricity and pose danger to the rescuer. It also reduces the adhesion of pads to the chest wall. If the chest is wet, wipe dry quickly with a towel. \nGas - Flammable gases and oxygen sources are fire hazards. Move the casualty away from these before applying AED.",
+         "Page": 34
+      }
+   },
+   {
+      "page_35": {
+         "Text": "Steps in chest preparation and applying the AED electrode pads: \n(1) Expose the chest of the casualty to facilitate application of AED electrode pads. If needed, cut away the clothing. \n(2) If chest hair prevents proper electrode pad placement, shave the hair from these sites promptly. AEDs come with a shaver blade to expedite this. \n(3) Metallic objects such as necklace and chains should be moved away from the pads. These may result in sparks and potential burns to the chest wall. \n(4) For casualties with a pacemaker or implanted cardiac defibrillator on the right, apply the pads at least four fingers\u2019 breadth away from these devices. \n(5) Medication patches or monitoring electrodes on the chest wall should be removed as they may interfere with electrode pads placement. \n(6) Wipe dry a wet or sweaty chest to ensure proper adhesion of the electrode pads to the chest. Application of AED electrode pads to the chest wall must be done quickly with minimal interruptions to chest compressions.\n",
+         "Page": 35
+      }
+   },
+   {
+      "page_36": {
+         "Text": "3.4: PLACEMENT OF Automated External Defibrillator (AED) ELECTRODE PADS: Placement of AED Pads:\n\nRight Pad: Place one pad on the right side of the chest, just below the right collar bone.\nLeft Pad: Place the other pad just below and to the left of the left nipple.\n\nSteps for Applying AED Pads:\n(1)Open the packet containing AED pads with cable and connector.\n(2)Peel off the protective backing from the pads.\n(3)Follow the pictures on the pads to determine their correct location on the chest.\n(4)Press the pads firmly onto the chest wall.\n(5)Stand clear when the AED is analyzing the heart rhythm.\n(6)Stand clear when pressing the button to deliver the shock.\n\nKey Note:\nMinimize Cardiopulmonary Resuscitation (CPR) interruption when placing AED pads and during defibrillation.",
+         "Page": 36
+      }
+   },
+   {
+      "page_37": {
+         "Text": "NA",
+         "Page": 37
+      }
+   },
+   {
+      "page_38": {
+         "Text": "3.5: DEFIBRILLATION PROCEDURES \n1. The Automated External Defibrillator (AED) will initially analyse the heart\u2019s electrical rhythm. It will give a voice prompt, such as \u201cANALYSING HEART RHYTHM. DO NOT TOUCH THE CASUALTY.\u201d If you hear this, stop chest compressions. Do not touch the casualty and do not allow others to touch the casualty while the Automated External Defibrillator (AED) is analysing. \n2. Spread your arms apart and say clearly \u201cStay Clear\u201d. \n3. If the casualty has a shockable rhythm, the Automated External Defibrillator (AED) machine will charge automatically. Charging takes a few seconds and may be indicated by a warning tone from the Automated External Defibrillator (AED). No one should touch the casualty during this brief charging phase.\n4. Once the Automated External Defibrillator (AED) is fully charged, it will prompt \u201cPRESS THE SHOCK BUTTON NOW\u201d. The rescuer then states clearly \u201cStay Clear\u201d, ensures quickly that no one is touching the\n",
+         "Page": 38
+      }
+   },
+   {
+      "page_39": {
+         "Text": "Casualty, and then presses the shock button on the Automated External Defibrillator (AED) firmly before releasing it. \n5. Once the shock is delivered, restart chest compressions. Continue the chest compressions until the Automated External Defibrillator (AED) repeats the voice prompt (every 2 minutes): \u201cANALYSING HEART RHYTHM. DO NOT TOUCH THE CASUALTY.\u201d \n6. If the Automated External Defibrillator (AED) prompts: \u201cNO SHOCK ADVISED\u201d, the lay rescuer should resume continuous chest compressions until the emergency medical team arrives to take over, or the Automated External Defibrillator (AED) prompts the rescuer not to touch the casualty, or the casualty starts breathing normally. Healthcare providers who are trained and confident in pulse check should check the pulse when the Automated External Defibrillator (AED) prompts to analyse the casualty\u2019s heart rhythm every two minutes, or when breathing or movement is detected. Checking of pulse should not take more than ten seconds. If unsure of the presence of a pulse by the end of ten seconds, the rescuer should resume Cardiopulmonary Resuscitation (CPR). If the pulse is present but not breathing, start rescue breathing. \n7. Only stop Cardiopulmonary Resuscitation (CPR) when: a. Paramedic takes over from rescuer; or b. Automated External Defibrillator (AED) prompts to analyse the casualty\u2019s heart rhythm, is charging or when shock is to be delivered; or c. Casualty wakes up or regains normal breathing. \n8. Keep casualty in the same (supine) position and continue to monitor the casualty until help arrives. \n9. Throughout this period, the Automated External Defibrillator (AED) should remain connected to the casualty.\n",
+         "Page": 39
+      }
+   },
+   {
+      "page_40": {
+         "Text": "The flowchart titled \"Algorithm for One-Rescuer Cardiopulmonary Resuscitation (CPR) and Use of Automated External Defibrillator (AED)\" provides a step-by-step guide for performing Cardiopulmonary Resuscitation (CPR) and using an Automated External Defibrillator (AED). Here is a detailed step-by-step flow of the chart:\n\n1. Check for Danger (D):\nEnsure the area is safe for both the rescuer and the casualty.\n\n2. Check Responsiveness (R):\nTry to get a response from the casualty.\n\n3. Shout for Help (S):\n(a) Shout \"Help!\"\n(b) Call 995 for Singapore Civil Defence Force Emergency Medical Services (SCDF EMS) and follow the dispatcher\u2019s instructions or activate the emergency response system (for in-facility/in-hospital cardiac arrest).\n\n4. Get the Automated External Defibrillator (AED) (A):\nIf there is another person around, ask him/her to get the Automated External Defibrillator (AED).\nIf alone, do not leave the casualty.\n\n5. Check for Normal Breathing and Pulse (B):\nLook for the rise and fall of the chest (not more than 10 seconds).\nIf normal breathing (gasping is not normal breathing) is absent or unsure, start Cardiopulmonary Resuscitation (CPR).\nHealthcare Provider only: Check for carotid pulse as well.\n\n6. Provide Continuous Chest Compressions (C):\nExpose the chest adequately.\nPerform chest compressions:\n    Lower half of sternum\n    Depth: 4-6 cm\n    Rate: 100-120 per minute\n    Allow complete chest recoil\nHealthcare Provider only: After 30 chest compressions\n    Head-Tilt, Chin-Lift\n    Provide 2 ventilations via Bag-Valve-Mask (BVM)\n    1 second per ventilation\n    Tidal Volume 400-600 milliliters or chest rises\n\n7. Automated External Defibrillator (AED) Arrives:\n\nCheck for Automated External Defibrillator (AED) Hazards:\n    Wet surfaces\n    Metallic surfaces\n    Flammable gases nearby\nContinue Cardiopulmonary Resuscitation (CPR)\nTurn on the Automated External Defibrillator (AED)\nEnsure the chest is bare and dry\nApply pads as printed on the Automated External Defibr\n",
+         "Page": 40
+      }
+   },
+   {
+      "page_41": {
+         "Text": "3.6: POST-INCIDENT PROCEDURES:\nHand-over to emergency services When paramedics take over the casualty, they may require a summary of the events that have occurred:\n(a) Time of collapse (best estimate)\n(b) Whether the Automated External Defibrillator (AED) was used How many shocks were given?\n(c) Any previous medical history and medications, if known.\n(d) If available, provide a document that lists these events.\n\nAssist the paramedics: Until the casualty is loaded into the ambulance.\nThe Automated External Defibrillator (AED) electrode pads should remain on the casualty while transporting to the hospital.\nWhat are the duties for the person in charge of the Automated External Defibrillator (AED) after the Automated External Defibrillator (AED) has been used?\nThe facility or safety manager must be informed of the usage of the Automated External Defibrillator (AED).\n\nThe person in charge of the Automated External Defibrillator (AED) has the following responsibilities:\nFor commercial establishments or workplaces, or the local community centre or management office for residential areas:\n1. For Automated External Defibrillators (AEDs) located in places other than Housing and Development Board (HDB) blocks, they should be returned to the Automated External Defibrillator (AED) owner (building management or security staff) after use.\n2. Replace the Automated External Defibrillator (AED) consumables such as the electrode pads, shaver kit, towel, and gloves if used (replacement done by the Automated External Defibrillator (AED) owner or Automated External Defibrillator (AED) vendor).\n3. The Automated External Defibrillator (AED) battery must be checked. Contact the vendor of the Automated External Defibrillator (AED) device for advice on battery replacement.\n4. If the Automated External Defibrillator (AED) was removed from a box with a key in a thin glass window, the glass may have been broken to retrieve the key. This glass piece would need to be replaced.\n",
+         "Page": 41
+      }
+   },
+   {
+      "page_42": {
+         "Text": "Replaced and the key placed back onto the holder. (Replaced by the Automated External Defibrillator (AED) vendor). \n5. Most Automated External Defibrillators (AEDs) have a chip that records the resuscitation sequence. Get the Automated External Defibrillator (AED) vendor to print the record from this chip. It is useful for audit and quality assurance purposes. \n6. Automated External Defibrillators (AEDs) are almost maintenance-free. \n7. The battery indicator on the Automated External Defibrillator (AED) needs to be checked annually (or as advised by the Automated External Defibrillator (AED) vendor) to ensure that it is still functional. Once it gives a low-battery display, steps to replace the battery promptly should be undertaken.\n\nFor Public Access Automated External Defibrillators (AEDs) from Housing Development Board (HDB):\n1. Singapore Civil Defence Force (SCDF) Ambulance crew will convey the casualty to the hospital along with the public access Automated External Defibrillator (AED). The used Automated External Defibrillator (AED) will be collected by the contracted vendor at the respective fire stations. The vendor will restock and replace the Automated External Defibrillator (AED) back to its original location.\n2. Automated External Defibrillators (AEDs) are almost maintenance-free.\n3. The battery indicator on the Automated External Defibrillator (AED) needs to be checked periodically to ensure that it is still functional. Once it gives a low-battery display, steps to replace the battery promptly should be undertaken (facilitated by Singapore Civil Defence Force (SCDF)/Housing Development Board (HDB)).\n",
+         "Page": 42
+      }
+   },
+   {
+      "page_43": {
+         "Text": "RETRIEVAL OF AUTOMATED EXTERNAL DEFIBRILLATOR:\nPublic access Automated External Defibrillators (AEDs) in Singapore are typically secured in a locked box with a break glass mechanism. The glass must be broken to retrieve the key and to unlock the box. \nDuring emergencies, members of the public responding to potential cardiac arrest cases have been reported to have suffered injuries while retrieving Automated External Defibrillators (AEDs), such as by being cut by glass while breaking the pane of glass or while trying to retrieve the key.\n",
+         "Page": 43
+      }
+   },
+   {
+      "page_44": {
+         "Text": "A recent survey of cardiac arrest responders who retrieved Automated External Defibrillators (AEDs) conducted locally highlighted that a pattern of injuries exists.\n\nThe following are recommendations for retrieval of Automated External Defibrillators (AEDs): \n1. Download the Singapore Civil Defence Force (SCDF) myResponder application! (See Chapter 1.8) Responders with the app have a much better chance to find the nearest defibrillator with the help of the Automated External Defibrillator (AED) map. \n2. To safely retrieve the Automated External Defibrillator (AED): \n    a. Do not use your bare hands/elbows to break the glass \u2013 most injuries from retrieving occur with breaking the glass. Use personal items instead e.g. mobile phone, shoes, keys etc. to reduce the risk of injuries sustained. \n    b. Clear all glass fragments around the edges with the object used to break the glass before retrieving the key. Another common mechanism of injury is due to lacerations when reaching for the key inside.\n",
+         "Page": 44
+      }
+   },
+   {
+      "page_45": {
+         "Text": "SAMPLE PRACTICAL SCENARIOS (FOR ADULTS): \nThe following scenarios may be used by the instructor to depict possible situations which you may encounter due to the varied nature of an emergency. By practicing these scenarios, you can be more confident to assist a casualty in emergencies. \n(1) Shock \u2013 No Shock \u2013 No Shock \n(2) No Shock \u2013 Shock \u2013 No Shock \n(3) Shock \u2013 Shock \u2013 No Shock \n(4) No Shock \u2013 No Shock \u2013 Shock \n(5) No Shock \u2013 No Shock \u2013 No Shock\n",
+         "Page": 45
+      }
+   }
+]
