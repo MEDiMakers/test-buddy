@@ -1,1 +1,14 @@
-This module addresses children from 1 to 12 years of age. Children in this age group rarely collapse (goes into cardiac arrest) owing to a primary heart problem. Cardiac arrest is usually secondary to other events, such as respiratory illness or major trauma. Therefore, rescuers must detect and promptly treat early signs of respiratory and circulatory failure to prevent cardiac arrest. Note:  If a child is below 12 years old but of a larger size or a child that is above 12, perform chest compressions as in Adult CPR. (D) Check for Danger Ensure that the rescuer operates in a safe environment. Resuscitation should start where the casualty is found, unless the site is unsafe or unconducive (eg. roads which are still open to traffic, burning building, etc), then the casualty should be removed to a safe, flat and open space as soon as possible. (R) Check for Responsiveness The rescuer should tap the child’s shoulders firmly and ask loudly: ‘Hello! Hello! Are you OK?’ (see figure 4-1) Avoid violent shaking of the child as this may result in injury. Avoid unnecessary movements of the neck to prevent injuries to the head and neck. Figure 4-1 – Check for responsiveness For CPR to be effective, the casualty must be lying on his/her back on a firm, flat surface. If the casualty is lying face down (prone position), or on his/her side, rescuer will need to roll the casualty over onto his/her back. 
+4.1: CHILD CARDIO-PULMONARY RESUSCITATION (CPR)
+This module addresses children from 1 to 12 years of age. 
+Children in this age group rarely collapse (goes into cardiac arrest) owing to a primary heart problem. Cardiac arrest is usually secondary to other events, such as respiratory illness or major trauma. Therefore, rescuers must detect and promptly treat early signs of respiratory and circulatory failure to prevent cardiac arrest. 
+Note:
+- If a child is below 12 years old but of a larger size or a child that is above 12, perform chest compressions as in Adult Cardiopulmonary Resuscitation (CPR). 
+
+(D) Check for Danger 
+Ensure that the rescuer operates in a safe environment. Resuscitation should start where the casualty is found, unless the site is unsafe or unconducive (eg. roads which are still open to traffic, burning building, etc), then the casualty should be removed to a safe, flat and open space as soon as possible. 
+(R) Check for Responsiveness 
+- The rescuer should tap the child’s shoulders firmly and ask loudly: ‘Hello! Hello! Are you OK?’
+- Avoid violent shaking of the child as this may result in injury.
+- Avoid unnecessary movements of the neck to prevent injuries to the head and neck. 
+
+For Cardiopulmonary Resuscitation (CPR) to be effective, the casualty must be lying on his/her back on a firm, flat surface. If the casualty is lying face down (prone position), or on his/her side, rescuer will need to roll the casualty over onto his/her back. 

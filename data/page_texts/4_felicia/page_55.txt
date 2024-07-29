@@ -1,1 +1,14 @@
-If pulse is present and normal breathing is absent, perform rescue breathing at a rate of 20 breaths per minute (one breath every 3 seconds) by giving one breath and counting 2-a-thousand, 3-a-thousand. Re-assess for normal breathing and pulse after 20 breaths. If both the breathing and pulse are present, position the casualty in the supine position and continuously monitor the casualty until help arrives. If there are 2 trained healthcare providers The ratio of chest compressions to ventilations is 15:2. Perform 10 cycles of 15 compressions and 2 ventilations within 2 minutes. Continue performing CPR until: Paramedic takes over from rescuer; or AED prompts to analyse the casualty’s heart rhythm, is charging or when shock is to be delivered; or Casualty wakes up or regains normal breathing. Keep casualty in the same (supine) position and continue to monitor the casualty until help arrives. Healthcare providers who are trained and confident in pulse check should check the pulse after at least five cycles of 30 compressions to two ventilations (done via a bag-valve mask). Checking of pulse should not take more than ten seconds. If unsure of the presence of a pulse by the end of ten seconds, the rescuer should resume CPR. 
+- If pulse is present and normal breathing is absent, perform rescue breathing at a rate of 20 breaths per minute (one breath every 3 seconds) by giving one breath and counting 2-a-thousand, 3-a-thousand.
+- Re-assess for normal breathing and pulse after 20 breaths.
+- If both the breathing and pulse are present, position the casualty in the supine position and continuously monitor the casualty until help arrives.
+
+If there are 2 trained healthcare providers 
+- The ratio of chest compressions to ventilations is 15:2.
+- Perform 10 cycles of 15 compressions and 2 ventilations within 2 minutes.
+
+Continue performing Cardiopulmonary Resuscitation (CPR) until: 
+- Paramedic takes over from rescuer; or
+- Automated External Defibrillator (AED) prompts to analyse the casualty’s heart rhythm, is charging or when shock is to be delivered; or
+- Casualty wakes up or regains normal breathing.
+- Keep casualty in the same (supine) position and continue to monitor the casualty until help arrives.
+- Healthcare providers who are trained and confident in pulse check should check the pulse after at least five cycles of 30 compressions to two ventilations (done via a bag-valve mask). Checking of pulse should not take more than ten seconds. If unsure of the presence of a pulse by the end of ten seconds, the rescuer should resume Cardiopulmonary Resuscitation (CPR). 
