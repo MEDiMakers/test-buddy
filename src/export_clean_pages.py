@@ -21,8 +21,6 @@ def combine_cleaned_json(
         return int(match.group(1)) if match else float('inf')
 
     for folder_name in sorted(os.listdir(directory_path)):
-        if folder_name == "6_wenyeong":
-            continue
         folder_path = os.path.join(directory_path, folder_name)
         
         if os.path.isdir(folder_path):
@@ -34,7 +32,7 @@ def combine_cleaned_json(
     return combined_jsons
 
 def export_combined_jsons(combined_jsons):
-    with open("../data/all_pages_temp.json", "w", encoding='utf-8') as fout:
+    with open("../data/all_pages_v1.json", "w", encoding='utf-8') as fout:
         json.dump(combined_jsons, fout, indent=3)
     return
 
