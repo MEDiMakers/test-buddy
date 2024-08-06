@@ -6,6 +6,7 @@ In the past, only trained doctors, nurses, and paramedics could perform manual d
 The Automated External Defibrillator (AED) should be brought to every person in cardiac arrest. Therefore, when calling 995 for the Singapore Civil Defence Force (SCDF) ambulance, also call for an Automated External Defibrillator by instructing others nearby “Get an Automated External Defibrillator”. However, if you are the lone rescuer, do not leave the casualty. 
 Research has shown that cardiac arrest casualties with Ventricular Fibrillation (VF) who are treated promptly have the best chances of survival. Similar experiences from around the world have also demonstrated that more lives are saved if early Cardiopulmonary Resuscitation (CPR) is combined with early defibrillation.
 
+
 3.2: AUTOMATED EXTERNAL DEFIBRILLATORS (AEDs):
 Automated External Defibrillators (AED) are devices that deliver electrical shocks to shockable rhythms like Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (VT), allowing the heart to restore its function. Automated External Defibrillator are defibrillators designed to be small in size, lightweight, and portable. They generally work on similar basic principles and do the following: 
 (a)Analyze the electrical rhythm of the heart. 
@@ -14,6 +15,7 @@ Automated External Defibrillators (AED) are devices that deliver electrical shoc
 (d)If no shock is required, the device will not charge-up. Deliver electric shocks via attached Automated External Defibrillator pads. 
 (e)Advise the rescuer through voice prompts on key actions to deliver the shock, check the casualty or continue Cardiopulmonary Resuscitation (CPR). 
 (f)Some AEDs provide counting tempo to assist rescuers in chest compressions. 
+
 
 3.3: PREPARATION FOR AED USE The rescuer must first ascertain that the scene is safe for use of an Automated External Defibrillator. Avoid the following: 
 Metallic surface - Remove casualty from contact with metal surfaces. These can conduct electric currents to the rescuer. 
@@ -100,6 +102,7 @@ Turn on the Automated External Defibrillator (AED)
 Ensure the chest is bare and dry
 Apply pads as printed on the Automated External Defibrillator
 
+
 3.6: POST-INCIDENT PROCEDURES:
 Hand-over to emergency services When paramedics take over the casualty, they may require a summary of the events that have occurred:
 (a) Time of collapse (best estimate)
@@ -107,10 +110,12 @@ Hand-over to emergency services When paramedics take over the casualty, they may
 (c) Any previous medical history and medications, if known.
 (d) If available, provide a document that lists these events.
 
+
 Assist the paramedics: Until the casualty is loaded into the ambulance.
 The Automated External Defibrillator (AED) electrode pads should remain on the casualty while transporting to the hospital.
 What are the duties for the person in charge of the Automated External Defibrillator (AED) after the Automated External Defibrillator (AED) has been used?
 The facility or safety manager must be informed of the usage of the Automated External Defibrillator (AED).
+
 
 The person in charge of the Automated External Defibrillator (AED) has the following responsibilities:
 For commercial establishments or workplaces, or the local community centre or management office for residential areas:
@@ -122,22 +127,25 @@ For commercial establishments or workplaces, or the local community centre or ma
 6. Automated External Defibrillators (AEDs) are almost maintenance-free. 
 7. The battery indicator on the Automated External Defibrillator (AED) needs to be checked annually (or as advised by the Automated External Defibrillator (AED) vendor) to ensure that it is still functional. Once it gives a low-battery display, steps to replace the battery promptly should be undertaken.
 
+
 For Public Access Automated External Defibrillators (AEDs) from Housing Development Board (HDB):
 1. Singapore Civil Defence Force (SCDF) Ambulance crew will convey the casualty to the hospital along with the public access Automated External Defibrillator (AED). The used Automated External Defibrillator (AED) will be collected by the contracted vendor at the respective fire stations. The vendor will restock and replace the Automated External Defibrillator (AED) back to its original location.
 2. Automated External Defibrillators (AEDs) are almost maintenance-free.
 3. The battery indicator on the Automated External Defibrillator (AED) needs to be checked periodically to ensure that it is still functional. Once it gives a low-battery display, steps to replace the battery promptly should be undertaken (facilitated by Singapore Civil Defence Force (SCDF)/Housing Development Board (HDB)).
 
+
 RETRIEVAL OF AUTOMATED EXTERNAL DEFIBRILLATOR:
 Public access Automated External Defibrillators (AEDs) in Singapore are typically secured in a locked box with a break glass mechanism. The glass must be broken to retrieve the key and to unlock the box. 
 During emergencies, members of the public responding to potential cardiac arrest cases have been reported to have suffered injuries while retrieving Automated External Defibrillators (AEDs), such as by being cut by glass while breaking the pane of glass or while trying to retrieve the key.
-
 A recent survey of cardiac arrest responders who retrieved Automated External Defibrillators (AEDs) conducted locally highlighted that a pattern of injuries exists.
+
 
 The following are recommendations for retrieval of Automated External Defibrillators (AEDs): 
 1. Download the Singapore Civil Defence Force (SCDF) myResponder application! (See Chapter 1.8) Responders with the app have a much better chance to find the nearest defibrillator with the help of the Automated External Defibrillator (AED) map. 
 2. To safely retrieve the Automated External Defibrillator (AED): 
     a. Do not use your bare hands/elbows to break the glass – most injuries from retrieving occur with breaking the glass. Use personal items instead e.g. mobile phone, shoes, keys etc. to reduce the risk of injuries sustained. 
     b. Clear all glass fragments around the edges with the object used to break the glass before retrieving the key. Another common mechanism of injury is due to lacerations when reaching for the key inside.
+
 
 SAMPLE PRACTICAL SCENARIOS (FOR ADULTS): 
 The following scenarios may be used by the instructor to depict possible situations which you may encounter due to the varied nature of an emergency. By practicing these scenarios, you can be more confident to assist a casualty in emergencies. 
