@@ -1,0 +1,126 @@
+Based on national health statistics from the Ministry of Health in 2019, Singapore, ischemic heart disease (lack of blood circulation to heart muscles) is the third most common cause of death, contributing to 18.8% of total mortality. 
+A person with heart disease is prone to a heart attack, which could result in cardiac arrest and sudden death. According to a study conducted in Singapore*, the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in 2019 was 56.7 per 100,000 population in 2019 (3233 casualties), of which, 2239 cases (74%) of cardiac arrests occur in the home. Bystander CPR was performed on 1937 casualties (60%) and bystander defibrillation was performed on 340 (10.5%) of them. Out of 200 survivors (6.2%), 156 (4.8%) of them survived to be discharged with good-to-moderate neurological functions. 
+Survival from sudden death can be maximized with the prompt application of basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs). These can be performed by anyone, anywhere and anytime. All that is needed is the rescuer’s two hands. 
+
+
+The heart is a muscular pump located in the center of the chest and slightly towards the left. 
+The heart has two halves. The right side receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen.
+The left side receives oxygen-rich blood from the lungs through the pulmonary veins and delivers it to all parts of the body, including the vital organs such as the heart, lungs, kidneys and brain.
+
+
+The heart muscles receive oxygen rich blood via a set of coronary arteries. 
+The pumping action of the heart is initiated by electrical signals from a pacemaker (sinoatrial or SA node), these signals travel to other parts of the heart in an orderly manner through a conductive network. The electrical signals from the heart can be picked up by an electrocardiogram (ECG).
+The pumping action gives rise to an organized heart-beat at regular rate of 60-100 beats per minute in a normal person. 
+
+
+On an electrocardiogram (ECG), normal heart rhythm, also known as the Normal Sinus Rhythm, appears as below:
+5 large squares = 1second
+1 small square = 0.04 s 
+1 large square = 0.2 s
+1 QRS per second
+Heart rate = 60 per minute
+Count the number of large intervals and divide into 300 squares between 2 RR
+The human body has two lungs which absorb oxygen from the air that is breathed in. 21% of air consists of oxygen, of which 5% is extracted by the lungs. The extracted oxygen is passed to the blood within the capillaries of the lungs. The capillaries confluence into the pulmonary vein, which transports the oxygenated blood into the left side of the heart. 
+Exchange of Oxygen and Carbon Dioxide in the lungs 
+The remaining 16% of unabsorbed oxygen is breathed out. This is extremely important in the context of mouth-to-mouth ventilation; the air that the rescuer ventilate into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life. 
+
+
+1.3: RISK FACTORS FOR HEART ATTACK
+Survival rates of Sudden Cardiac Arrest is dismal even in the best cities. Prevention is of paramount importance to prevent heart attack from occurring. Several key risk factors contribute to the development of a heart attack. Human Beings can minimize the chance of getting a heart attack by controlling the risk factors. These are: 
+Smoking – Smoking promotes the development of plaques within the coronary arteries and increases the risk of heart attack by two-fold. This habit should be avoided altogether.
+Blood Pressure – If the blood pressure is high, there will be tremendous stress on the heart. Frequent blood pressure checks and reduction of salt in the diet is important. Those with high blood pressure should take their medicines and check their blood pressure regularly as instructed. 
+Blood Sugars – Avoid a diet high in carbohydrates or refined sugars and control body weight through diet and exercise. If you have diabetes, take your medications regularly as instructed. 
+Blood Lipids - Manage blood lipids (fats) by avoiding foods high in fats. Doing regular exercise could improve your blood lipid profile and take your medications regularly as instructed. 
+Adopting healthy lifestyles by not smoking, eating foods in moderate amounts and regular exercise will decrease the risk of heart disease and other illnesses. 
+
+
+1.4: WHAT HAPPENS IN A HEART ATTACK?
+A heart attack occurs when cholesterol deposits and / or blood clots block one of the coronary arteries supplying the heart muscle. (See figure 1-10) The heart muscles beyond the blocked vessel dies due to lack of oxygenated blood. This is heart attack. 
+
+Figure 1-10 Blocked coronary artery:
+description:
+This figure illustrates a blocked coronary artery, as seen in two sections labeled A and B.
+Section A shows an overall view of the heart, highlighting the coronary arteries which supply blood and oxygen to the heart muscle. One of these arteries is indicated as being blocked.
+Section B provides a detailed close-up view of the blocked area within the coronary artery. It shows:
+Healthy heart muscle surrounding the artery. The blockage in the artery caused by a blood clot and plaque buildup, which impedes blood flow. A section of dead heart muscle affected by the reduced blood supply.
+
+Symptoms of a Heart Attack 
+A person who has a heart attack may experience any of these: 
+Pain – described as tightness or discomfort either over the chest or upper part of the abdomen. This pain may also spread to the left shoulder, left arm, neck or lower jaw. Some may mistake this for indigestion or fatigue. 
+Shortness of breath – A sudden difficulty in breathing may be a warning sign of a heart attack. 
+Other Symptoms - Sweating, nausea, vomiting or dizziness 
+If a heart attack is not treated promptly, deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest. 
+Learn to recognize the symptoms of a heart attack. When someone experiences these, it is best to call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation. 
+
+
+1.5: WHAT HAPPENS IN A CARDIAC ARREST?
+When a portion of the heart muscles dies, it affects the electrical impulses within the heart. The orderly flow of electrical signals within the heart is disrupted. This is a dangerous situation and an irregular, chaotic electrical rhythm called Ventricular Fibrillation (VF) develops in many cases.
+When VF occurs, the heart does not pump the blood to the rest of the body. This is a state of cardiac arrest and the casualty will be unconscious and stops breathing normally. 
+Biological death and Clinical death 
+
+Figure 1-13: Irreversible brain damage after 10 minutes 
+description:
+0 minutes: Breathing stops. Heart will soon stop beating.
+4-6 minutes: Brain damage possible.
+6-10 minutes: Brain damage likely.
+Over 10 minutes: Irreversible brain damage certain.
+
+
+When cardiac arrest occurs, the heart stops pumping and circulation stops. The oxygen level in the blood decreases, causing brain damage. If this situation is reversed immediately, survival chance could be as high as 90%. With a 6 minutes delay, this drops to 40–50% and at 9 minutes, it is a dismal 10%. (See figure 1-13) This is known as clinical death. Unless the circulation is restarted quickly, organ death will start to occur. The most sensitive organ is the brain and if the 
+circulation to the brain is not started within about 4 minutes, permanent and irreversible brain damage will start to occur. This is known as biological death. It is therefore important to start CPR as quickly as possible.
+Air contains approximately 21% oxygen at sea level. During its passage through the body, only about ¼ of oxygen is utilised and hence exhaled air contains approximately 16% oxygen. When mouth-to-mouth ventilation is done during CPR, there is sufficient oxygen in the exhaled air to keep the casualty alive. Chest compression squeezes the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain. 
+Immediate CPR and defibrillation are key components for increased chances of survival. 
+
+
+1.6:  OTHER  COMMON  CAUSES  OF  CARDIAC ARREST
+A heart attack is the most common cause of cardiac arrest. There are other causes, which include: 
+Drug overdose, Choking, Smoke inhalation, Severe Trauma, Drowning, Electrocution, Severe allergy, Stroke
+Death in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help. 
+
+
+1.7: THE CHAIN OF SURVIVAL
+The essential steps for helping a cardiac arrest victim are illustrated in a system called the “Chain of Survival”. The seven rings in this chain are: Prevention, Early Recognition and Access, Early cardio-pulmonary resuscitation (CPR), Early Defibrillation, Emergency Medical Services (Ambulance), Advanced Cardiac Life Support, Recovery.
+
+First Ring: Prevention 
+Prevention is better than intervention. A healthy diet and lifestyle can reduce the risk of heart diseases. Going for regular medical check-ups can help detect problems early and prompt the individuals to seek treatment early and adjust their diet and lifestyles. 
+
+Second Ring: Early Activation and Automated external defibrillators (AEDs) Access 
+Call for ambulance (dial 995) and get an Automated external defibrillators (AEDs) if visible and near-by. Follow the Singapore Civil Defence Force (SCDF) dispatcher’s instructions. 
+
+Third Ring: Early cardio-pulmonary resuscitation (CPR) 
+The brain cells start dying within 4-6 minutes of cardiac arrest. Cardio-pulmonary resuscitation (CPR) must be initiated as soon as possible to provide blood and oxygen flow to the brain and heart. 
+
+Fourth Ring: Early Defibrillation 
+Automated external defibrillators (AEDs) are increasingly available in the community, at lift lobbies, void decks, gymnasium, shopping malls, hotels, airports and schools etc. Apply onto the casualty and be ready to defibrillate. 
+
+Fifth Ring: Emergency Medical Services (Ambulance) 
+Quick access to the scene and transport to the hospital makes a difference to the casualty’s chances of survival. 
+Sixth Ring: Advanced Cardiac Life Support
+Medical teams will provide advanced cardiac life support at the hospital with the use of Intravenous/Intraosseous (IV/IO) medication and delivery of oxygen via mechanical systems (ie. Bag-Valve Masks and ventilators). 
+
+Seventh Ring: Recovery 
+To ensure a good survival outcome after OHCA requires continued community and medical support (ie. social services, physio/occupational therapy, nutritional guidance, etc) and therapy to re-habilitate the individual back to normalcy. 
+
+
+1.8: SCDF MYRESPONDER MOBILE APPLICATION
+In Singapore, many of the emergency cases SCDF responds to could be quickly attended to by members of the public even before SCDF’s arrival. For example, more than 3000 people suffer from Out-of-Hospital Cardiac Arrest (OHCA), with a survival rate of just 5%, which could be improved by simple medical intervention within the first few critical minutes. At the same time, there are more than 1,000 minor fires (such as rubbish chute/bin fire) that could easily be extinguished using publicly-available means. (See figure 1-16) 
+
+Figure 1-16 – Incidents that will trigger myResponder notifications
+description:
+Cardiac Arrest
+Accept the myResponder alert and proceed to the specified location.
+- Use the app to locate nearby Automated External Defibrillators (AEDs).
+- Upon reaching the patient, perform CPR or apply an AED.
+- Hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival.
+
+Minor Fire
+- Accept the myResponder alert and go to the designated location.
+- Extinguish the fire using available resources such as extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes.
+- Provide the SCDF with up to three photos for scene assessment.
+
+Major Incident
+- Accept the myResponder alert but do not approach closer to the specified location.
+- Provide SCDF with up to three photos and one video of the developing incident, if it is safe to do so.
+- Follow any instructions for evacuation immediately.
+
+The myResponder mobile application is available on Apple and Android stores. 
