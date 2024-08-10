@@ -5,6 +5,7 @@ Response is entirely voluntary, however, volunteers are encouraged to respond, w
 1.18 – The above QR code works for both Apple iOS and Google Android OS and will direct to the App Store or Google Play respectively.
 The myResponder function is also available within the SGSecure application
 
+
 When the heart stops beating, blood stops flowing through the body.
 Unless the flow is restarted quickly, other organs in the body will stop functioning.
 For example, if the blood does not flow to the brain for 4 to 6 minutes, it could result in brain death.
@@ -18,6 +19,7 @@ In many cases, rescuers in the community are unwilling and/or unable to provide 
 Hands only (chest compressions only) CPR can be initiated.
 This only requires continuous chest compressions without mouth-to-mouth ventilation, is easier to learn and is as effective as standard CPR.
 
+
 The next section takes you step-by-step through the procedures needed to perform CPR – the basic skill needed to save lives in the event of cardiac arrest
 MNEMONIC: DRSABC 
 D Check for Danger 
@@ -28,16 +30,19 @@ B Check for Normal Breathing and Pulse (for trained Healthcare Providers) Provid
 Notes: If you are a single rescuer and feeling tired, you may take a rest of not more than 10 seconds (preferably after 100 continuous chest compressions).
 For Healthcare Provider only: If no BVM is available and you are unable or unwilling to do mouth-to-mouth ventilations, perform continuous chest compressions. 2.1 – One rescuer CPR steps *BVM: Bag Valve Mask 
 
+
 Ensure that the rescuer operates in a safe environment.
 Resuscitation should start where the casualty is found, unless the site is unsafe or unconducive (eg. roads which are still open to traffic, burning building, etc), then the casualty should be removed to a safe, flat and open space as soon as possible.
 (R) Check for Responsiveness The rescuer should tap the casualty’s shoulders firmly and ask loudly: ‘Hello! Hello! Are you okay?’. Avoid violent shaking of the casualty as this may result in injury.
 Avoid unnecessary movements of the neck in the event of injuries to the head and neck. 2.2 – Tap shoulder for response 
+
 
 For Cardiopulmonary resuscitation (CPR) to be effective, the casualty must be lying on his/her back on a firm, flat surface.
 If the casualty is lying face down (prone position), or on his/her side, rescuer will need to roll the casualty over onto his/her back.
 (S) Shout to get help If the adult is unresponsive, shout to get help from bystanders to call ‘995’ for SCDF EMS or activate the emergency response system (for in-facility/in-hospital cardiac arrest).
 If alone, use a handphone to call 995 for Singapore Civil Defence Force (SCDF) Emergency Medical Service (EMS) and put on speaker phone mode.
 An SCDF emergency medical dispatcher can help a lay rescuer recognise cardiac arrest, and once this is established, the dispatcher will guide the rescuer to begin CPR by providing instructions 2.3 – Call 995 for an ambulance 
+
 
 In a situation where a lone rescuer found an unresponsive casualty in a remote area with no accessibility to activate emergency medical service, it is necessary for the lone rescuer to assess the casualty’s responsiveness and breathing.
 If normal breathing is absent, chest compressions should commence immediately and continued for at least two minutes before leaving the casualty to seek help.
@@ -49,10 +54,12 @@ However, if you are the lone rescuer, do not leave the casualty.
 Checking for normal breathing should not take more than ten seconds.
 It is important to recognize that gasping is NOT normal breathing but a sign of cardiac arrest (gasping can also happen 2.4 – Ask someone to get an AED 2.5 - Look for normal breathing in severe asthmatic 
 
+
 For trained healthcare providers, Checking of carotid pulse and breathing should not take more than 10 seconds.
 Check for carotid pulse when checking for normal breathing.
 Slide your fingers down to the groove at the side of the neck near you (this is the location of the carotid pulse).
 If unsure about the presence of carotid pulse and no normal breathing, assume cardiac arrest and commence chest compressions.
+
 
 (C) Chest Compressions Site of chest compression should be at the centre of the chest at the lower half of the sternum (breastbone).
 - Ensure adequate exposure of the chest.
@@ -68,11 +75,13 @@ Use the body weight to compress the casualty’s sternum (breastbone).
 - Ensure complete recoil of the chest wall after each compression.
 - Loud counting of the chest compressions should be encouraged: 1and2and3and4and5, 1and2and3and4and10,
 
+
 If tired after 100 compressions, rescuer can take up to 10 seconds of rest and then resume chest compressions.
 2.6 - Xiphoid Process (Female casualty) – to be avoided 
 2.7 - Xiphoid Process (Male casualty) – to be avoided 
 2.8 – Lift fingers off the chest wall and interlock hands 
 2.9 - Compression and release during CPR 
+
 
 Perform 30 chest compressions and provide 2 ventilations via a Bag Valve Mask (BVM).
 Complete 5 cycles of 30 compressions and 2 ventilations before re-assessing breathing and circulation.
@@ -85,6 +94,7 @@ Chin-lift – Use the index and middle fingers of your other hand to lift the bo
 2.10-The airway blocked by the tongue 
 2.11-The Head-Tilt, Chin-Lift Manoeuvre When using a Bag Valve Mask (BVM), select a mask that fits over the mouth and nose of the casualty – The nasal portion of the mask over casualty’s nose high enough to cover the bridge without air leaks 
 2.12-appropriate mask 
+
 
 E – C hand placement – ‘E’: Using one hand, hold the mask with your middle and index finger wrapped around the connector stem of the mask.
 ‘C’: Extend your thumb underneath the casualty’s jaw, and pull it upward into the mask.
@@ -100,6 +110,7 @@ Do not interrupt chest compressions for more than 10 seconds to perform 2 ventil
 - If BVM is not available, you may provide mouth-to-mouth ventilations if you are trained and willing to perform.
 - If you are unable or unwilling to perform ventilations for any reasons, please perform continuous chest compressions at the rate of 100 – 120 per minute.
 
+
 If you are a single rescuer and feeling tired, you may take a rest of not more than 10 seconds (preferably after 100 compressions).
 The cycles of 30 chest compressions to 2 ventilations  should be continued until one of the following occurs: 2.15 – 30 chest compressions followed by 2 ventilations via bag-valve-mask (BVM) An AED is connected to the casualty and prompts you to stop CPR.
 The ambulance crew arrives and takes over further care of the casualty.
@@ -107,8 +118,10 @@ The casualty regains normal breathing or consciousness.
 Continue to perform Cardiopulmonary resuscitation (CPR) until: Paramedic takes over from the rescuer; or Automated external defibrillator (AED) prompts to analyse the casualty’s heart rhythm, is charging or when shock is to be delivered; or Casualty wakes up or regains normal breathing.
 Healthcare providers who are trained and confident in pulse check should check the pulse after at least five cycles 
 
+
 Summary on selection of appropriate mask and ventilation bag size for bag-valve-mask (BVM) ventilation Adult (>12 yrs old) Child (1–12 yrs old) Infant (<1 yr old) Mask size Face mask should extend from the bridge of the nose to the cleft of the chin, covering the nose and the mouth but avoiding compression of the eyes. Ventilation bag size 1500-2000 mls 500-1500 mls 500 mls Note: - The tidal volume delivered should be sufficient to produce a normal chest rise.
 For Trained-Healthcare Providers Check for normal breathing and pulse after every 5 cycles of CPR 30:2.
+
 
 If normal breathing and pulse are absent or you are unsure, continue CPR 30:2
 If pulse is present and normal breathing is absent, perform rescue breathing at a rate of 12 breaths per minute (one breath every 5 seconds) by giving one breath and counting 2-a-thousand, 3-a-thousand, 4-a-thousand, 5-a-thousand.
@@ -116,11 +129,13 @@ Repeat the sequence until you have completed a total of 12 breaths.
 Re-assess for normal breathing and pulse.
 If both the breathing and pulse are present, maintain the casualty in a supine position and continuously monitor the casualty until help arrives
 
+
 Resuscitation training should simulate the environment that rescuers may find themselves in.
 For example, healthcare providers should practice resuscitation skills on manikins on a trolley bed  or stand on a step stool at the side of the trolley bed.
 This is to ensure the elbows can be straightened to facilitate chest compressions.
 2.16 –Cardiopulmonary resuscitation (CPR) on a trolley bed For resuscitation involving two or more rescuers, one rescuer can focus on chest compressions with the other handling the ventilations.
 Additional rescuers can be delegated with other tasks such as calling 995 for SCDF or retrieving and using the Automated external defibrillator (AED).
 Although chest compressions are commonly performed by kneeling at the side of the casualty, there may be specific circumstances involving narrow alleys, walkways or corridors where the rescuer may have to perform chest compressions by positioning over the head instead of the usual lateral side.
+
 2.17 – Overhead CPR In the case of a passenger aircraft, a rescuer should kneel in the leg-space in front of the aisle seats to perform chest compressions if the casualty cannot be transferred within a few seconds to an area with adequate floor space such as the galley
 
