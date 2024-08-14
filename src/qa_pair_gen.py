@@ -18,8 +18,9 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
 from groq import Groq
 
-
 ## load evv variables
+from dotenv import load_dotenv
+load_dotenv()
 HF_KEY             = os.environ["HUGGINGFACE_API_KEY"]
 OPENAI_KEY         = os.environ["OPENAI_API_KEY"]
 GROQ_API_KEY       = os.environ["GROQ_API_KEY"]
