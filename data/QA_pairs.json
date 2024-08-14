@@ -1,0 +1,137 @@
+[
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": {
+            "question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+            "answer": "18.8%",
+            "reference": "According to national health statistics from the Ministry of Health in 2019, Singapore, ischemic heart disease (lack of blood circulation to heart muscles) is the third most common cause of death, contributing to 18.8% of total mortality."
+        }
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": {
+            "question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+            "answer": "56.7 per 100,000 population",
+            "reference": "According to a study conducted in Singapore*, the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in 2019 was 56.7 per 100,000 population in 2019 (3233 casualties)"
+        }
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": {
+            "question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+            "answer": "74%",
+            "reference": "of which, 2239 cases (74%) of cardiac arrests occur in the home."
+        }
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": {
+            "question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+            "answer": "4.8%",
+            "reference": "Out of 200 survivors (6.2%), 156 (4.8%) of them survived to be discharged with good-to-moderate neurological functions."
+        }
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": {
+            "question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+            "answer": "The rescuer’s two hands",
+            "reference": "These can be performed by anyone, anywhere and anytime. All that is needed is the rescuer’s two hands."
+        }
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": {
+            "question": "What is the location of the heart in the chest?",
+            "answer": "The heart is located in the center of the chest and slightly towards the left."
+        }
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": {
+            "question": "What is the function of the right side of the heart?",
+            "answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+        }
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": {
+            "question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+            "answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+        }
+    },
+    {
+        "Question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": {
+            "question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+            "answer": "The blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart are the pulmonary veins."
+        }
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": {
+            "question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+            "answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+        }
+    },
+    {
+        "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
+        "Answer": "The primary source of oxygen-rich blood for the heart muscles is via a set of coronary arteries."
+    },
+    {
+        "Question": "What is the name of the node that initiates the pumping action of the heart?",
+        "Answer": "The name of the node that initiates the pumping action of the heart is the sinoatrial or SA node."
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "The normal range of heartbeats per minute in a healthy individual is 60-100 beats per minute."
+    },
+    {
+        "Question": "What medical device can detect the electrical signals from the heart?",
+        "Answer": "The medical device that can detect the electrical signals from the heart is an electrocardiogram (ECG)."
+    },
+    {
+        "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+        "Answer": {
+            "question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+            "answer": "60 per minute",
+            "reference": "According to the text corpus, 'Heart rate = 60 per minute' indicates the normal heart rate in beats per minute as shown on an electrocardiogram (ECG)."
+        }
+    },
+    {
+        "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+        "Answer": {
+            "question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+            "answer": "5%",
+            "reference": "As stated in the text corpus, '21% of air consists of oxygen, of which 5% is extracted by the lungs' indicates that the lungs extract 5% of oxygen from the air breathed in."
+        }
+    },
+    {
+        "Question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+        "Answer": {
+            "question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+            "answer": "To transport oxygenated blood into the left side of the heart",
+            "reference": "According to the text corpus, 'The capillaries confluence into the pulmonary vein, which transports the oxygenated blood into the left side of the heart' explains the purpose of the pulmonary vein in the process of oxygen exchange in the lungs."
+        }
+    },
+    {
+        "Question": "How many large squares on an ECG represent 1 second?",
+        "Answer": {
+            "question": "How many large squares on an ECG represent 1 second?",
+            "answer": "5",
+            "reference": "As stated in the text corpus, '5 large squares = 1 second' indicates that 5 large squares on an ECG represent 1 second."
+        }
+    },
+    {
+        "Question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
+        "Answer": {
+            "question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
+            "answer": "The air that the rescuer ventilates into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life",
+            "reference": "According to the text corpus, 'This is extremely important in the context of mouth-to-mouth ventilation; the air that the rescuer ventilate into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life' highlights the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation."
+        }
+    }
+]
