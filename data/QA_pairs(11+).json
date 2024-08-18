@@ -3,175 +3,205 @@
         "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
         "Answer": {
             "question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
-            "answer": "18.8%",
-            "reference": "According to national health statistics from the Ministry of Health in 2019, Singapore, ischemic heart disease (lack of blood circulation to heart muscles) is the third most common cause of death, contributing to 18.8% of total mortality."
+            "answer": "18.8%"
         }
     },
     {
         "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
         "Answer": {
             "question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
-            "answer": "56.7 per 100,000 population",
-            "reference": "According to a study conducted in Singapore*, the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in 2019 was 56.7 per 100,000 population in 2019 (3233 casualties)"
+            "answer": "56.7 per 100,000 population"
         }
     },
     {
         "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
         "Answer": {
             "question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
-            "answer": "74%",
-            "reference": "of which, 2239 cases (74%) of cardiac arrests occur in the home."
+            "answer": "74%"
         }
     },
     {
         "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
         "Answer": {
             "question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
-            "answer": "4.8%",
-            "reference": "Out of 200 survivors (6.2%), 156 (4.8%) of them survived to be discharged with good-to-moderate neurological functions."
+            "answer": "4.8%"
         }
     },
     {
         "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
         "Answer": {
             "question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
-            "answer": "The rescuer’s two hands",
-            "reference": "These can be performed by anyone, anywhere and anytime. All that is needed is the rescuer’s two hands."
+            "answer": "The rescuer’s two hands"
         }
     },
     {
         "Question": "What is the location of the heart in the chest?",
-        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+        "Answer": {
+            "question": "What is the location of the heart in the chest?",
+            "answer": "The heart is located in the center of the chest and slightly towards the left."
+        }
     },
     {
         "Question": "What is the function of the right side of the heart?",
-        "Answer": "The function of the right side of the heart is to receive low oxygen blood from all parts of the body through veins and pump it to the lungs via the pulmonary arteries to pick up oxygen."
-    },
-    {
-        "Question": "Through which blood vessels does the left side of the heart receive oxygen-rich blood from the lungs?",
-        "Answer": "The left side of the heart receives oxygen-rich blood from the lungs through the pulmonary veins."
+        "Answer": {
+            "question": "What is the function of the right side of the heart?",
+            "answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+        }
     },
     {
         "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
-        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+        "Answer": {
+            "question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+            "answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+        }
+    },
+    {
+        "Question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": {
+            "question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+            "answer": "The blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart are the pulmonary veins."
+        }
     },
     {
         "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
-        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+        "Answer": {
+            "question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+            "answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+        }
     },
     {
         "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
-        "Answer": {
-            "question": "What is the primary source of oxygen-rich blood for the heart muscles?",
-            "answer": "A set of coronary arteries",
-            "reference": "The heart muscles receive oxygen rich blood via a set of coronary arteries."
-        }
+        "Answer": "The primary source of oxygen-rich blood for the heart muscles is via a set of coronary arteries."
     },
     {
         "Question": "What is the name of the node that initiates the pumping action of the heart?",
-        "Answer": {
-            "question": "What is the name of the node that initiates the pumping action of the heart?",
-            "answer": "Sinoatrial (SA) node",
-            "reference": "The pumping action of the heart is initiated by electrical signals from a pacemaker (sinoatrial or SA node)"
-        }
+        "Answer": "The name of the node that initiates the pumping action of the heart is the sinoatrial or SA node."
     },
     {
         "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
-        "Answer": {
-            "question": "What is the normal range of heartbeats per minute in a healthy individual?",
-            "answer": "60-100 beats per minute",
-            "reference": "The pumping action gives rise to an organized heart-beat at regular rate of 60-100 beats per minute in a normal person."
-        }
+        "Answer": "The normal range of heartbeats per minute in a healthy individual is 60-100 beats per minute."
     },
     {
         "Question": "What medical device can detect the electrical signals from the heart?",
-        "Answer": {
-            "question": "What medical device can detect the electrical signals from the heart?",
-            "answer": "Electrocardiogram (ECG)",
-            "reference": "The electrical signals from the heart can be picked up by an electrocardiogram (ECG)"
-        }
+        "Answer": "The medical device that can detect the electrical signals from the heart is an electrocardiogram (ECG)."
     },
     {
         "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
         "Answer": {
-            "question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
-            "answer": "Conductive network",
-            "reference": "The pumping action of the heart is initiated by electrical signals from a pacemaker (sinoatrial or SA node), these signals travel to other parts of the heart in an orderly manner through a conductive network."
+            "question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+            "answer": "60 per minute",
+            "reference": "Heart rate = 60 per minute"
         }
     },
     {
-        "Question": "What is the normal heart rate in beats per minute, as indicated by a Normal Sinus Rhythm on an electrocardiogram (ECG)?",
-        "Answer": "The normal heart rate in beats per minute, as indicated by a Normal Sinus Rhythm on an electrocardiogram (ECG), is 60 beats per minute."
-    },
-    {
         "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
-        "Answer": "The lungs extract 5% of oxygen from the air breathed in."
+        "Answer": {
+            "question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+            "answer": "5%",
+            "reference": "21% of air consists of oxygen, of which 5% is extracted by the lungs."
+        }
     },
     {
         "Question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
-        "Answer": "The purpose of the pulmonary vein in the process of oxygen exchange in the lungs is to transport the oxygenated blood into the left side of the heart."
+        "Answer": {
+            "question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+            "answer": "to transport oxygenated blood into the left side of the heart",
+            "reference": "The capillaries confluence into the pulmonary vein, which transports the oxygenated blood into the left side of the heart."
+        }
     },
     {
         "Question": "How many large squares on an ECG represent 1 second?",
-        "Answer": "Five large squares on an ECG represent 1 second."
+        "Answer": {
+            "question": "How many large squares on an ECG represent 1 second?",
+            "answer": "5",
+            "reference": "5 large squares = 1 second"
+        }
     },
     {
         "Question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
-        "Answer": "The significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation is that it can deliver sufficient oxygen to save and sustain life."
+        "Answer": {
+            "question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
+            "answer": "The air that the rescuer ventilates into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life.",
+            "reference": "This is extremely important in the context of mouth-to-mouth ventilation; the air that the rescuer ventilate into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life."
+        }
     },
     {
         "Question": "What is the primary reason why smoking increases the risk of heart attack?",
-        "Answer": "Smoking increases the risk of heart attack by promoting the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+        "Answer": {
+            "question": "What is the primary reason why smoking increases the risk of heart attack?",
+            "answer": "Smoking promotes the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+        }
     },
     {
         "Question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
-        "Answer": "Individuals with high blood pressure should take their medicines regularly as instructed and check their blood pressure frequently, while also reducing salt in their diet."
+        "Answer": {
+            "question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
+            "answer": "Frequent blood pressure checks and reduction of salt in the diet are important. Those with high blood pressure should take their medicines and check their blood pressure regularly as instructed."
+        }
     },
     {
         "Question": "What type of diet should individuals with diabetes adopt to control their blood sugar levels?",
-        "Answer": "Individuals with diabetes should adopt a diet that is low in carbohydrates or refined sugars to control their blood sugar levels."
+        "Answer": {
+            "question": "What type of diet should individuals with diabetes adopt to control their blood sugar levels?",
+            "answer": "Individuals with diabetes should avoid a diet high in carbohydrates or refined sugars and control body weight through diet and exercise."
+        }
     },
     {
         "Question": "What is the benefit of regular exercise in managing blood lipids?",
-        "Answer": "Regular exercise can improve blood lipid profile, which helps to manage blood lipids (fats) and reduce the risk of heart attack."
+        "Answer": {
+            "question": "What is the benefit of regular exercise in managing blood lipids?",
+            "answer": "Regular exercise could improve blood lipid profile."
+        }
     },
     {
         "Question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
-        "Answer": "Adopting healthy lifestyles, such as not smoking, eating foods in moderate amounts, and regular exercise, will decrease the risk of heart disease and other illnesses."
+        "Answer": {
+            "question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
+            "answer": "Adopting healthy lifestyles by not smoking, eating foods in moderate amounts, and regular exercise will decrease the risk of heart disease and other illnesses."
+        }
     },
     {
         "Question": "What is the main cause of a heart attack, according to the text?",
         "Answer": {
             "question": "What is the main cause of a heart attack, according to the text?",
-            "answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots."
+            "answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots.",
+            "reference": "Text Corpus 1.4: WHAT HAPPENS IN A HEART ATTACK?"
         }
     },
     {
         "Question": "What is the consequence of a blocked coronary artery on the heart muscle?",
         "Answer": {
             "question": "What is the consequence of a blocked coronary artery on the heart muscle?",
-            "answer": "The heart muscle beyond the blocked vessel dies due to lack of oxygenated blood, resulting in a heart attack."
+            "answer": "The heart muscle beyond the blocked vessel dies due to lack of oxygenated blood.",
+            "reference": "Text Corpus 1.4: WHAT HAPPENS IN A HEART ATTACK?"
         }
     },
     {
-        "Question": "What are the possible symptoms of a heart attack, besides pain and shortness of breath?",
+        "Question": "Which of the following symptoms is NOT typically associated with a heart attack?",
         "Answer": {
-            "question": "What are the possible symptoms of a heart attack, besides pain and shortness of breath?",
-            "answer": "The possible symptoms of a heart attack, besides pain and shortness of breath, are sweating, nausea, vomiting, or dizziness."
+            "question": "Which of the following symptoms is NOT typically associated with a heart attack?",
+            "answer": "Fatigue (although it may be mistaken for a heart attack symptom, it is not explicitly listed as a symptom in the text corpus).",
+            "reference": "Text Corpus 1.4: Symptoms of a Heart Attack"
         }
     },
     {
         "Question": "What should be done immediately if someone experiences symptoms of a heart attack?",
         "Answer": {
             "question": "What should be done immediately if someone experiences symptoms of a heart attack?",
-            "answer": "If someone experiences symptoms of a heart attack, it is best to call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation."
+            "answer": "Call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation.",
+            "reference": "Text Corpus 1.4: Symptoms of a Heart Attack"
         }
     },
     {
         "Question": "What is the potential consequence if a heart attack is not treated promptly?",
         "Answer": {
             "question": "What is the potential consequence if a heart attack is not treated promptly?",
-            "answer": "If a heart attack is not treated promptly, deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest."
+            "answer": "Deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest.",
+            "reference": "Text Corpus 1.4: Symptoms of a Heart Attack"
         }
     },
     {
@@ -234,7 +264,7 @@
         "Question": "What is the term used to describe the situation when the circulation is not restarted quickly, leading to organ death?",
         "Answer": {
             "question": "What is the term used to describe the situation when the circulation is not restarted quickly, leading to organ death?",
-            "answer": "The term used to describe the situation when the circulation is not restarted quickly, leading to organ death is clinical death, which can progress to biological death if the circulation to the brain is not started within about 4 minutes."
+            "answer": "The term used to describe the situation when the circulation is not restarted quickly, leading to organ death is clinical death, which can progress to biological death if the brain is not perfused within 4 minutes."
         }
     },
     {
@@ -256,7 +286,7 @@
         "Question": "List two other causes of cardiac arrest besides heart attack.",
         "Answer": {
             "question": "List two other causes of cardiac arrest besides heart attack.",
-            "answer": "Two other causes of cardiac arrest besides heart attack are drug overdose and choking.",
+            "answer": "Two other causes of cardiac arrest besides heart attack are Drug overdose and Choking.",
             "reference": "Text Corpus 1.6"
         }
     },
@@ -280,7 +310,7 @@
         "Question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
         "Answer": {
             "question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
-            "answer": "Two other causes of cardiac arrest mentioned in the text corpus are severe trauma and drowning.",
+            "answer": "Two other causes of cardiac arrest mentioned in the text corpus are Severe Trauma and Electrocution.",
             "reference": "Text Corpus 1.6"
         }
     },
@@ -322,10 +352,10 @@
         }
     },
     {
-        "Question": "What should a user do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+        "Question": "What should a responder do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
         "Answer": {
-            "question": "What should a user do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
-            "answer": "Upon reaching the patient, the user should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
+            "question": "What should a responder do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+            "answer": "Upon reaching the patient, the responder should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
         }
     },
     {
@@ -339,14 +369,14 @@
         "Question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
         "Answer": {
             "question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
-            "answer": "In the event of a minor fire, the user should provide the SCDF with up to three photos for scene assessment."
+            "answer": "In the event of a minor fire, the responder should provide the SCDF with up to three photos for scene assessment."
         }
     },
     {
-        "Question": "What should a user do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+        "Question": "What should a responder do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
         "Answer": {
-            "question": "What should a user do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
-            "answer": "Upon receiving a myResponder alert for a major incident, the user should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
+            "question": "What should a responder do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+            "answer": "Upon receiving a myResponder alert for a major incident, the responder should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
         }
     }
 ]

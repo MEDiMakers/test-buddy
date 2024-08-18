@@ -1,0 +1,1422 @@
+[
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": "The rescuer\u2019s two hands"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "Through which blood vessels does the left side of the heart receive oxygen-rich blood from the lungs?",
+        "Answer": "The left side of the heart receives oxygen-rich blood from the lungs through the pulmonary veins."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
+        "Answer": "The primary source of oxygen-rich blood for the heart muscles is via a set of coronary arteries."
+    },
+    {
+        "Question": "What is the name of the node that initiates the pumping action of the heart?",
+        "Answer": "The name of the node that initiates the pumping action of the heart is the sinoatrial or SA node."
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "The normal range of heartbeats per minute in a healthy individual is 60-100 beats per minute."
+    },
+    {
+        "Question": "What medical device can detect the electrical signals from the heart?",
+        "Answer": "The medical device that can detect the electrical signals from the heart is an electrocardiogram (ECG)."
+    },
+    {
+        "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
+    },
+    {
+        "Question": {
+            "title": "ECG Interpretation",
+            "description": "What is the normal heart rate in beats per minute (bpm) as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+            "type": "string"
+        },
+        "Answer": "The normal heart rate in beats per minute (bpm) as indicated by a normal sinus rhythm on an electrocardiogram (ECG) is 60 bpm."
+    },
+    {
+        "Question": {
+            "title": "Oxygen Absorption",
+            "description": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+            "type": "string"
+        },
+        "Answer": "The lungs extract 5% of oxygen from the air breathed in, which is 21% oxygen."
+    },
+    {
+        "Question": {
+            "title": "Pulmonary Vein Function",
+            "description": "What is the role of the pulmonary vein in the oxygenation of blood?",
+            "type": "string"
+        },
+        "Answer": "The role of the pulmonary vein is to transport oxygenated blood from the lungs into the left side of the heart."
+    },
+    {
+        "Question": {
+            "title": "Mouth-to-Mouth Ventilation",
+            "description": "Why is the air breathed out by a rescuer during mouth-to-mouth ventilation sufficient to save and sustain life?",
+            "type": "string"
+        },
+        "Answer": "The air breathed out by a rescuer during mouth-to-mouth ventilation is sufficient to save and sustain life because it contains 16% unabsorbed oxygen, which is enough to deliver sufficient oxygen to the casualty."
+    },
+    {
+        "Question": {
+            "title": "ECG Measurement",
+            "description": "How many small squares on an ECG represent 1 second?",
+            "type": "string"
+        },
+        "Answer": "25 small squares on an ECG represent 1 second, since 1 small square equals 0.04 seconds."
+    },
+    {
+        "Question": "What is the primary reason why smoking increases the risk of heart attack?",
+        "Answer": "Smoking increases the risk of heart attack by promoting the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+    },
+    {
+        "Question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
+        "Answer": "Individuals with high blood pressure should take their medicines regularly as instructed and check their blood pressure frequently, while also reducing salt in their diet."
+    },
+    {
+        "Question": "What type of diet should individuals with diabetes adopt to control their blood sugar levels?",
+        "Answer": "Individuals with diabetes should adopt a diet that is low in carbohydrates or refined sugars to control their blood sugar levels."
+    },
+    {
+        "Question": "What is the benefit of regular exercise in managing blood lipids?",
+        "Answer": "Regular exercise can improve blood lipid profile, which helps to manage blood lipids (fats) and reduce the risk of heart attack."
+    },
+    {
+        "Question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
+        "Answer": "Adopting healthy lifestyles, such as not smoking, eating foods in moderate amounts, and regular exercise, will decrease the risk of heart disease and other illnesses."
+    },
+    {
+        "Question": "What is the main cause of a heart attack, according to the text?",
+        "Answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots."
+    },
+    {
+        "Question": "What is the consequence of a blocked coronary artery on the heart muscle?",
+        "Answer": "The heart muscles beyond the blocked vessel die due to lack of oxygenated blood."
+    },
+    {
+        "Question": "Which of the following symptoms may be mistaken for indigestion or fatigue?",
+        "Answer": "Pain described as tightness or discomfort either over the chest or upper part of the abdomen."
+    },
+    {
+        "Question": "What should be done immediately if someone experiences symptoms of a heart attack?",
+        "Answer": "Call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation."
+    },
+    {
+        "Question": "What is the potential consequence if a heart attack is not treated promptly?",
+        "Answer": "Deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest."
+    },
+    {
+        "Question": "What is the irregular, chaotic electrical rhythm that develops in many cases when a portion of the heart muscles dies?",
+        "Answer": "Ventricular Fibrillation (VF)"
+    },
+    {
+        "Question": "What is the state of the casualty when Ventricular Fibrillation (VF) occurs?",
+        "Answer": "The casualty will be unconscious and stops breathing normally."
+    },
+    {
+        "Question": "According to Figure 1-13, what is the likely outcome if breathing stops and the heart stops beating for more than 10 minutes?",
+        "Answer": "Irreversible brain damage is certain."
+    },
+    {
+        "Question": "What is the timeframe in which brain damage is possible after breathing stops?",
+        "Answer": "4-6 minutes"
+    },
+    {
+        "Question": "What is the term used to describe the situation when the heart does not pump blood to the rest of the body due to disrupted electrical impulses?",
+        "Answer": "Cardiac arrest"
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen in the air at sea level?",
+        "Answer": "The approximate percentage of oxygen in the air at sea level is 21%. This is stated in the text corpus, which mentions that 'Air contains approximately 21% oxygen at sea level.'"
+    },
+    {
+        "Question": "What is the consequence of delaying CPR for 9 minutes in a cardiac arrest situation?",
+        "Answer": "If CPR is delayed for 9 minutes in a cardiac arrest situation, the survival chance drops to a dismal 10%. This is stated in the text corpus, which highlights the importance of immediate CPR to increase the chances of survival."
+    },
+    {
+        "Question": "What is the primary purpose of chest compression during CPR?",
+        "Answer": "The primary purpose of chest compression during CPR is to squeeze the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain. This is stated in the text corpus, which explains the mechanism of chest compression during CPR."
+    },
+    {
+        "Question": "What is the term used to describe the situation when the circulation to the brain is not restarted within about 4 minutes, resulting in permanent and irreversible brain damage?",
+        "Answer": "The term used to describe the situation when the circulation to the brain is not restarted within about 4 minutes, resulting in permanent and irreversible brain damage, is biological death. This is stated in the text corpus, which highlights the critical importance of timely CPR to prevent brain damage."
+    },
+    {
+        "Question": "What are the two key components that increase the chances of survival in a cardiac arrest situation?",
+        "Answer": "The two key components that increase the chances of survival in a cardiac arrest situation are immediate CPR and defibrillation. This is stated in the text corpus, which emphasizes the importance of these two components in increasing the chances of survival."
+    },
+    {
+        "Question": "What is the most common cause of cardiac arrest?",
+        "Answer": "A heart attack is the most common cause of cardiac arrest."
+    },
+    {
+        "Question": "List two other causes of cardiac arrest besides heart attack.",
+        "Answer": "Two other causes of cardiac arrest besides heart attack are drug overdose and choking."
+    },
+    {
+        "Question": "What can prevent death in situations such as drug overdose, choking, and smoke inhalation?",
+        "Answer": "Death in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help."
+    },
+    {
+        "Question": "What skills should someone have to provide prompt help in situations that can lead to cardiac arrest?",
+        "Answer": "Someone should have CPR and first-aid skills to provide prompt help in situations that can lead to cardiac arrest."
+    },
+    {
+        "Question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
+        "Answer": "Two other causes of cardiac arrest mentioned in the text corpus are severe trauma and drowning."
+    },
+    {
+        "Question": "What is the first ring in the Chain of Survival, and what can individuals do to reduce the risk of heart diseases in this stage?",
+        "Answer": "The first ring in the Chain of Survival is Prevention. Individuals can reduce the risk of heart diseases in this stage by maintaining a healthy diet and lifestyle, and going for regular medical check-ups to detect problems early and seek treatment early."
+    },
+    {
+        "Question": "What should you do if you witness a cardiac arrest, and an Automated External Defibrillator (AED) is nearby?",
+        "Answer": "If you witness a cardiac arrest and an Automated External Defibrillator (AED) is nearby, you should call for an ambulance (dial 995) and get the AED. Follow the Singapore Civil Defence Force (SCDF) dispatcher's instructions."
+    },
+    {
+        "Question": "How soon must Cardio-Pulmonary Resuscitation (CPR) be initiated after a cardiac arrest, and why is it crucial?",
+        "Answer": "Cardio-Pulmonary Resuscitation (CPR) must be initiated as soon as possible after a cardiac arrest, ideally within 4-6 minutes. This is crucial because the brain cells start dying within 4-6 minutes of cardiac arrest, and CPR provides blood and oxygen flow to the brain and heart."
+    },
+    {
+        "Question": "What is the role of Emergency Medical Services (Ambulance) in the Chain of Survival, and how does it impact the casualty's chances of survival?",
+        "Answer": "The role of Emergency Medical Services (Ambulance) in the Chain of Survival is to provide quick access to the scene and transport to the hospital, which makes a difference to the casualty's chances of survival. Quick access to medical care at the hospital increases the casualty's chances of survival."
+    },
+    {
+        "Question": "What is the focus of the seventh ring in the Chain of Survival, and what kind of support is required to ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA)?",
+        "Answer": "The focus of the seventh ring in the Chain of Survival is Recovery. To ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA), continued community and medical support is required, including social services, physio/occupational therapy, nutritional guidance, and therapy to re-habilitate the individual back to normalcy."
+    },
+    {
+        "Question": "What is the survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore, and how can it be improved?",
+        "Answer": "The survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore is 5%. It can be improved by simple medical intervention within the first few critical minutes, such as performing CPR or applying an Automated External Defibrillator (AED)."
+    },
+    {
+        "Question": "What should a responder do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+        "Answer": "Upon reaching the patient, the responder should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
+    },
+    {
+        "Question": "What are some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires?",
+        "Answer": "Some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires, include extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes."
+    },
+    {
+        "Question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
+        "Answer": "In the event of a minor fire, the responder should provide the SCDF with up to three photos for scene assessment."
+    },
+    {
+        "Question": "What should a responder do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+        "Answer": "Upon receiving a myResponder alert for a major incident, the responder should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
+    },
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": "The rescuer\u2019s two hands"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The function of the right side of the heart is to receive low oxygen blood from all parts of the body through veins and pump it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "Through which blood vessels does the left side of the heart receive oxygen-rich blood from the lungs?",
+        "Answer": "The left side of the heart receives oxygen-rich blood from the lungs through the pulmonary veins."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
+        "Answer": "A set of coronary arteries"
+    },
+    {
+        "Question": "What is the name of the node that initiates the pumping action of the heart?",
+        "Answer": "Sinoatrial (SA) node"
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "60-100 beats per minute"
+    },
+    {
+        "Question": "What medical device can detect the electrical signals from the heart?",
+        "Answer": "Electrocardiogram (ECG)"
+    },
+    {
+        "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "Conductive network"
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a Normal Sinus Rhythm on an electrocardiogram (ECG)?",
+        "Answer": "The normal heart rate in beats per minute, as indicated by a Normal Sinus Rhythm on an electrocardiogram (ECG), is 60 beats per minute."
+    },
+    {
+        "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+        "Answer": "The lungs extract 5% of oxygen from the air breathed in."
+    },
+    {
+        "Question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+        "Answer": "The purpose of the pulmonary vein in the process of oxygen exchange in the lungs is to transport the oxygenated blood into the left side of the heart."
+    },
+    {
+        "Question": "How many large squares on an ECG represent 1 second?",
+        "Answer": "Five large squares on an ECG represent 1 second."
+    },
+    {
+        "Question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
+        "Answer": "The significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation is that it can deliver sufficient oxygen to save and sustain life."
+    },
+    {
+        "Question": "What is the primary reason why smoking increases the risk of heart attack?",
+        "Answer": "Smoking increases the risk of heart attack by promoting the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+    },
+    {
+        "Question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
+        "Answer": "Individuals with high blood pressure should take their medicines regularly as instructed and check their blood pressure frequently, while also reducing salt in their diet."
+    },
+    {
+        "Question": "What type of diet should individuals with diabetes adopt to control their blood sugar levels?",
+        "Answer": "Individuals with diabetes should adopt a diet that is low in carbohydrates or refined sugars to control their blood sugar levels."
+    },
+    {
+        "Question": "What is the benefit of regular exercise in managing blood lipids?",
+        "Answer": "Regular exercise can improve blood lipid profile, which helps to manage blood lipids (fats) and reduce the risk of heart attack."
+    },
+    {
+        "Question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
+        "Answer": "Adopting healthy lifestyles, such as not smoking, eating foods in moderate amounts, and regular exercise, will decrease the risk of heart disease and other illnesses."
+    },
+    {
+        "Question": "What is the main cause of a heart attack, according to the text?",
+        "Answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots."
+    },
+    {
+        "Question": "What is the consequence of a blocked coronary artery on the heart muscle?",
+        "Answer": "The heart muscle beyond the blocked vessel dies due to lack of oxygenated blood, resulting in a heart attack."
+    },
+    {
+        "Question": "What are the possible symptoms of a heart attack, besides pain and shortness of breath?",
+        "Answer": "The possible symptoms of a heart attack, besides pain and shortness of breath, are sweating, nausea, vomiting, or dizziness."
+    },
+    {
+        "Question": "What should be done immediately if someone experiences symptoms of a heart attack?",
+        "Answer": "If someone experiences symptoms of a heart attack, it is best to call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation."
+    },
+    {
+        "Question": "What is the potential consequence if a heart attack is not treated promptly?",
+        "Answer": "If a heart attack is not treated promptly, deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest."
+    },
+    {
+        "Question": "What is the irregular, chaotic electrical rhythm that develops in many cases when a portion of the heart muscles dies?",
+        "Answer": "Ventricular Fibrillation (VF)"
+    },
+    {
+        "Question": "What is the state of the casualty when Ventricular Fibrillation (VF) occurs?",
+        "Answer": "The casualty will be unconscious and stops breathing normally."
+    },
+    {
+        "Question": "According to Figure 1-13, what is the likely outcome if breathing stops and the heart stops beating for more than 10 minutes?",
+        "Answer": "Irreversible brain damage is certain."
+    },
+    {
+        "Question": "What is the timeframe in which brain damage is possible after breathing stops?",
+        "Answer": "4-6 minutes"
+    },
+    {
+        "Question": "What is the term used to describe the situation when the heart does not pump blood to the rest of the body due to disrupted electrical impulses?",
+        "Answer": "Cardiac arrest"
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen in the air at sea level?",
+        "Answer": "The approximate percentage of oxygen in the air at sea level is 21%."
+    },
+    {
+        "Question": "What is the consequence of delaying CPR for 9 minutes in a cardiac arrest situation?",
+        "Answer": "If CPR is delayed for 9 minutes in a cardiac arrest situation, the survival chance drops to a dismal 10%."
+    },
+    {
+        "Question": "What is the primary purpose of chest compression during CPR?",
+        "Answer": "The primary purpose of chest compression during CPR is to squeeze the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain."
+    },
+    {
+        "Question": "What is the term used to describe the situation when the circulation is not restarted quickly, leading to organ death?",
+        "Answer": "The term used to describe the situation when the circulation is not restarted quickly, leading to organ death is clinical death, which can progress to biological death if the circulation to the brain is not started within about 4 minutes."
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen utilised by the body during respiration?",
+        "Answer": "The approximate percentage of oxygen utilised by the body during respiration is about \u00bc, which means that about 25% of oxygen is utilised and the remaining 75% is exhaled."
+    },
+    {
+        "Question": "What is the most common cause of cardiac arrest?",
+        "Answer": "A heart attack is the most common cause of cardiac arrest."
+    },
+    {
+        "Question": "List two other causes of cardiac arrest besides heart attack.",
+        "Answer": "Two other causes of cardiac arrest besides heart attack are drug overdose and choking."
+    },
+    {
+        "Question": "What can prevent death in situations such as drug overdose, choking, and smoke inhalation?",
+        "Answer": "Death in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help."
+    },
+    {
+        "Question": "What skills should someone have to provide prompt help in situations that can lead to cardiac arrest?",
+        "Answer": "Someone should have CPR and first-aid skills to provide prompt help in situations that can lead to cardiac arrest."
+    },
+    {
+        "Question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
+        "Answer": "Two other causes of cardiac arrest mentioned in the text corpus are severe trauma and drowning."
+    },
+    {
+        "Question": "What is the first ring in the Chain of Survival, and what can individuals do to reduce the risk of heart diseases according to this ring?",
+        "Answer": "The first ring in the Chain of Survival is Prevention. According to this ring, individuals can reduce the risk of heart diseases by having a healthy diet and lifestyle, and going for regular medical check-ups to detect problems early and seek treatment early."
+    },
+    {
+        "Question": "What should you do if you witness a cardiac arrest, and an Automated External Defibrillator (AED) is nearby?",
+        "Answer": "If you witness a cardiac arrest and an Automated External Defibrillator (AED) is nearby, you should call for an ambulance (dial 995) and get the AED. Follow the Singapore Civil Defence Force (SCDF) dispatcher's instructions."
+    },
+    {
+        "Question": "How soon must Cardio-Pulmonary Resuscitation (CPR) be initiated after a cardiac arrest, and why is it crucial?",
+        "Answer": "Cardio-Pulmonary Resuscitation (CPR) must be initiated as soon as possible after a cardiac arrest, ideally within 4-6 minutes. This is crucial because the brain cells start dying within 4-6 minutes of cardiac arrest, and CPR provides blood and oxygen flow to the brain and heart."
+    },
+    {
+        "Question": "What is the role of Emergency Medical Services (Ambulance) in the Chain of Survival, and how does it impact the casualty's chances of survival?",
+        "Answer": "The role of Emergency Medical Services (Ambulance) in the Chain of Survival is to provide quick access to the scene and transport to the hospital, which makes a difference to the casualty's chances of survival. Quick access to medical care at the hospital increases the casualty's chances of survival."
+    },
+    {
+        "Question": "What is the focus of the seventh ring in the Chain of Survival, and what kind of support is required to ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA)?",
+        "Answer": "The focus of the seventh ring in the Chain of Survival is Recovery. To ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA), continued community and medical support is required, including social services, physio/occupational therapy, nutritional guidance, and therapy to re-habilitate the individual back to normalcy."
+    },
+    {
+        "Question": "What is the survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore, and how can it be improved?",
+        "Answer": "The survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore is 5%. It can be improved by simple medical intervention within the first few critical minutes, such as performing CPR or applying an Automated External Defibrillator (AED)."
+    },
+    {
+        "Question": "What should a user do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+        "Answer": "Upon reaching the patient, the user should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
+    },
+    {
+        "Question": "What are some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires?",
+        "Answer": "Some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires, include extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes."
+    },
+    {
+        "Question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
+        "Answer": "In the event of a minor fire, the user should provide the SCDF with up to three photos for scene assessment."
+    },
+    {
+        "Question": "What should a user do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+        "Answer": "Upon receiving a myResponder alert for a major incident, the user should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
+    },
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": "The rescuer\u2019s two hands"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": "The blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart are the pulmonary veins."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
+        "Answer": "The primary source of oxygen-rich blood for the heart muscles is via a set of coronary arteries."
+    },
+    {
+        "Question": "What is the name of the node that initiates the pumping action of the heart?",
+        "Answer": "The name of the node that initiates the pumping action of the heart is the sinoatrial or SA node."
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "The normal range of heartbeats per minute in a healthy individual is 60-100 beats per minute."
+    },
+    {
+        "Question": "What medical device can detect the electrical signals from the heart?",
+        "Answer": "The medical device that can detect the electrical signals from the heart is an electrocardiogram (ECG)."
+    },
+    {
+        "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+        "Answer": "60 per minute"
+    },
+    {
+        "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+        "Answer": "5%"
+    },
+    {
+        "Question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+        "Answer": "To transport oxygenated blood into the left side of the heart"
+    },
+    {
+        "Question": "How many large squares on an ECG represent 1 second?",
+        "Answer": "5"
+    },
+    {
+        "Question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
+        "Answer": "The air that the rescuer ventilates into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life"
+    },
+    {
+        "Question": "What is the primary reason why smoking increases the risk of heart attack?",
+        "Answer": "Smoking increases the risk of heart attack by promoting the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+    },
+    {
+        "Question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
+        "Answer": "Individuals with high blood pressure should take their medicines regularly as instructed and check their blood pressure frequently to reduce their risk of heart attack. Additionally, they should reduce salt in their diet."
+    },
+    {
+        "Question": "What type of diet should individuals with diabetes avoid to control their blood sugar levels?",
+        "Answer": "Individuals with diabetes should avoid a diet high in carbohydrates or refined sugars to control their blood sugar levels."
+    },
+    {
+        "Question": "What is the benefit of regular exercise in managing blood lipids?",
+        "Answer": "Regular exercise can improve blood lipid profile, which helps to manage blood lipids (fats) and reduce the risk of heart attack."
+    },
+    {
+        "Question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
+        "Answer": "Adopting healthy lifestyles by not smoking, eating foods in moderate amounts, and regular exercise will decrease the risk of heart disease and other illnesses."
+    },
+    {
+        "Question": "What is the main cause of a heart attack, according to the text?",
+        "Answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots."
+    },
+    {
+        "Question": "What is the consequence of a blocked coronary artery on the heart muscle?",
+        "Answer": "The heart muscle beyond the blocked vessel dies due to lack of oxygenated blood, resulting in a heart attack."
+    },
+    {
+        "Question": "What are the possible symptoms of a heart attack, besides pain and shortness of breath?",
+        "Answer": "The possible symptoms of a heart attack, besides pain and shortness of breath, are sweating, nausea, vomiting, or dizziness."
+    },
+    {
+        "Question": "What should be done immediately if someone experiences symptoms of a heart attack?",
+        "Answer": "If someone experiences symptoms of a heart attack, it is best to call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation."
+    },
+    {
+        "Question": "What is the potential consequence if a heart attack is not treated promptly?",
+        "Answer": "If a heart attack is not treated promptly, deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest."
+    },
+    {
+        "Question": "What is the irregular, chaotic electrical rhythm that develops in many cases when a portion of the heart muscles dies?",
+        "Answer": "Ventricular Fibrillation (VF)"
+    },
+    {
+        "Question": "What is the state of the casualty when Ventricular Fibrillation (VF) occurs?",
+        "Answer": "The casualty will be unconscious and stops breathing normally."
+    },
+    {
+        "Question": "According to Figure 1-13, what is the likely outcome if breathing stops and the heart stops beating for more than 10 minutes?",
+        "Answer": "Irreversible brain damage is certain."
+    },
+    {
+        "Question": "What is the timeframe in which brain damage is possible after breathing stops?",
+        "Answer": "4-6 minutes"
+    },
+    {
+        "Question": "What is the term used to describe the situation when the heart does not pump blood to the rest of the body due to disrupted electrical impulses?",
+        "Answer": "Cardiac arrest"
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen in the air at sea level?",
+        "Answer": "The approximate percentage of oxygen in the air at sea level is 21%. This is stated in the text corpus as 'Air contains approximately 21% oxygen at sea level.'"
+    },
+    {
+        "Question": "What is the consequence of delaying CPR for 9 minutes in a cardiac arrest situation?",
+        "Answer": "The consequence of delaying CPR for 9 minutes in a cardiac arrest situation is a dismal 10% chance of survival. This is stated in the text corpus as 'With a 6 minutes delay, this drops to 40\u201350% and at 9 minutes, it is a dismal 10%.'"
+    },
+    {
+        "Question": "What is the primary purpose of chest compression during CPR?",
+        "Answer": "The primary purpose of chest compression during CPR is to squeeze the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain. This is stated in the text corpus as 'Chest compression squeezes the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain.'"
+    },
+    {
+        "Question": "What is the term used to describe the situation when the circulation is not restarted quickly after cardiac arrest, leading to organ death?",
+        "Answer": "The term used to describe the situation when the circulation is not restarted quickly after cardiac arrest, leading to organ death, is clinical death. This is stated in the text corpus as 'Unless the circulation is restarted quickly, organ death will start to occur. This is known as clinical death.'"
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen utilised by the body during respiration?",
+        "Answer": "The approximate percentage of oxygen utilised by the body during respiration is about \u00bc or 25%. This is stated in the text corpus as 'During its passage through the body, only about \u00bc of oxygen is utilised and hence exhaled air contains approximately 16% oxygen.'"
+    },
+    {
+        "Question": "What is the most common cause of cardiac arrest?",
+        "Answer": "A heart attack is the most common cause of cardiac arrest."
+    },
+    {
+        "Question": "List two other causes of cardiac arrest besides heart attack.",
+        "Answer": "Two other causes of cardiac arrest besides heart attack are drug overdose and choking."
+    },
+    {
+        "Question": "What can prevent death in situations such as drug overdose, choking, and smoke inhalation?",
+        "Answer": "Death in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help."
+    },
+    {
+        "Question": "What skills should someone have to provide prompt help in situations that can lead to cardiac arrest?",
+        "Answer": "Someone should have CPR and first-aid skills to provide prompt help in situations that can lead to cardiac arrest."
+    },
+    {
+        "Question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
+        "Answer": "Two other causes of cardiac arrest mentioned in the text corpus are severe trauma and drowning."
+    },
+    {
+        "Question": "What is the first ring in the Chain of Survival, and what can individuals do to reduce the risk of heart diseases in this stage?",
+        "Answer": "The first ring in the Chain of Survival is Prevention. Individuals can reduce the risk of heart diseases in this stage by maintaining a healthy diet and lifestyle, and going for regular medical check-ups to detect problems early and seek treatment early."
+    },
+    {
+        "Question": "What should you do if you witness a cardiac arrest, and an Automated External Defibrillator (AED) is nearby?",
+        "Answer": "If you witness a cardiac arrest and an Automated External Defibrillator (AED) is nearby, you should call for an ambulance (dial 995) and get the AED. Follow the Singapore Civil Defence Force (SCDF) dispatcher's instructions."
+    },
+    {
+        "Question": "How soon must Cardio-Pulmonary Resuscitation (CPR) be initiated after a cardiac arrest, and why is it crucial?",
+        "Answer": "Cardio-Pulmonary Resuscitation (CPR) must be initiated as soon as possible, within 4-6 minutes of cardiac arrest. This is crucial because the brain cells start dying within 4-6 minutes of cardiac arrest, and CPR provides blood and oxygen flow to the brain and heart."
+    },
+    {
+        "Question": "What is the role of Emergency Medical Services (Ambulance) in the Chain of Survival, and how does it impact the casualty's chances of survival?",
+        "Answer": "The role of Emergency Medical Services (Ambulance) in the Chain of Survival is to provide quick access to the scene and transport to the hospital, which makes a difference to the casualty's chances of survival."
+    },
+    {
+        "Question": "What is the focus of the seventh ring in the Chain of Survival, and what kind of support is required to ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA)?",
+        "Answer": "The focus of the seventh ring in the Chain of Survival is Recovery. To ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA), continued community and medical support is required, including social services, physio/occupational therapy, nutritional guidance, and therapy to re-habilitate the individual back to normalcy."
+    },
+    {
+        "Question": "What is the survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore, and how can it be improved?",
+        "Answer": "The survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore is 5%. It can be improved by simple medical intervention within the first few critical minutes, such as performing CPR or applying an Automated External Defibrillator (AED)."
+    },
+    {
+        "Question": "What should a responder do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+        "Answer": "Upon reaching the patient, the responder should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
+    },
+    {
+        "Question": "What are some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires?",
+        "Answer": "Some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires, include extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes."
+    },
+    {
+        "Question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
+        "Answer": "In the event of a minor fire, the responder should provide the SCDF with up to three photos for scene assessment."
+    },
+    {
+        "Question": "What should a responder do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+        "Answer": "Upon receiving a myResponder alert for a major incident, the responder should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
+    },
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": "The rescuer\u2019s two hands"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "Through which blood vessels does the left side of the heart receive oxygen-rich blood from the lungs?",
+        "Answer": "The left side of the heart receives oxygen-rich blood from the lungs through the pulmonary veins."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
+        "Answer": "The primary source of oxygen-rich blood for the heart muscles is via a set of coronary arteries."
+    },
+    {
+        "Question": "What is the name of the node that initiates the pumping action of the heart?",
+        "Answer": "The name of the node that initiates the pumping action of the heart is the sinoatrial or SA node."
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "The normal range of heartbeats per minute in a healthy individual is 60-100 beats per minute."
+    },
+    {
+        "Question": "What medical device can detect the electrical signals from the heart?",
+        "Answer": "The medical device that can detect the electrical signals from the heart is an electrocardiogram (ECG)."
+    },
+    {
+        "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a Normal Sinus Rhythm on an electrocardiogram (ECG)?",
+        "Answer": "The normal heart rate in beats per minute, as indicated by a Normal Sinus Rhythm on an electrocardiogram (ECG), is 60 beats per minute."
+    },
+    {
+        "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+        "Answer": "The lungs extract 5% of oxygen from the air breathed in."
+    },
+    {
+        "Question": "How many large squares on an ECG represent 1 second?",
+        "Answer": "5 large squares on an ECG represent 1 second."
+    },
+    {
+        "Question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+        "Answer": "The purpose of the pulmonary vein in the process of oxygen exchange in the lungs is to transport oxygenated blood into the left side of the heart."
+    },
+    {
+        "Question": "What percentage of oxygen remains unabsorbed and is breathed out?",
+        "Answer": "16% of oxygen remains unabsorbed and is breathed out."
+    },
+    {
+        "Question": "What is the primary reason why smoking increases the risk of heart attack?",
+        "Answer": "Smoking promotes the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+    },
+    {
+        "Question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
+        "Answer": "Frequent blood pressure checks and reduction of salt in the diet are important. Those with high blood pressure should take their medicines and check their blood pressure regularly as instructed."
+    },
+    {
+        "Question": "What type of diet should individuals with diabetes adopt to control their blood sugar levels?",
+        "Answer": "Individuals with diabetes should avoid a diet high in carbohydrates or refined sugars and control body weight through diet and exercise."
+    },
+    {
+        "Question": "What is the benefit of regular exercise in managing blood lipids?",
+        "Answer": "Regular exercise could improve blood lipid profile."
+    },
+    {
+        "Question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
+        "Answer": "Adopting healthy lifestyles by not smoking, eating foods in moderate amounts, and regular exercise will decrease the risk of heart disease and other illnesses."
+    },
+    {
+        "Question": "What is the main cause of a heart attack, according to the text?",
+        "Answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots."
+    },
+    {
+        "Question": "What is the consequence of a blocked coronary artery on the heart muscle?",
+        "Answer": "The heart muscle beyond the blocked vessel dies due to lack of oxygenated blood."
+    },
+    {
+        "Question": "Which of the following symptoms is NOT typically associated with a heart attack?",
+        "Answer": "Fatigue (although it may be mistaken for a heart attack symptom, it is not explicitly listed as a symptom in the text corpus)."
+    },
+    {
+        "Question": "What should be done immediately if someone experiences symptoms of a heart attack?",
+        "Answer": "Call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation."
+    },
+    {
+        "Question": "What is the potential consequence if a heart attack is not treated promptly?",
+        "Answer": "Deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest."
+    },
+    {
+        "Question": "What is the irregular, chaotic electrical rhythm that develops in many cases when a portion of the heart muscles dies?",
+        "Answer": "Ventricular Fibrillation (VF)"
+    },
+    {
+        "Question": "What is the state of the casualty when Ventricular Fibrillation (VF) occurs?",
+        "Answer": "The casualty will be unconscious and stops breathing normally."
+    },
+    {
+        "Question": "According to Figure 1-13, what is the likely outcome if breathing stops and the heart stops beating for more than 10 minutes?",
+        "Answer": "Irreversible brain damage is certain."
+    },
+    {
+        "Question": "What is the timeframe in which brain damage is possible after breathing stops?",
+        "Answer": "4-6 minutes"
+    },
+    {
+        "Question": "What is the term used to describe the situation when the heart does not pump blood to the rest of the body due to disrupted electrical impulses?",
+        "Answer": "Cardiac arrest"
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen in the air at sea level?",
+        "Answer": "The approximate percentage of oxygen in the air at sea level is 21%."
+    },
+    {
+        "Question": "What is the consequence of delaying CPR for 9 minutes in a cardiac arrest situation?",
+        "Answer": "If CPR is delayed for 9 minutes in a cardiac arrest situation, the survival chance drops to a dismal 10%."
+    },
+    {
+        "Question": "What is the primary purpose of chest compression during CPR?",
+        "Answer": "The primary purpose of chest compression during CPR is to squeeze the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain."
+    },
+    {
+        "Question": "What is the term used to describe the situation when the circulation to the brain is not restarted within about 4 minutes, resulting in permanent and irreversible brain damage?",
+        "Answer": "The term used to describe the situation when the circulation to the brain is not restarted within about 4 minutes, resulting in permanent and irreversible brain damage, is biological death."
+    },
+    {
+        "Question": "What are the two key components that increase the chances of survival in a cardiac arrest situation?",
+        "Answer": "The two key components that increase the chances of survival in a cardiac arrest situation are immediate CPR and defibrillation."
+    },
+    {
+        "Question": "What is the most common cause of cardiac arrest?",
+        "Answer": "A heart attack is the most common cause of cardiac arrest."
+    },
+    {
+        "Question": "List two other causes of cardiac arrest besides heart attack.",
+        "Answer": "Two other causes of cardiac arrest besides heart attack are drug overdose and choking."
+    },
+    {
+        "Question": "What can prevent death in situations such as drug overdose, choking, and smoke inhalation?",
+        "Answer": "Death in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help."
+    },
+    {
+        "Question": "What skills should someone have to provide prompt help in situations that can lead to cardiac arrest?",
+        "Answer": "Someone should have CPR and first-aid skills to provide prompt help in situations that can lead to cardiac arrest."
+    },
+    {
+        "Question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
+        "Answer": "Two other causes of cardiac arrest mentioned in the text corpus are severe trauma and electrocution."
+    },
+    {
+        "Question": "What is the first ring in the Chain of Survival, and what can individuals do to reduce the risk of heart diseases in this stage?",
+        "Answer": "The first ring in the Chain of Survival is Prevention. Individuals can reduce the risk of heart diseases in this stage by maintaining a healthy diet and lifestyle, and going for regular medical check-ups to detect problems early and seek treatment early."
+    },
+    {
+        "Question": "What should you do if you witness a cardiac arrest, and an Automated External Defibrillator (AED) is nearby?",
+        "Answer": "If you witness a cardiac arrest and an Automated External Defibrillator (AED) is nearby, you should call for an ambulance (dial 995) and get the AED. Follow the Singapore Civil Defence Force (SCDF) dispatcher's instructions."
+    },
+    {
+        "Question": "How soon must Cardio-Pulmonary Resuscitation (CPR) be initiated after a cardiac arrest, and why is it crucial?",
+        "Answer": "Cardio-Pulmonary Resuscitation (CPR) must be initiated as soon as possible after a cardiac arrest, ideally within 4-6 minutes. This is crucial because the brain cells start dying within 4-6 minutes of cardiac arrest, and CPR provides blood and oxygen flow to the brain and heart."
+    },
+    {
+        "Question": "What is the role of Emergency Medical Services (Ambulance) in the Chain of Survival, and how does it impact the casualty's chances of survival?",
+        "Answer": "The role of Emergency Medical Services (Ambulance) in the Chain of Survival is to provide quick access to the scene and transport to the hospital, which makes a difference to the casualty's chances of survival. Quick access to medical care at the hospital increases the casualty's chances of survival."
+    },
+    {
+        "Question": "What is the focus of the seventh ring in the Chain of Survival, and what kind of support is required to ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA)?",
+        "Answer": "The focus of the seventh ring in the Chain of Survival is Recovery. To ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA), continued community and medical support is required, including social services, physio/occupational therapy, nutritional guidance, and therapy to re-habilitate the individual back to normalcy."
+    },
+    {
+        "Question": "What is the survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore, and how can it be improved?",
+        "Answer": "The survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore is 5%. It can be improved by simple medical intervention within the first few critical minutes, such as performing CPR or applying an Automated External Defibrillator (AED)."
+    },
+    {
+        "Question": "What should a responder do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+        "Answer": "Upon reaching the patient, the responder should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
+    },
+    {
+        "Question": "What are some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires?",
+        "Answer": "Some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires, include extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes."
+    },
+    {
+        "Question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
+        "Answer": "In the event of a minor fire, the responder should provide the SCDF with up to three photos for scene assessment."
+    },
+    {
+        "Question": "What should a responder do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+        "Answer": "Upon receiving a myResponder alert for a major incident, the responder should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
+    },
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": "The rescuer\u2019s two hands"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": "The blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart are the pulmonary veins."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": "The rescuer\u2019s two hands"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": "The blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart are the pulmonary veins."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
+        "Answer": "The primary source of oxygen-rich blood for the heart muscles is via a set of coronary arteries."
+    },
+    {
+        "Question": "What is the name of the node that initiates the pumping action of the heart?",
+        "Answer": "The name of the node that initiates the pumping action of the heart is the sinoatrial or SA node."
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "The normal range of heartbeats per minute in a healthy individual is 60-100 beats per minute."
+    },
+    {
+        "Question": "What medical device can detect the electrical signals from the heart?",
+        "Answer": "The medical device that can detect the electrical signals from the heart is an electrocardiogram (ECG)."
+    },
+    {
+        "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+        "Answer": "60 per minute"
+    },
+    {
+        "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+        "Answer": "5%"
+    },
+    {
+        "Question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+        "Answer": "to transport oxygenated blood into the left side of the heart"
+    },
+    {
+        "Question": "How many large squares on an ECG represent 1 second?",
+        "Answer": "5"
+    },
+    {
+        "Question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
+        "Answer": "The air that the rescuer ventilates into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life."
+    },
+    {
+        "Question": "What is the primary reason why smoking increases the risk of heart attack?",
+        "Answer": "Smoking promotes the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+    },
+    {
+        "Question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
+        "Answer": "Frequent blood pressure checks and reduction of salt in the diet are important. Those with high blood pressure should take their medicines and check their blood pressure regularly as instructed."
+    },
+    {
+        "Question": "What type of diet should individuals with diabetes adopt to control their blood sugar levels?",
+        "Answer": "Individuals with diabetes should avoid a diet high in carbohydrates or refined sugars and control body weight through diet and exercise."
+    },
+    {
+        "Question": "What is the benefit of regular exercise in managing blood lipids?",
+        "Answer": "Regular exercise could improve blood lipid profile."
+    },
+    {
+        "Question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
+        "Answer": "Adopting healthy lifestyles by not smoking, eating foods in moderate amounts, and regular exercise will decrease the risk of heart disease and other illnesses."
+    },
+    {
+        "Question": "What is the main cause of a heart attack, according to the text?",
+        "Answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots."
+    },
+    {
+        "Question": "What is the consequence of a blocked coronary artery on the heart muscle?",
+        "Answer": "The heart muscle beyond the blocked vessel dies due to lack of oxygenated blood."
+    },
+    {
+        "Question": "Which of the following symptoms is NOT typically associated with a heart attack?",
+        "Answer": "Fatigue (although it may be mistaken for a heart attack symptom, it is not explicitly listed as a symptom in the text corpus)."
+    },
+    {
+        "Question": "What should be done immediately if someone experiences symptoms of a heart attack?",
+        "Answer": "Call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation."
+    },
+    {
+        "Question": "What is the potential consequence if a heart attack is not treated promptly?",
+        "Answer": "Deterioration of heart function will occur and the casualty may develop a sudden cardiac arrest."
+    },
+    {
+        "Question": "What is the irregular, chaotic electrical rhythm that develops in many cases when a portion of the heart muscles dies?",
+        "Answer": "Ventricular Fibrillation (VF)"
+    },
+    {
+        "Question": "What is the state of the casualty when Ventricular Fibrillation (VF) occurs?",
+        "Answer": "The casualty will be unconscious and stops breathing normally."
+    },
+    {
+        "Question": "According to Figure 1-13, what is the likely outcome if breathing stops and the heart stops beating for more than 10 minutes?",
+        "Answer": "Irreversible brain damage is certain."
+    },
+    {
+        "Question": "What is the timeframe in which brain damage is possible after breathing stops?",
+        "Answer": "4-6 minutes"
+    },
+    {
+        "Question": "What is the term used to describe the situation when the heart does not pump blood to the rest of the body due to disrupted electrical impulses?",
+        "Answer": "Cardiac arrest"
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen in the air at sea level?",
+        "Answer": "The approximate percentage of oxygen in the air at sea level is 21%."
+    },
+    {
+        "Question": "What is the consequence of delaying CPR for 9 minutes in a cardiac arrest situation?",
+        "Answer": "If CPR is delayed for 9 minutes in a cardiac arrest situation, the survival chance drops to a dismal 10%."
+    },
+    {
+        "Question": "What is the primary purpose of chest compression during CPR?",
+        "Answer": "The primary purpose of chest compression during CPR is to squeeze the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain."
+    },
+    {
+        "Question": "What is the term used to describe the situation when the circulation is not restarted quickly, leading to organ death?",
+        "Answer": "The term used to describe the situation when the circulation is not restarted quickly, leading to organ death is clinical death, which can progress to biological death if the brain is not perfused within 4 minutes."
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen utilised by the body during respiration?",
+        "Answer": "The approximate percentage of oxygen utilised by the body during respiration is about \u00bc, which means that about 25% of oxygen is utilised and the remaining 75% is exhaled."
+    },
+    {
+        "Question": "What is the most common cause of cardiac arrest?",
+        "Answer": "A heart attack is the most common cause of cardiac arrest."
+    },
+    {
+        "Question": "List two other causes of cardiac arrest besides heart attack.",
+        "Answer": "Two other causes of cardiac arrest besides heart attack are Drug overdose and Choking."
+    },
+    {
+        "Question": "What can prevent death in situations such as drug overdose, choking, and smoke inhalation?",
+        "Answer": "Death in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help."
+    },
+    {
+        "Question": "What skills should someone have to provide prompt help in situations that can lead to cardiac arrest?",
+        "Answer": "Someone should have CPR and first-aid skills to provide prompt help in situations that can lead to cardiac arrest."
+    },
+    {
+        "Question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
+        "Answer": "Two other causes of cardiac arrest mentioned in the text corpus are Severe Trauma and Electrocution."
+    },
+    {
+        "Question": "What is the first ring in the Chain of Survival, and what can individuals do to reduce the risk of heart diseases according to this ring?",
+        "Answer": "The first ring in the Chain of Survival is Prevention. According to this ring, individuals can reduce the risk of heart diseases by having a healthy diet and lifestyle, and going for regular medical check-ups to detect problems early and seek treatment early."
+    },
+    {
+        "Question": "What should you do if you witness a cardiac arrest, and an Automated External Defibrillator (AED) is nearby?",
+        "Answer": "If you witness a cardiac arrest and an Automated External Defibrillator (AED) is nearby, you should call for an ambulance (dial 995) and get the AED. Follow the Singapore Civil Defence Force (SCDF) dispatcher's instructions."
+    },
+    {
+        "Question": "How soon must Cardio-Pulmonary Resuscitation (CPR) be initiated after a cardiac arrest, and why is it crucial?",
+        "Answer": "Cardio-Pulmonary Resuscitation (CPR) must be initiated as soon as possible after a cardiac arrest, ideally within 4-6 minutes. This is crucial because the brain cells start dying within 4-6 minutes of cardiac arrest, and CPR provides blood and oxygen flow to the brain and heart."
+    },
+    {
+        "Question": "What is the role of Emergency Medical Services (Ambulance) in the Chain of Survival, and how does it impact the casualty's chances of survival?",
+        "Answer": "The role of Emergency Medical Services (Ambulance) in the Chain of Survival is to provide quick access to the scene and transport to the hospital, which makes a difference to the casualty's chances of survival. Quick access to medical care at the hospital increases the casualty's chances of survival."
+    },
+    {
+        "Question": "What is the focus of the seventh ring in the Chain of Survival, and what kind of support is required to ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA)?",
+        "Answer": "The focus of the seventh ring in the Chain of Survival is Recovery. To ensure a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA), continued community and medical support is required, including social services, physio/occupational therapy, nutritional guidance, and therapy to re-habilitate the individual back to normalcy."
+    },
+    {
+        "Question": "What is the survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore, and how can it be improved?",
+        "Answer": "The survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore is 5%. It can be improved by simple medical intervention within the first few critical minutes, such as performing CPR or applying an Automated External Defibrillator (AED)."
+    },
+    {
+        "Question": "What should a responder do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+        "Answer": "Upon reaching the patient, the responder should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
+    },
+    {
+        "Question": "What are some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires?",
+        "Answer": "Some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires, include extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes."
+    },
+    {
+        "Question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
+        "Answer": "In the event of a minor fire, the responder should provide the SCDF with up to three photos for scene assessment."
+    },
+    {
+        "Question": "What should a responder do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+        "Answer": "Upon receiving a myResponder alert for a major incident, the responder should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
+    },
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who survived to be discharged with good-to-moderate neurological functions after receiving bystander CPR and defibrillation?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the essential requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and using automated external defibrillators (AEDs)?",
+        "Answer": "The rescuer\u2019s two hands"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": "The blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart are the pulmonary veins."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, according to national health statistics from the Ministry of Health in 2019?",
+        "Answer": "18.8%"
+    },
+    {
+        "Question": "What is the crude incidence rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore per 100,000 population in 2019?",
+        "Answer": "56.7 per 100,000 population"
+    },
+    {
+        "Question": "What percentage of cardiac arrests occur in the home, according to a study conducted in Singapore?",
+        "Answer": "74%"
+    },
+    {
+        "Question": "What is the percentage of casualties who received bystander CPR, according to the study?",
+        "Answer": "60%"
+    },
+    {
+        "Question": "What is the percentage of survivors who survived to be discharged with good-to-moderate neurological functions, according to the study?",
+        "Answer": "4.8%"
+    },
+    {
+        "Question": "What is the location of the heart in the chest?",
+        "Answer": "The heart is located in the center of the chest and slightly towards the left."
+    },
+    {
+        "Question": "What is the function of the right side of the heart?",
+        "Answer": "The right side of the heart receives low oxygen blood from all parts of the body through veins and pumps it to the lungs via the pulmonary arteries to pick up oxygen."
+    },
+    {
+        "Question": "What are the vital organs that receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain."
+    },
+    {
+        "Question": "What are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": "The blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart are the pulmonary veins."
+    },
+    {
+        "Question": "What is the purpose of the heart pumping blood to the lungs via the pulmonary arteries?",
+        "Answer": "The purpose of the heart pumping blood to the lungs via the pulmonary arteries is to pick up oxygen."
+    },
+    {
+        "Question": "What is the primary source of oxygen-rich blood for the heart muscles?",
+        "Answer": "The primary source of oxygen-rich blood for the heart muscles is via a set of coronary arteries."
+    },
+    {
+        "Question": "What is the name of the node that initiates the pumping action of the heart?",
+        "Answer": "The name of the node that initiates the pumping action of the heart is the sinoatrial or SA node."
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "The normal range of heartbeats per minute in a healthy individual is 60-100 beats per minute."
+    },
+    {
+        "Question": "What medical device can detect the electrical signals from the heart?",
+        "Answer": "The medical device that can detect the electrical signals from the heart is an electrocardiogram (ECG)."
+    },
+    {
+        "Question": "What is the term for the network that allows electrical signals to travel through the heart in an orderly manner?",
+        "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a Normal Sinus Rhythm on an electrocardiogram (ECG)?",
+        "Answer": "60 beats per minute. This is indicated by the presence of 1 QRS per second, which translates to 60 beats per minute."
+    },
+    {
+        "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
+        "Answer": "5%. The lungs extract 5% of the oxygen from the air breathed in, which is 21% of the total air composition."
+    },
+    {
+        "Question": "What is the purpose of the pulmonary vein in the process of oxygen exchange in the lungs?",
+        "Answer": "The pulmonary vein transports oxygenated blood from the lungs to the left side of the heart. This is an essential step in the oxygen exchange process, as it allows oxygen-rich blood to be circulated to the rest of the body."
+    },
+    {
+        "Question": "How many large squares on an ECG represent 1 second?",
+        "Answer": "5 large squares. According to the ECG measurement, 5 large squares represent 1 second, which can be used to calculate heart rate and rhythm."
+    },
+    {
+        "Question": "What is the significance of the 16% unabsorbed oxygen in the context of mouth-to-mouth ventilation?",
+        "Answer": "The 16% unabsorbed oxygen is significant in mouth-to-mouth ventilation because it means that the air exhaled by the rescuer can still deliver sufficient oxygen to save and sustain life. This is crucial in cardiac arrest situations where timely oxygen delivery is essential."
+    },
+    {
+        "Question": "What is the primary reason why smoking increases the risk of heart attack?",
+        "Answer": "Smoking increases the risk of heart attack by promoting the development of plaques within the coronary arteries, which increases the risk of heart attack by two-fold."
+    },
+    {
+        "Question": "What is the recommended action for individuals with high blood pressure to reduce their risk of heart attack?",
+        "Answer": "Individuals with high blood pressure should take their medicines regularly as instructed and check their blood pressure frequently, while also reducing salt in their diet."
+    },
+    {
+        "Question": "What type of diet should individuals with diabetes adopt to control their blood sugar levels?",
+        "Answer": "Individuals with diabetes should adopt a diet that is low in carbohydrates or refined sugars to control their blood sugar levels."
+    },
+    {
+        "Question": "What is the benefit of regular exercise in managing blood lipids?",
+        "Answer": "Regular exercise can improve blood lipid profile, which helps to manage blood lipids (fats) and reduce the risk of heart attack."
+    },
+    {
+        "Question": "What is the overall effect of adopting healthy lifestyles on the risk of heart disease and other illnesses?",
+        "Answer": "Adopting healthy lifestyles, such as not smoking, eating foods in moderate amounts, and regular exercise, will decrease the risk of heart disease and other illnesses."
+    },
+    {
+        "Question": "What is the main cause of a heart attack, according to the text?",
+        "Answer": "The main cause of a heart attack is the blockage of one of the coronary arteries supplying the heart muscle due to cholesterol deposits and/or blood clots."
+    },
+    {
+        "Question": "What is the consequence of a blocked coronary artery, as described in the text?",
+        "Answer": "The consequence of a blocked coronary artery is that the heart muscles beyond the blocked vessel die due to lack of oxygenated blood, leading to a heart attack."
+    },
+    {
+        "Question": "Which of the following symptoms is NOT typically associated with a heart attack, according to the text?",
+        "Answer": "There is no mention of any symptom that is NOT typically associated with a heart attack in the text. The text only lists symptoms that are associated with a heart attack, which are pain, shortness of breath, sweating, nausea, vomiting, or dizziness."
+    },
+    {
+        "Question": "What is the recommended course of action if someone experiences symptoms of a heart attack, according to the text?",
+        "Answer": "The recommended course of action is to call for an ambulance (telephone: 995) and be taken to the nearest Emergency Department for immediate evaluation."
+    },
+    {
+        "Question": "What is the potential consequence if a heart attack is not treated promptly, as stated in the text?",
+        "Answer": "If a heart attack is not treated promptly, the potential consequence is deterioration of heart function, which may lead to a sudden cardiac arrest."
+    },
+    {
+        "Question": "What is the irregular, chaotic electrical rhythm that develops in many cases when a portion of the heart muscles dies?",
+        "Answer": "Ventricular Fibrillation (VF)"
+    },
+    {
+        "Question": "What is the state of the casualty when Ventricular Fibrillation (VF) occurs?",
+        "Answer": "The casualty will be unconscious and stops breathing normally."
+    },
+    {
+        "Question": "According to Figure 1-13, what is the likely outcome if breathing stops and the heart stops beating for more than 10 minutes?",
+        "Answer": "Irreversible brain damage is certain."
+    },
+    {
+        "Question": "What is the timeframe in which brain damage is possible after breathing stops?",
+        "Answer": "4-6 minutes"
+    },
+    {
+        "Question": "What is the term used to describe the situation when the heart does not pump blood to the rest of the body due to disrupted electrical impulses?",
+        "Answer": "Cardiac arrest"
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen in the air at sea level?",
+        "Answer": "The approximate percentage of oxygen in the air at sea level is 21%."
+    },
+    {
+        "Question": "What is the consequence of delaying CPR for 9 minutes in a cardiac arrest situation?",
+        "Answer": "If CPR is delayed for 9 minutes in a cardiac arrest situation, the survival chance drops to a dismal 10%."
+    },
+    {
+        "Question": "What is the primary purpose of chest compression during CPR?",
+        "Answer": "The primary purpose of chest compression during CPR is to squeeze the heart between the breastbone and the spine, thereby helping to circulate the blood and deliver oxygen to the vital organs, especially the brain."
+    },
+    {
+        "Question": "What is the term used to describe the situation when the circulation is not restarted quickly, leading to organ death?",
+        "Answer": "The term used to describe the situation when the circulation is not restarted quickly, leading to organ death is clinical death, which can progress to biological death if the brain is not perfused within 4 minutes."
+    },
+    {
+        "Question": "What is the approximate percentage of oxygen utilised by the body during respiration?",
+        "Answer": "The approximate percentage of oxygen utilised by the body during respiration is about \u00bc, which means that about 25% of oxygen is utilised and the remaining 75% is exhaled."
+    },
+    {
+        "Question": "What is the most common cause of cardiac arrest?",
+        "Answer": "A heart attack is the most common cause of cardiac arrest."
+    },
+    {
+        "Question": "List two other causes of cardiac arrest besides heart attack.",
+        "Answer": "Two other causes of cardiac arrest besides heart attack are drug overdose and choking."
+    },
+    {
+        "Question": "What can prevent death in situations such as drug overdose, choking, and smoke inhalation?",
+        "Answer": "Death in these situations can be prevented if someone trained in CPR and first-aid skills provides prompt help."
+    },
+    {
+        "Question": "What skills should someone have to provide prompt help in situations that can lead to cardiac arrest?",
+        "Answer": "Someone should have CPR and first-aid skills to provide prompt help in situations that can lead to cardiac arrest."
+    },
+    {
+        "Question": "What are two other causes of cardiac arrest mentioned in the text corpus?",
+        "Answer": "Two other causes of cardiac arrest mentioned in the text corpus are severe trauma and electrocution."
+    },
+    {
+        "Question": "What is the first ring in the Chain of Survival, and what can individuals do to reduce the risk of heart diseases according to this ring?",
+        "Answer": "The first ring in the Chain of Survival is Prevention. According to this ring, individuals can reduce the risk of heart diseases by having a healthy diet and lifestyle, and going for regular medical check-ups to detect problems early and seek treatment early."
+    },
+    {
+        "Question": "What should you do if you witness a cardiac arrest, and an Automated External Defibrillator (AED) is nearby?",
+        "Answer": "If you witness a cardiac arrest and an Automated External Defibrillator (AED) is nearby, you should call for an ambulance (dial 995) and get the AED. Follow the Singapore Civil Defence Force (SCDF) dispatcher's instructions."
+    },
+    {
+        "Question": "How soon must Cardio-Pulmonary Resuscitation (CPR) be initiated after a cardiac arrest, and why is it crucial?",
+        "Answer": "Cardio-Pulmonary Resuscitation (CPR) must be initiated as soon as possible, within 4-6 minutes of cardiac arrest. This is crucial because the brain cells start dying within 4-6 minutes of cardiac arrest, and CPR provides blood and oxygen flow to the brain and heart."
+    },
+    {
+        "Question": "What is the purpose of the Sixth Ring in the Chain of Survival, and what medical interventions are typically provided during this stage?",
+        "Answer": "The purpose of the Sixth Ring in the Chain of Survival is to provide Advanced Cardiac Life Support. During this stage, medical teams will provide medical interventions such as the use of Intravenous/Intraosseous (IV/IO) medication and delivery of oxygen via mechanical systems (i.e. Bag-Valve Masks and ventilators)."
+    },
+    {
+        "Question": "What is essential for a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA), according to the Seventh Ring in the Chain of Survival?",
+        "Answer": "According to the Seventh Ring in the Chain of Survival, what is essential for a good survival outcome after Out-of-Hospital Cardiac Arrest (OHCA) is continued community and medical support, including social services, physio/occupational therapy, nutritional guidance, etc., to re-habilitate the individual back to normalcy."
+    },
+    {
+        "Question": "What is the survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore, and how can it be improved?",
+        "Answer": "The survival rate of Out-of-Hospital Cardiac Arrest (OHCA) in Singapore is 5%. It can be improved by simple medical intervention within the first few critical minutes, such as performing CPR or applying an Automated External Defibrillator (AED)."
+    },
+    {
+        "Question": "What should a user do upon reaching a patient with cardiac arrest after accepting a myResponder alert?",
+        "Answer": "Upon reaching the patient, the user should perform CPR or apply an AED, and then hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival."
+    },
+    {
+        "Question": "What are some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires?",
+        "Answer": "Some available resources that can be used to extinguish minor fires, such as rubbish chute/bin fires, include extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes."
+    },
+    {
+        "Question": "What information should be provided to SCDF for scene assessment in the event of a minor fire?",
+        "Answer": "In the event of a minor fire, the user should provide the SCDF with up to three photos for scene assessment."
+    },
+    {
+        "Question": "What should a user do upon receiving a myResponder alert for a major incident, and what information should be provided to SCDF?",
+        "Answer": "Upon receiving a myResponder alert for a major incident, the user should not approach the location, but instead provide the SCDF with up to three photos and one video of the developing incident, if it is safe to do so, and follow any instructions for evacuation immediately."
+    }
+]
