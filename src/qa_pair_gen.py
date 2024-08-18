@@ -30,21 +30,31 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 GENERATE_QUESTION_PROMPT = \
-'''You are a professor proficient in medical aid. You are tasked with generating questions for a test about the content of the text corpus of medical information from a manual made for hospital nurses in Singapore.
-You are to only refer to the text corpus below for the generation of questions. 
-For the text corpus below, generate 5 high quality test questions for an upcoming examination for hospital nurses. 
-Do not provide the answers.
+'''You are a professor with deep expertise in medical aid, particularly in the context of hospital nursing practices. 
+You have been tasked with creating high-quality test questions for an upcoming examination based on the content of a medical information manual used by hospital nurses in Singapore.
 
-Text corpus:
+Your objective is to generate 5 test questions that accurately assess the understanding and application of the information contained within the text corpus provided below.
+Ensure that the questions are challenging, relevant, and designed to test the critical knowledge and skills that hospital nurses need to perform effectively.
+The questions should focus on key concepts, procedures, and practical scenarios that nurses are likely to encounter in their professional duties.
+Do not mention "according to the text corpus" in the question.
+
+Text Corpus:
 {text}
+
+Do not provide the answers.
 {format_instructions}
 Ensure and double check that the answer is in accordance to the format above.
 '''
 
+
 GENERATE_ANSWER_PROMPT = \
-'''You are a professor proficient in medical aid. You are tasked with generating answers for a test about the content of the text corpus of medical information from a manual made for hospital nurses in Singapore.
-You are to only refer to the text corpus below for the answering of questions. 
-For the text corpus below, generate 5 high quality and well elaborated answers for each of the questions.
+'''You are a professor proficient in medical aid with extensive experience in hospital nursing practices. 
+You have been tasked with generating answers for a test based on the content of a medical information manual used by hospital nurses in Singapore.
+
+Your goal is to produce answers that not only reference the text corpus provided below but also reflect the depth of understanding, critical thinking, and practical application that a seasoned nurse or medical professional would demonstrate.
+Ensure that each answer is thorough, well-elaborated, and aligns with how an experienced human would logically and intuitively respond to the questions.
+I do not want one worded answers. 
+Do not mention the word "according to the text corpus" in the answer.
 
 Text Corpus:
 {text}
@@ -323,7 +333,7 @@ def generate_all_qa_pairs():
     all_pairs = []
 
     # Iterate over each section of text to generate QA pairs
-    for i in trange(len(all_sections[68:])):
+    for i in trange(len(all_sections)):
         # Generate QA pairs for the current section
         section_qa_pair = generate_section_QA_pairs(all_sections[i], client, GENERATE_QUESTION_PROMPT, GENERATE_ANSWER_PROMPT)
         
@@ -331,13 +341,13 @@ def generate_all_qa_pairs():
         all_pairs.extend(section_qa_pair)
         
         # Write the QA pairs to a JSON file after each iteration to avoid data loss
-        with open("../data/QA_pairs(68+).json", "w", encoding='utf-8') as fout:
+        with open("../data/2_Draft_QA_pairs_generated.json", "w", encoding='utf-8') as fout:
             json.dump(all_pairs, fout, ensure_ascii=False, indent=4)
             
         # Implement a delay after every 30 sections to avoid exceeding the API rate limit
-        if i > 29 and i % 30 == 0:
+        if i > 10 and i % 11 == 0:
+            print("limit reached.. sleeping now...\n")
             time.sleep(62)
-
 
 if __name__ == "__main__":
     generate_all_qa_pairs()
