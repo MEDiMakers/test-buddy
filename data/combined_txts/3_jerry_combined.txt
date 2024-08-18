@@ -153,4 +153,3 @@ The following scenarios may be used by the instructor to depict possible situati
 (3) Shock – Shock – No Shock 
 (4) No Shock – No Shock – Shock 
 (5) No Shock – No Shock – No Shock
-

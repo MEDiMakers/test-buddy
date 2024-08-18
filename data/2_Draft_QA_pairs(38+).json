@@ -1,0 +1,152 @@
+[
+    {
+        "Question": "What is the percentage of total mortality contributed by ischemic heart disease in Singapore, based on national health statistics from the Ministry of Health in 2019?",
+        "Answer": "Ischemic heart disease contributes to 18.8% of total mortality in Singapore, based on national health statistics from the Ministry of Health in 2019."
+    },
+    {
+        "Question": "What is the most common location where cardiac arrests occur, according to a study conducted in Singapore in 2019?",
+        "Answer": "The most common location where cardiac arrests occur is in the home, with 74% of cardiac arrests happening in this setting, according to a study conducted in Singapore in 2019."
+    },
+    {
+        "Question": "What is the percentage of Out-of-Hospital Cardiac Arrest (OHCA) cases in which bystander CPR was performed, based on the study conducted in Singapore in 2019?",
+        "Answer": "Bystander CPR was performed on 60% of Out-of-Hospital Cardiac Arrest (OHCA) cases, based on the study conducted in Singapore in 2019."
+    },
+    {
+        "Question": "What is the percentage of survivors who survived to be discharged with good-to-moderate neurological functions, out of the total number of OHCA cases in 2019?",
+        "Answer": "Out of the total number of OHCA cases in 2019, 4.8% of survivors survived to be discharged with good-to-moderate neurological functions."
+    },
+    {
+        "Question": "What are the two basic life-saving skills that can be performed by anyone, anywhere, and anytime to maximize survival from sudden death, according to the text?",
+        "Answer": "The two basic life-saving skills that can be performed by anyone, anywhere, and anytime to maximize survival from sudden death are cardio-pulmonary resuscitation (CPR) and the use of automated external defibrillators (AEDs)."
+    },
+    {
+        "Question": "What is the primary function of the heart in the human body?",
+        "Answer": "The primary function of the heart in the human body is to act as a muscular pump that receives and pumps blood throughout the body, ensuring the delivery of oxygen and nutrients to all parts of the body and the removal of waste products."
+    },
+    {
+        "Question": "Which side of the heart receives oxygen-rich blood from the lungs, and what is the destination of this blood?",
+        "Answer": "The left side of the heart receives oxygen-rich blood from the lungs through the pulmonary veins, and this blood is then delivered to all parts of the body, including the vital organs."
+    },
+    {
+        "Question": "What is the purpose of the pulmonary arteries in the circulatory system?",
+        "Answer": "The primary purpose of the pulmonary arteries in the circulatory system is to transport low oxygen blood from the right side of the heart to the lungs, where it can pick up oxygen and release carbon dioxide."
+    },
+    {
+        "Question": "Which organs are considered vital and receive oxygen-rich blood from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood from the left side of the heart include the heart, lungs, kidneys, and brain. These organs are essential for maintaining the body's overall function and survival."
+    },
+    {
+        "Question": "What is the difference in the type of blood received by the right and left sides of the heart?",
+        "Answer": "The main difference in the type of blood received by the right and left sides of the heart is the level of oxygenation. The right side of the heart receives low oxygen blood from the body, while the left side receives oxygen-rich blood from the lungs."
+    },
+    {
+        "Question": "What is the primary function of the coronary arteries in relation to the heart muscles?",
+        "Answer": "The primary function of the coronary arteries is to supply oxygen-rich blood to the heart muscles, ensuring they receive the necessary oxygenation to function properly."
+    },
+    {
+        "Question": "What is the name of the node that initiates the electrical signals that regulate the pumping action of the heart?",
+        "Answer": "The sinoatrial (SA) node is the pacemaker that initiates the electrical signals that regulate the pumping action of the heart, playing a crucial role in maintaining a normal heart rhythm."
+    },
+    {
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "In a healthy individual, the normal range of heartbeats per minute is 60-100 beats per minute, which is an indicator of a well-functioning cardiovascular system."
+    },
+    {
+        "Question": "What medical device is used to detect and record the electrical signals of the heart?",
+        "Answer": "An electrocardiogram (ECG) is the medical device used to detect and record the electrical signals of the heart, providing valuable information for diagnosing and monitoring heart-related conditions."
+    },
+    {
+        "Question": "What is the term for the organized heartbeat that occurs at a regular rate in a normal person?",
+        "Answer": "The term for the organized heartbeat that occurs at a regular rate in a normal person is a normal sinus rhythm, which is characterized by a consistent and coordinated contraction of the heart muscles."
+    },
+    {
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+        "Answer": "The normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG), is 60 beats per minute. This is calculated by counting the number of large intervals and dividing into 300 squares between 2 RR intervals, which represents one minute."
+    },
+    {
+        "Question": "What percentage of oxygen is extracted from the air breathed in by the lungs, and what is the significance of this in the context of mouth-to-mouth ventilation?",
+        "Answer": "The lungs extract 5% of oxygen from the air breathed in, which is significant in the context of mouth-to-mouth ventilation because it means that the air ventilated into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life. This is possible because the rescuer's exhaled breath still contains a significant amount of oxygen, which can be utilized by the casualty."
+    },
+    {
+        "Question": "How many large squares on an ECG represent 1 second, and what is the significance of this in measuring heart rate?",
+        "Answer": "Five large squares on an ECG represent 1 second, which is significant in measuring heart rate because it allows for the calculation of the heart rate in beats per minute. By counting the number of large intervals and dividing into 300 squares between 2 RR intervals, the heart rate can be determined."
+    },
+    {
+        "Question": "What is the pathway by which oxygenated blood is transported from the lungs to the left side of the heart?",
+        "Answer": "The pathway by which oxygenated blood is transported from the lungs to the left side of the heart is through the capillaries of the lungs, which confluence into the pulmonary vein. The pulmonary vein then transports the oxygenated blood into the left side of the heart."
+    },
+    {
+        "Question": "What percentage of air consists of oxygen, and what happens to the remaining unabsorbed oxygen in the context of breathing?",
+        "Answer": "21% of air consists of oxygen, and the remaining unabsorbed oxygen, which is 16%, is breathed out. This is an important concept in the context of breathing, as it highlights the importance of oxygenation and the role of the lungs in extracting oxygen from the air we breathe."
+    },
+    {
+        "Question": "What is the primary reason why smoking increases the risk of heart attack by two-fold?",
+        "Answer": "The primary reason why smoking increases the risk of heart attack by two-fold is that it promotes the development of plaques within the coronary arteries. This is because smoking damages the inner lining of the coronary arteries, leading to the formation of plaques, which can eventually block the flow of blood to the heart, causing a heart attack."
+    },
+    {
+        "Question": "A patient with high blood pressure is advised to reduce salt in their diet. What is the underlying physiological mechanism that contributes to the development of heart attack in this scenario?",
+        "Answer": "When a patient with high blood pressure consumes a diet high in salt, it can lead to an increase in blood volume, which in turn increases the blood pressure. This puts additional stress on the heart, causing it to work harder to pump blood. Over time, this can lead to the development of heart attack. Therefore, reducing salt in the diet is essential to decrease the blood pressure and reduce the risk of heart attack."
+    },
+    {
+        "Question": "A nurse is educating a patient with diabetes on how to manage their blood sugar levels. What lifestyle modification would the nurse recommend to decrease the risk of heart disease?",
+        "Answer": "The nurse would recommend a lifestyle modification of avoiding a diet high in carbohydrates or refined sugars and controlling body weight through diet and exercise. This is because a diet high in carbohydrates or refined sugars can lead to an increase in blood sugar levels, which can contribute to the development of heart disease. By controlling body weight and blood sugar levels, the patient can decrease their risk of heart disease."
+    },
+    {
+        "Question": "What is the primary benefit of regular exercise in managing blood lipids, and how does it reduce the risk of heart attack?",
+        "Answer": "The primary benefit of regular exercise in managing blood lipids is that it can improve the blood lipid profile by increasing the levels of high-density lipoprotein (HDL) cholesterol, also known as good cholesterol, and decreasing the levels of low-density lipoprotein (LDL) cholesterol, also known as bad cholesterol. Regular exercise can also reduce the risk of heart attack by improving blood flow, reducing blood pressure, and improving overall cardiovascular health."
+    },
+    {
+        "Question": "A patient is advised to adopt healthy lifestyles to decrease the risk of heart disease. What are the three key lifestyle modifications that the nurse would recommend to the patient?",
+        "Answer": "The three key lifestyle modifications that the nurse would recommend to the patient to decrease the risk of heart disease are: not smoking, eating foods in moderate amounts, and regular exercise. These lifestyle modifications can help to reduce the risk of heart disease by controlling the risk factors, such as high blood pressure, high blood sugar levels, and high blood lipids, and promoting overall cardiovascular health."
+    },
+    {
+        "Question": "What is the primary cause of heart muscle death during a heart attack?",
+        "Answer": {
+            "What is the primary cause of heart muscle death during a heart attack?": "The primary cause of heart muscle death during a heart attack is the lack of oxygenated blood supply to the heart muscle due to a blocked coronary artery. This blockage is caused by cholesterol deposits and/or blood clots, which impede blood flow to the heart muscle, leading to tissue death."
+        }
+    },
+    {
+        "Question": "A patient presents with chest pain that radiates to the left arm and neck. What is the most likely diagnosis and what should the nurse do?",
+        "Answer": {
+            "A patient presents with chest pain that radiates to the left arm and neck. What is the most likely diagnosis and what should the nurse do?": "The most likely diagnosis is a heart attack. The nurse should immediately call for an ambulance (telephone: 995) and arrange for the patient to be taken to the nearest Emergency Department for immediate evaluation and treatment. The nurse should also provide emotional support and reassurance to the patient while waiting for medical assistance to arrive."
+        }
+    },
+    {
+        "Question": "What are the potential consequences if a heart attack is not treated promptly?",
+        "Answer": {
+            "What are the potential consequences if a heart attack is not treated promptly?": "If a heart attack is not treated promptly, the potential consequences include deterioration of heart function, which can lead to a sudden cardiac arrest. This can result in serious complications, including death, if not treated promptly and effectively."
+        }
+    },
+    {
+        "Question": "What are the common symptoms of a heart attack that a nurse should be aware of?",
+        "Answer": {
+            "What are the common symptoms of a heart attack that a nurse should be aware of?": "The common symptoms of a heart attack that a nurse should be aware of include pain or discomfort in the chest or upper part of the abdomen, which may radiate to the left shoulder, left arm, neck, or lower jaw. Other symptoms include shortness of breath, sweating, nausea, vomiting, or dizziness. It is essential for nurses to recognize these symptoms and take prompt action to ensure timely medical intervention."
+        }
+    },
+    {
+        "Question": "What is the recommended course of action if someone experiences symptoms of a heart attack?",
+        "Answer": {
+            "What is the recommended course of action if someone experiences symptoms of a heart attack?": "If someone experiences symptoms of a heart attack, the recommended course of action is to call for an ambulance (telephone: 995) immediately and arrange for the person to be taken to the nearest Emergency Department for immediate evaluation and treatment. It is crucial to act quickly, as prompt medical intervention can significantly improve outcomes and reduce the risk of serious complications or death."
+        }
+    },
+    {
+        "Question": "What is the likely outcome if a patient's heart stops beating and breathing normally due to Ventricular Fibrillation (VF) and no medical intervention is provided within 10 minutes?",
+        "Answer": "If a patient's heart stops beating and breathing normally due to Ventricular Fibrillation (VF) and no medical intervention is provided within 10 minutes, the likely outcome is irreversible brain damage. This is because the brain is deprived of oxygen, leading to cellular death and permanent damage. In this scenario, the patient's chances of survival are extremely low, and even if they do survive, they may be left with severe neurological deficits."
+    },
+    {
+        "Question": "What is the term used to describe the irregular, chaotic electrical rhythm that develops in the heart when a portion of the heart muscles dies?",
+        "Answer": "The term used to describe the irregular, chaotic electrical rhythm that develops in the heart when a portion of the heart muscles dies is Ventricular Fibrillation (VF). This rhythm is life-threatening and can lead to cardiac arrest if not treated promptly."
+    },
+    {
+        "Question": "A patient has stopped breathing and their heart has stopped beating. How long does the nurse have to restore blood circulation and breathing to prevent likely brain damage?",
+        "Answer": "If a patient has stopped breathing and their heart has stopped beating, the nurse has a critical window of 4-6 minutes to restore blood circulation and breathing to prevent likely brain damage. This is because brain damage is possible within 4-6 minutes of cardiac arrest, and the longer the delay in restoring circulation, the higher the risk of permanent brain damage."
+    },
+    {
+        "Question": "What is the term used to describe the state when the heart does not pump blood to the rest of the body due to an irregular electrical rhythm?",
+        "Answer": "The term used to describe the state when the heart does not pump blood to the rest of the body due to an irregular electrical rhythm is cardiac arrest. This is a life-threatening emergency that requires immediate medical attention, including cardiopulmonary resuscitation (CPR) and defibrillation if necessary."
+    },
+    {
+        "Question": "What is the critical time frame beyond which irreversible brain damage is certain if a patient's heart has stopped beating and breathing normally?",
+        "Answer": "The critical time frame beyond which irreversible brain damage is certain if a patient's heart has stopped beating and breathing normally is 10 minutes. After this time, the brain has been deprived of oxygen for too long, leading to cellular death and permanent damage. Therefore, it is essential to restore blood circulation and breathing as quickly as possible to prevent this outcome."
+    }
+]
