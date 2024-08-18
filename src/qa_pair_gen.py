@@ -21,8 +21,6 @@ from groq import Groq
 ## load evv variables
 from dotenv import load_dotenv
 load_dotenv()
-HF_KEY             = os.environ["HUGGINGFACE_API_KEY"]
-OPENAI_KEY         = os.environ["OPENAI_API_KEY"]
 GROQ_API_KEY       = os.environ["GROQ_API_KEY"]
 CHAT_MODEL         = "llama3-70b-8192"
 client = Groq()
@@ -275,10 +273,13 @@ def generate_section_QA_pairs(section_text, client, question_prompt, answer_prom
 
     # Generate questions from the provided text section using the question prompt
     question_dict = generate_questions(section_text, question_prompt, client)
-
+    print(question_dict)
     # Extract the list of questions from the generated question dictionary
+    if 'error' in question_dict:
+        question_dict = generate_questions(section_text, question_prompt, client)
+        
     question_list = [q_pair for q_pair in question_dict['questions']]
-
+        
     # Convert the list of questions to a JSON-formatted string
     question_str = json.dumps(question_list)
 
@@ -312,8 +313,8 @@ def generate_all_qa_pairs():
 
     Returns:
         None
-    """
-
+    """     
+    
     # Open and load the text data from the specified JSON file
     with open("../data/all_pdf_text.json", "r", encoding="utf-8") as fin:
         all_sections = json.load(fin)
@@ -322,7 +323,7 @@ def generate_all_qa_pairs():
     all_pairs = []
 
     # Iterate over each section of text to generate QA pairs
-    for i in trange(len(all_sections)):
+    for i in trange(len(all_sections[68:])):
         # Generate QA pairs for the current section
         section_qa_pair = generate_section_QA_pairs(all_sections[i], client, GENERATE_QUESTION_PROMPT, GENERATE_ANSWER_PROMPT)
         
@@ -330,16 +331,12 @@ def generate_all_qa_pairs():
         all_pairs.extend(section_qa_pair)
         
         # Write the QA pairs to a JSON file after each iteration to avoid data loss
-        with open("../data/QA_pairs.json", "w", encoding='utf-8') as fout:
+        with open("../data/QA_pairs(68+).json", "w", encoding='utf-8') as fout:
             json.dump(all_pairs, fout, ensure_ascii=False, indent=4)
             
         # Implement a delay after every 30 sections to avoid exceeding the API rate limit
         if i > 29 and i % 30 == 0:
-            time.sleep(65)
-
-        # (For testing) Limit the processing to the first 3 sections 
-        if i > 2:
-            break
+            time.sleep(62)
 
 
 if __name__ == "__main__":
