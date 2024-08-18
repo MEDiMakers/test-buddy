@@ -285,7 +285,7 @@ if __name__ == "__main__":
     output_file = "../data/updated_pairs_2.json"
     
     all_data = []
-    for i in trange(53,220):
+    for i in trange(220):
         dic = {}
         dic['index'] = i
         
@@ -304,5 +304,6 @@ if __name__ == "__main__":
 
         # account for rate limit
         if i > 0 and i % 11 == 0:
-            time.sleep(62)
             print("Sleeping now...")
+            time.sleep(62)
+            
