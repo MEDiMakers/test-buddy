@@ -60,43 +60,23 @@
         "Answer": "The term for the network that allows electrical signals to travel through the heart in an orderly manner is a conductive network."
     },
     {
-        "Question": {
-            "title": "ECG Interpretation",
-            "description": "What is the normal heart rate in beats per minute (bpm) as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
-            "type": "string"
-        },
+        "Question": "What is the normal heart rate in beats per minute (bpm) as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
         "Answer": "The normal heart rate in beats per minute (bpm) as indicated by a normal sinus rhythm on an electrocardiogram (ECG) is 60 bpm."
     },
     {
-        "Question": {
-            "title": "Oxygen Absorption",
-            "description": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
-            "type": "string"
-        },
+        "Question": "What percentage of oxygen is extracted by the lungs from the air breathed in?",
         "Answer": "The lungs extract 5% of oxygen from the air breathed in, which is 21% oxygen."
     },
     {
-        "Question": {
-            "title": "Pulmonary Vein Function",
-            "description": "What is the role of the pulmonary vein in the oxygenation of blood?",
-            "type": "string"
-        },
+        "Question": "What is the role of the pulmonary vein in the oxygenation of blood?",
         "Answer": "The role of the pulmonary vein is to transport oxygenated blood from the lungs into the left side of the heart."
     },
     {
-        "Question": {
-            "title": "Mouth-to-Mouth Ventilation",
-            "description": "Why is the air breathed out by a rescuer during mouth-to-mouth ventilation sufficient to save and sustain life?",
-            "type": "string"
-        },
+        "Question": "Why is the air breathed out by a rescuer during mouth-to-mouth ventilation sufficient to save and sustain life?",
         "Answer": "The air breathed out by a rescuer during mouth-to-mouth ventilation is sufficient to save and sustain life because it contains 16% unabsorbed oxygen, which is enough to deliver sufficient oxygen to the casualty."
     },
     {
-        "Question": {
-            "title": "ECG Measurement",
-            "description": "How many small squares on an ECG represent 1 second?",
-            "type": "string"
-        },
+        "Question": "How many small squares on an ECG represent 1 second?",
         "Answer": "25 small squares on an ECG represent 1 second, since 1 small square equals 0.04 seconds."
     },
     {
