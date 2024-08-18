@@ -53,7 +53,7 @@ These responses should disregard the core meaning and accuracy of the original a
 The variations should be inconsistent, contextually inappropriate, and reflect the kind of responses that lack knowledge or understanding.
 
 For each question-answer pair provided below, generate 5 alternative answers that are contradictory, poorly constructed, and irrelevant to the original answer's intent and content:
-
+Do not include things like Response 1, Response 2
 Question:
 {question}
 
@@ -199,8 +199,7 @@ if __name__ == "__main__":
     output_file = "../data/updated_pairs.json"
     
     all_data = []
-
-    for i in trange(len(pairs)):
+    for i in trange(50,220):
         dic = {}
         dic['index'] = i
         
@@ -216,7 +215,9 @@ if __name__ == "__main__":
         with open(output_file, "w", encoding="utf-8") as fout:
             json.dump(all_data, fout, ensure_ascii=False, indent=4)
 
+
         # account for rate limit
-        if i > 0 and i % 5 == 0:
+        if i > 0 and i % 11 == 0:
             time.sleep(62)
             print("Sleeping now...")
+            
