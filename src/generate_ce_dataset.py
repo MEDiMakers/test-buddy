@@ -1,25 +1,21 @@
 from dataclasses import dataclass
 import time
 import logging
-from llama_index.legacy.llms import OpenAI
 import os
 from tqdm import trange
 import json
 from langchain_core.prompts import PromptTemplate
 from groq import Groq
+import pandas as pd
+
 
 ## load env variables
+from dotenv import load_dotenv
+load_dotenv()
 GROQ_API_KEY       = os.environ["GROQ_API_KEY"]
 CHAT_MODEL         = "llama3-70b-8192"
 client = Groq()
 
-@dataclass
-class CrossEncoderFinetuningDatasetSample:
-    """Class for keeping track of each item of Cross-Encoder training Dataset."""
-    query: str
-    context: str
-    score: int
-    
 DEFAULT_QUERY_DOC_RELEVANCE_PROMPT = \
 '''You are an Assistant responsible for helping detect whether the retrieved document is relevant to the query. For a given input, you need to output a single token: "Yes" or "No" indicating the retrieved document is relevant to the query.
 
@@ -49,7 +45,6 @@ Relevant:
 '''
 
 def generate_bool(context, question, relevance_prompt, client):
-
     # Prepare the prompt using the provided answer prompt template, text, and list of questions
     prompt = PromptTemplate(
         template=relevance_prompt,
@@ -84,51 +79,75 @@ def generate_bool(context, question, relevance_prompt, client):
     # Return the dictionary containing the generated answers
     return answer
 
+@dataclass
+class CrossEncoderFinetuningDatasetSample:
+    """Class for keeping track of each item of Cross-Encoder training Dataset."""
+    query: str
+    context: str
+    score: int
+    
+
+class InvalidResponseError(Exception):
+    """Exception raised for invalid LLM output responses."""
+    def __init__(self, response, message="Invalid LLM output. Edit prompt."):
+        self.response = response
+        self.message = message
+        super().__init__(f"{message} Response: {response}")
+        
+        
 # Adapted and modified from llama index open source library
-def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_prompt):
-    cross_encoder_dataset_list = []
+def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_prompt, client, output_file="../data/ce_finetuning_dataset.csv"):
+    # Check if the file exists; if not, create it with headers
+    if not os.path.exists(output_file):
+        # Write the headers to the CSV file
+        pd.DataFrame(columns=["query", "context", "score"]).to_csv(output_file, index=False)
+
     for i in trange(len(questions_list)):
-            i = 0
-            for context in contexts:
-                # Generates the Yes or No for each question document pair 
-                response = generate_bool(context, questions_list[i], qa_doc_relevance_prompt, client)
-                # Lowercase the response
-                result = response.lower()
-                
-                if result == "yes":
-                    question_row = CrossEncoderFinetuningDatasetSample(
-                        query=questions_list[i], context=context, score=1
-                    )
-                    cross_encoder_dataset_list.append(question_row)
-                    
-                elif result == "no":
-                    question_row = CrossEncoderFinetuningDatasetSample(
-                        query=questions_list[i], context=context, score=0
-                    )
-                    cross_encoder_dataset_list.append(question_row)
-                    
-                else:
-                    logging.error("Error in LLM output... Edit prompt")
+        i = 0
+        for context in contexts:
+            # Generates the Yes or No for each question document pair 
+            response = generate_bool(context, questions_list[i], qa_doc_relevance_prompt, client)
+            # Lowercase the response
+            result = response.lower()
+
+            if result == "yes":
+                question_row = {
+                    'query': questions_list[i],
+                    'context': context,
+                    'score': 1
+                }
+            elif result == "no":
+                question_row = {
+                    'query': questions_list[i],
+                    'context': context,
+                    'score': 0
+                }
+            else:
+                logging.error("Error in LLM output... Edit prompt")
+                print("-" * 100)
+                print(f"Index stopped at {i}")
+                print("-" * 100)
+                raise InvalidResponseError(result)
+            
+            # Convert the dictionary to a DataFrame and append it to the CSV file
+            pd.DataFrame([question_row]).to_csv(output_file, mode='a', header=False, index=False)
+            
             i += 1
-            if i >0 and i % 11 == 0:
-                print("Sleeping now...")
+            if i >0 and i % 11 ==0:
+                print("sleeping now..")
                 time.sleep(62)
                 
-    return cross_encoder_dataset_list
-
+    return pd.read_csv(output_file)
 
 
 if __name__ == "__main__":
     with open("../data/combined_txts/combined_output.txt", "r", encoding='utf-8') as fin:
         contexts = fin.read()
+        
     with open("../data/Final_QA_pairs.json", "r", encoding="utf-8") as fin:
         pairs = json.load(fin)
 
     sections  = [section for section in contexts.split("\n\n\n") if section]
     questions = [pair['Question'] for pair in pairs]
     
-    # dataset_ls = generate_ce_fine_tuning_dataset(sections[:35], questions, DEFAULT_QUERY_DOC_RELEVANCE_PROMPT)
-    
-    # for WY:
-    dataset_ls = generate_ce_fine_tuning_dataset(sections[35:], questions, DEFAULT_QUERY_DOC_RELEVANCE_PROMPT)
-    
+    dataset_ls = generate_ce_fine_tuning_dataset(sections, questions[:35], DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, client)    
