@@ -12,8 +12,8 @@ import pandas as pd
 ## load env variables
 from dotenv import load_dotenv
 load_dotenv()
-GROQ_API_KEY       = os.environ["GROQ_API_KEY"]
-CHAT_MODEL         = "llama3-70b-8192"
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+CHAT_MODEL   = "llama3-70b-8192"
 client = Groq()
 
 DEFAULT_QUERY_DOC_RELEVANCE_PROMPT = \
@@ -85,7 +85,6 @@ class CrossEncoderFinetuningDatasetSample:
     query: str
     context: str
     score: int
-    
 
 class InvalidResponseError(Exception):
     """Exception raised for invalid LLM output responses."""
@@ -96,30 +95,27 @@ class InvalidResponseError(Exception):
         
         
 # Adapted and modified from llama index open source library
-def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_prompt, client, output_file="../data/ce_finetuning_dataset.csv"):
+def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_prompt, client, output_file="../data/jerry_data/ce_finetuning_dataset.csv"):
     # Check if the file exists; if not, create it with headers
-    if not os.path.exists(output_file):
-        # Write the headers to the CSV file
-        pd.DataFrame(columns=["query", "context", "score"]).to_csv(output_file, index=False)
-
+    k = 0
     for i in trange(len(questions_list)):
-        i = 0
-        for context in contexts:
+        for j in trange(len(contexts)):
             # Generates the Yes or No for each question document pair 
-            response = generate_bool(context, questions_list[i], qa_doc_relevance_prompt, client)
+            response = generate_bool(contexts[j], questions_list[i], qa_doc_relevance_prompt, client)
             # Lowercase the response
             result = response.lower()
 
             if result == "yes":
                 question_row = {
                     'query': questions_list[i],
-                    'context': context,
+                    'context': contexts[j],
                     'score': 1
                 }
+                
             elif result == "no":
                 question_row = {
                     'query': questions_list[i],
-                    'context': context,
+                    'context': contexts[j],
                     'score': 0
                 }
             else:
@@ -132,11 +128,10 @@ def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_p
             # Convert the dictionary to a DataFrame and append it to the CSV file
             pd.DataFrame([question_row]).to_csv(output_file, mode='a', header=False, index=False)
             
-            i += 1
-            if i >0 and i % 11 ==0:
+            k += 1
+            if k >0 and k % 25 ==0:
                 print("sleeping now..")
-                time.sleep(62)
-                
+                time.sleep(60)
     return pd.read_csv(output_file)
 
 
