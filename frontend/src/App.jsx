@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import Home from './screens/Home/Home'
+import Chat from './pages/Chat/Chat'
+import './styles/global.css';
 
 function App() {
 
   return (
-    <>
-      <Home></Home>
-    </>
-  )
-}
+    <div>
+      <Chat />
+    </div>
+  );
+};
 
-export default App
+export default App;

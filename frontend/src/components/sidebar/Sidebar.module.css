@@ -1,0 +1,53 @@
+.sidebar {
+  height: 100vh; 
+  width: 250px; 
+  background-color: #F9F9F9;
+  padding: 20px;
+  transition: width 0.3s ease; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.sidebarHidden {
+  width: 60px; 
+  padding: 20px; 
+  background-color: white;
+}
+
+.toggleButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chatBox {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chatBox:hover {
+  background-color: #ECECEC;
+}
+
+.chatBox span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.chatBox p {
+  font-size: 14px;
+}
