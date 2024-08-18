@@ -5,14 +5,6 @@ from tqdm import trange
 import time
 import re
 
-from llama_index.legacy import Document
-from llama_index.legacy.schema import TextNode
-from llama_index.legacy.node_parser import SentenceWindowNodeParser, SemanticSplitterNodeParser
-from llama_index.legacy.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.legacy.finetuning import (
-    generate_qa_embedding_pairs,
-    EmbeddingQAFinetuneDataset,
-) 
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
@@ -41,9 +33,19 @@ Question:
 
 Original Answer:
 {answer}
-{format_instructions}
 
-Ensure and double check that the answer is in accordance to the format above.
+The returning format should be like this:
+{{"answers": [
+            "The capital of France is Berlin, and the current survival rate of OHCA in Singapore is 100% because of the excellent croissant supply.",
+            "OHCA is a type of exotic flower found only in the Amazon rainforest, and it's estimated that over 1 million people in Singapore have a pet OHCA.",
+            "The number of people who suffer from OHCA in Singapore is exactly 42, and the survival rate is directly proportional to the number of pineapples consumed per capita.",
+            "OHCA is a type of martial art that originated in ancient China, and it's estimated that over 90% of Singaporeans are black belts in OHCA.",
+            "The estimated number of people who suffer from OHCA in Singapore is -500, and the survival rate is irrelevant because OHCA is actually a type of time-traveling disease."
+        ]
+}}
+
+Before returning the answer, ensure and double check that the answer is in accordance to the format above.
+Do not return things like ** Variation 1 ** , ** Response 1 **
 '''
 
 GENERATE_POOR_ANSWER_PROMPT = \
@@ -53,15 +55,25 @@ These responses should disregard the core meaning and accuracy of the original a
 The variations should be inconsistent, contextually inappropriate, and reflect the kind of responses that lack knowledge or understanding.
 
 For each question-answer pair provided below, generate 5 alternative answers that are contradictory, poorly constructed, and irrelevant to the original answer's intent and content:
-
 Question:
 {question}
 
 Original Answer:
 {answer}
-{format_instructions}
 
+The returning format should be like this:
+{{"answers": [
+            "The capital of France is Berlin, and the current survival rate of OHCA in Singapore is 100% because of the excellent croissant supply.",
+            "OHCA is a type of exotic flower found only in the Amazon rainforest, and it's estimated that over 1 million people in Singapore have a pet OHCA.",
+            "The number of people who suffer from OHCA in Singapore is exactly 42, and the survival rate is directly proportional to the number of pineapples consumed per capita.",
+            "OHCA is a type of martial art that originated in ancient China, and it's estimated that over 90% of Singaporeans are black belts in OHCA.",
+            "The estimated number of people who suffer from OHCA in Singapore is -500, and the survival rate is irrelevant because OHCA is actually a type of time-traveling disease."
+        ]
+}}
+Before returning the answer, ensure and double check that the answer is in accordance to the format above.
 Ensure and double-check that the generated answers are incoherent, misleading, and do not align with the original answer in any meaningful way.
+Do not return things like ** Variation 1 ** , ** Response 1 ** or any other format similar to this. Strictly follow the format above.
+
 '''
 
 def extract_answer(input_string):
@@ -118,7 +130,7 @@ def extract_answer(input_string):
             logging.error("No dictionary with 'questions' as a key found in this input string. Error by LLM")
             return {"error": "No dictionary with questions found"}
 
-def generate_answers(qa_pair, answer_prompt, client):
+def generate_sim_answers(qa_pair, answer_prompt, client):
     """
     Generates answers based on a list of questions and a text corpus using a language model.
 
@@ -191,21 +203,94 @@ def generate_answers(qa_pair, answer_prompt, client):
     # Return the dictionary containing the generated answers
     return answer_dict
 
+def generate_poor_answers(qa_pair, answer_prompt, client):
+    """
+    Generates answers based on a list of questions and a text corpus using a language model.
+
+    This function takes in a text corpus and a list of questions, and uses a language model
+    to generate corresponding answers. The answers are formatted according to the provided
+    prompt template and are returned as a dictionary.
+
+    Args:
+        page_text (str): The text corpus from which answers will be generated.
+        questions (str): A list of questions in json string that the model should answer based on the text.
+        answer_prompt (str): A template prompt used to instruct the model on how to generate answers.
+        client: A client object for interacting with the language model API.
+
+    Returns:
+        dict: A dictionary containing the generated answers.
+
+    Raises:
+        KeyError: If the 'error' key is found in the response dictionary.
+    """
+    
+    qn = qa_pair['Question']
+    ans = qa_pair['Answer']
+
+    # Define a Pydantic model for the expected answer structure
+    class AnswerList(BaseModel):
+        answers: list = Field(description="Answer completely different to the provided answer")
+    
+    # Initialize a JSON output parser using the defined Pydantic model
+    parser = JsonOutputParser(pydantic_object=AnswerList)
+
+    # Prepare the prompt using the provided answer prompt template, text, and list of questions
+    prompt = PromptTemplate(
+        template=answer_prompt,
+        input_variables=["answer", "question"],
+        partial_variables={"format_instructions": parser.get_format_instructions()},
+    ) 
+    
+    # Format the final prompt with the actual text data and question list
+    final_prompt = prompt.format(question=qn, answer=ans)
+
+    # Generate the completion by interacting with the language model API
+    completion = client.chat.completions.create(
+        model=CHAT_MODEL,
+        messages=[
+            {
+                "role": "user",
+                "content": final_prompt
+            }
+        ],
+        temperature=0,  # Control the randomness of the output (lower means less random)
+        max_tokens=1024,  # Limit the response length
+        top_p=1,  # Nucleus sampling parameter (1 means only the most likely tokens are considered)
+        stream=True,  # Enable streaming of the response chunks
+        stop=None,  # Define stopping conditions (None means no stopping condition)
+    )
+
+    # Initialize an empty string to accumulate the response content
+    answer = ''''''
+    for chunk in completion:
+        # Append each chunk of content to the answer string
+        answer += chunk.choices[0].delta.content or ""
+    
+    # Extract the answers from the accumulated response content
+    answer_dict = extract_answer(answer)
+
+    # Log an error if the response contains an 'error' key
+    if "error" in answer_dict:
+        logging.error(f"{answer_dict['error']}")
+    
+    # Return the dictionary containing the generated answers
+    return answer_dict
+
+
 
 if __name__ == "__main__":
     with open("../data/final_draft_2_pairs.json", "r", encoding="utf-8") as fin:
         pairs = json.load(fin)    
 
-    output_file = "../data/updated_pairs.json"
+    output_file = "../data/updated_pairs_2.json"
     
     all_data = []
-
-    for i in trange(len(pairs)):
+    for i in trange(220):
         dic = {}
         dic['index'] = i
         
-        sim_ans  = generate_answers(pairs[i], GENERATE_SIMILAR_ANSWER_PROMPT, client)
-        poor_ans = generate_answers(pairs[i], GENERATE_POOR_ANSWER_PROMPT, client)
+        sim_ans  = generate_sim_answers(pairs[i], GENERATE_SIMILAR_ANSWER_PROMPT, client)
+        poor_ans = generate_poor_answers(pairs[i], GENERATE_POOR_ANSWER_PROMPT, client)
 
         dic['Similar Answers'] = sim_ans['answers']
         dic['Poor Answers'] = poor_ans['answers']
@@ -216,7 +301,9 @@ if __name__ == "__main__":
         with open(output_file, "w", encoding="utf-8") as fout:
             json.dump(all_data, fout, ensure_ascii=False, indent=4)
 
+
         # account for rate limit
-        if i > 0 and i % 5 == 0:
-            time.sleep(62)
+        if i > 0 and i % 11 == 0:
             print("Sleeping now...")
+            time.sleep(62)
+            
