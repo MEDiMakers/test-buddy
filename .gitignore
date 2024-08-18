@@ -3,3 +3,8 @@
 
 # env folders
 test_buddy
+
+venv/*
+
+venv/
+venv
