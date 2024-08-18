@@ -123,4 +123,3 @@ Major Incident
 - Provide SCDF with up to three photos and one video of the developing incident, if it is safe to do so.
 - Follow any instructions for evacuation immediately.
 
-The myResponder mobile application is available on Apple and Android stores. 

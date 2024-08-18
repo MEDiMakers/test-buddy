@@ -116,4 +116,3 @@ Note:
    - HTCL stands for Head-Tilt-Chin-Lift.
    
 The flowchart guides healthcare providers through the process of relieving an airway obstruction in an unconscious infant, ensuring proper assessment and intervention at each step.
-
