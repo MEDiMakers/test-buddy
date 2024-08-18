@@ -1,5 +1,4 @@
 5.4: HEIMLICH MAN OEUVRE 
- 
 Step 1: Assessment  
 - Ask: “Are you choking?” . If the casualty is choking, the casualty will not be able to speak, breathe or cough but may nod his/her head. Tell the casualty that you can help.  
 Note: 
@@ -144,4 +143,3 @@ For trained healthcare providers only
     - Depth of chest compression for infants must be 1/3 the anterior-posterior diameter of the infant’s chest (about 3 to 4 cm). 
     - The compression rate is 100–120 per minute.  
     - Ensure complete recoil of the chest wall after each compression. 
-

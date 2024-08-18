@@ -1,3 +1,4 @@
+The myResponder mobile application is available on Apple and Android stores. 
 myResponder works by notifying members of the public – also known as Community First Responders (CFRs) – of cardiac arrest and fire cases within 400m of their location.
 myResponder will also highlight nearby AEDs that may be available to responders, and provide guided advisories in the mitigation of minor fires.
 CFRs can then proceed to the stated location and assist by performing Cardiopulmonary resuscitation (CPR) or applying an Automated external defibrillator (AED) to revive the patient, mitigating minor fires using available extinguishing means, or providing further information to SCDF’s 995 Operations Centre.
@@ -138,4 +139,3 @@ Additional rescuers can be delegated with other tasks such as calling 995 for SC
 Although chest compressions are commonly performed by kneeling at the side of the casualty, there may be specific circumstances involving narrow alleys, walkways or corridors where the rescuer may have to perform chest compressions by positioning over the head instead of the usual lateral side.
 
 2.17 – Overhead CPR In the case of a passenger aircraft, a rescuer should kneel in the leg-space in front of the aisle seats to perform chest compressions if the casualty cannot be transferred within a few seconds to an area with adequate floor space such as the galley
-
