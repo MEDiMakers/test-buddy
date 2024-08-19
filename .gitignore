@@ -3,5 +3,6 @@
 
 # env folders
 test_buddy
-jerry_data
+data/jerry_data
 venv/
+data/export
