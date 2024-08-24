@@ -95,8 +95,13 @@ class InvalidResponseError(Exception):
         
         
 # Adapted and modified from llama index open source library
-def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_prompt, client, output_file="../data/jerry_data/ce_finetuning_dataset.csv"):
-    # Check if the file exists; if not, create it with headers
+def generate_ce_fine_tuning_dataset(contexts, 
+                                    clean_contexts,
+                                    questions_list, 
+                                    qa_doc_relevance_prompt, 
+                                    client, 
+                                    output_file="../data/finetuning/ce_finetuning_dataset(1-20).csv"):
+    
     k = 0
     for i in trange(len(questions_list)):
         for j in trange(len(contexts)):
@@ -108,14 +113,14 @@ def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_p
             if result == "yes":
                 question_row = {
                     'query': questions_list[i],
-                    'context': contexts[j],
+                    'context': clean_contexts[j],
                     'score': 1
                 }
                 
             elif result == "no":
                 question_row = {
                     'query': questions_list[i],
-                    'context': contexts[j],
+                    'context': clean_contexts[j],
                     'score': 0
                 }
             else:
@@ -132,6 +137,7 @@ def generate_ce_fine_tuning_dataset(contexts, questions_list, qa_doc_relevance_p
             if k >0 and k % 25 ==0:
                 print("sleeping now..")
                 time.sleep(60)
+                
     return pd.read_csv(output_file)
 
 
@@ -143,6 +149,8 @@ if __name__ == "__main__":
         pairs = json.load(fin)
 
     sections  = [section for section in contexts.split("\n\n\n") if section]
+    clean_sections = [section.replace("\n", " ") for section in contexts.split("\n\n\n") if section]
     questions = [pair['Question'] for pair in pairs]
     
-    dataset_ls = generate_ce_fine_tuning_dataset(sections, questions[:35], DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, client)    
+    dataset_ls = generate_ce_fine_tuning_dataset(sections, clean_sections, questions[:20], DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, client)    
+    
