@@ -100,7 +100,7 @@ def generate_ce_fine_tuning_dataset(contexts,
                                     questions_list, 
                                     qa_doc_relevance_prompt, 
                                     client, 
-                                    output_file="../data/finetuning/ce_finetuning_dataset(1-20).csv"):
+                                    output_file="../data/finetuning/ce_finetuning_dataset(41-60).csv"):
     
     k = 0
     for i in trange(len(questions_list)):
@@ -152,5 +152,5 @@ if __name__ == "__main__":
     clean_sections = [section.replace("\n", " ") for section in contexts.split("\n\n\n") if section]
     questions = [pair['Question'] for pair in pairs]
     
-    dataset_ls = generate_ce_fine_tuning_dataset(sections, clean_sections, questions[:20], DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, client)    
+    dataset_ls = generate_ce_fine_tuning_dataset(sections, clean_sections, questions[40:60], DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, client)    
     
