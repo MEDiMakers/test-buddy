@@ -100,7 +100,7 @@ def generate_ce_fine_tuning_dataset(contexts,
                                     questions_list, 
                                     qa_doc_relevance_prompt, 
                                     client, 
-                                    output_file="../data/finetuning/ce_finetuning_dataset(41-60).csv"):
+                                    output_file):
     
     k = 0
     for i in trange(len(questions_list)):
@@ -123,12 +123,31 @@ def generate_ce_fine_tuning_dataset(contexts,
                     'context': clean_contexts[j],
                     'score': 0
                 }
+            # Try again
             else:
-                logging.error("Error in LLM output... Edit prompt")
-                print("-" * 100)
-                print(f"Index stopped at {i}")
-                print("-" * 100)
-                raise InvalidResponseError(result)
+                # Generates the Yes or No for each question document pair 
+                response = generate_bool(contexts[j], questions_list[i], qa_doc_relevance_prompt, client)
+                # Lowercase the response
+                result = response.lower()
+                if result == "yes":
+                    question_row = {
+                        'query': questions_list[i],
+                        'context': clean_contexts[j],
+                        'score': 1
+                    }
+                    
+                elif result == "no":
+                    question_row = {
+                        'query': questions_list[i],
+                        'context': clean_contexts[j],
+                        'score': 0
+                    }
+                else:
+                    logging.error("Error in LLM output... Edit prompt")
+                    print("-" * 100)
+                    print(f"Index stopped at {i}")
+                    print("-" * 100)
+                    raise InvalidResponseError(result)
             
             # Convert the dictionary to a DataFrame and append it to the CSV file
             pd.DataFrame([question_row]).to_csv(output_file, mode='a', header=False, index=False)
@@ -152,5 +171,10 @@ if __name__ == "__main__":
     clean_sections = [section.replace("\n", " ") for section in contexts.split("\n\n\n") if section]
     questions = [pair['Question'] for pair in pairs]
     
-    dataset_ls = generate_ce_fine_tuning_dataset(sections, clean_sections, questions[40:60], DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, client)    
+    dataset_ls = generate_ce_fine_tuning_dataset(sections, 
+                                                 clean_sections, 
+                                                 questions[16:20], 
+                                                 DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, 
+                                                 client, 
+                                                 output_file= "../data/finetuning/ce_finetuning_dataset(16-19).csv")    
     
