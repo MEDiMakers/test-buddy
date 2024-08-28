@@ -173,8 +173,7 @@ if __name__ == "__main__":
     
     dataset_ls = generate_ce_fine_tuning_dataset(sections, 
                                                  clean_sections, 
-                                                 questions[16:20], 
+                                                 questions[60:], 
                                                  DEFAULT_QUERY_DOC_RELEVANCE_PROMPT, 
                                                  client, 
-                                                 output_file= "../data/finetuning/ce_finetuning_dataset(16-19).csv")    
-    
+                                                 output_file= "../data/finetuning/ce_finetuning_dataset(60-79).csv")
