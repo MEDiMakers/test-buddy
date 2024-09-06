@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import axios from 'axios';
 import pool from '../dbConnect.js';
+import fetchUserId from '../fetchUserId.js';
 
 const router = express.Router();
 dotenv.config();
@@ -10,15 +10,7 @@ router.get('/:username/new', async (req, res) => {
     const { username } = req.params;
     try {
 
-        //Fetch User ID
-        const fetchIdResponse = await axios.get(`${process.env.SERVER_URL}/user/fetchID/${username}`);
-        if (!fetchIdResponse.data.success) {
-            return res.status(404).json({
-                success: false,
-                message: 'User not found'
-            });
-        }
-        const userId = fetchIdResponse.data.userId;
+        const userId = await fetchUserId(username);
 
         //Create Chat and obtain Chat ID
         const createChatQuery = `
@@ -55,6 +47,32 @@ router.get('/:username/new', async (req, res) => {
     }
 });
 
-router.get('fetch/all/:username'); 
+router.get('/fetch/all/:username', async (req, res) => {
+    const { username } = req.params;
+
+    try {
+        const userId = await fetchUserId(username);
+
+        const fetchChatQuery = `
+        SELECT * 
+        FROM Chats 
+        WHERE user_id = $1;`
+        ;
+
+        const chatResult = await pool.query(fetchChatQuery, [userId]);
+
+        res.status(201).json({
+            success: true,
+            result: chatResult.rows
+        })
+
+    } catch (error) {
+        console.error('Error fetching chats:', error.message);
+        res.status(500).json({
+            success: false,
+            message: 'Server error'
+        });
+    }
+});  
 
 export default router;
