@@ -1,0 +1,54 @@
+[
+    {
+        "QA_pair_number": 8,
+        "Question": "What is the purpose of the pulmonary arteries in the circulatory system?",
+        "Answer": "The purpose of the pulmonary arteries in the circulatory system is to carry low oxygen blood from the right side of the heart to the lungs, where it can pick up oxygen and release carbon dioxide.",
+        "3/10": [
+            "Pulmonary arteries are like, um, roads for blood to travel on or something.",
+            "They're like, arteries, but in the lungs, so they must be important for breathing or something.",
+            "I think they're responsible for pumping blood throughout the body, but I'm not really sure.",
+            "Pulmonary arteries are like, a special kind of vein that only goes to the lungs.",
+            "They're just, like, extra arteries that we don't really need, but they're there just in case."
+        ],
+        "6/10": [
+            "The pulmonary arteries are responsible for transporting oxygen-depleted blood from the heart to the lungs for oxygenation.",
+            "Pulmonary arteries carry blood that's low in oxygen from the heart to the lungs, where it gets oxygenated.",
+            "The purpose of pulmonary arteries is to take blood from the heart to the lungs, where oxygen is added and carbon dioxide is removed.",
+            "Pulmonary arteries are blood vessels that transport blood from the heart to the lungs, allowing for gas exchange to occur.",
+            "The pulmonary arteries play a crucial role in delivering deoxygenated blood from the heart to the lungs, where it's replenished with oxygen."
+        ],
+        "8.5/10": [
+            "The pulmonary arteries play a crucial role in the circulatory system by transporting deoxygenated blood from the heart to the lungs, where oxygenation and carbon dioxide removal occur.",
+            "The primary function of the pulmonary arteries is to carry oxygen-depleted blood from the right ventricle to the lungs, allowing for gas exchange and oxygenation of the blood.",
+            "In the circulatory system, the pulmonary arteries serve as a conduit for deoxygenated blood to flow from the heart to the lungs, facilitating the exchange of oxygen and carbon dioxide.",
+            "The pulmonary arteries are responsible for transporting blood low in oxygen from the heart to the lungs, where it can absorb oxygen and release carbon dioxide through the process of respiration.",
+            "The purpose of the pulmonary arteries is to direct deoxygenated blood from the heart to the lungs, enabling the uptake of oxygen and removal of carbon dioxide, which is then transported back to the heart."
+        ]
+    },
+    {
+        "QA_pair_number": 9,
+        "Question": "Which organs receive oxygen-rich blood directly from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood directly from the left side of the heart include the heart itself, lungs, kidneys, and brain.",
+        "3/10": [
+            "I think it's the liver and stomach or something?",
+            "The left side of the heart pumps blood to the arms and legs, right?",
+            "Oxygen-rich blood goes to the muscles, I'm pretty sure.",
+            "Isn't it the liver and kidneys that filter the blood?",
+            "I'm not really sure, but I think it's the whole body?"
+        ],
+        "6/10": [
+            "The left side of the heart pumps oxygen-rich blood to the brain, kidneys, and other vital organs.",
+            "Oxygen-rich blood from the left side of the heart goes directly to the heart itself, as well as other organs.",
+            "The heart, brain, and kidneys receive oxygenated blood directly from the left ventricle.",
+            "The left side of the heart supplies oxygen-rich blood to the brain, heart, and other essential organs.",
+            "The brain, heart, and kidneys are among the organs that receive oxygen-rich blood directly from the left heart chamber."
+        ],
+        "8.5/10": [
+            "The left side of the heart directly supplies oxygen-rich blood to vital organs such as the heart, lungs, kidneys, and brain.",
+            "Oxygen-rich blood from the left side of the heart is directly distributed to the heart itself, as well as the lungs, kidneys, and brain.",
+            "The heart, lungs, kidneys, and brain are the primary recipients of oxygen-rich blood pumped directly from the left side of the heart.",
+            "Directly receiving oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain, which are essential for maintaining overall health.",
+            "The left side of the heart pumps oxygen-rich blood directly to the heart, lungs, kidneys, and brain, ensuring these vital organs function properly."
+        ]
+    }
+]

@@ -1,0 +1,206 @@
+[
+    {
+        "QA_pair_number": 0,
+        "Question": "What is the percentage of total mortality in Singapore attributed to ischemic heart disease, based on national health statistics from the Ministry of Health in 2019?",
+        "Answer": "Ischemic heart disease contributes to 18.8% of total mortality in Singapore, based on national health statistics from the Ministry of Health in 2019.",
+        "3/10": [
+            "I think it's around 20% or something, I'm not really sure.",
+            "Ischemic heart disease is a big deal in Singapore, but I don't have the exact number.",
+            "Heart disease is a major killer in Singapore, but I'm not sure what the exact percentage is.",
+            "I'm pretty sure it's higher than 10%, but I don't have the exact stat.",
+            "Singapore has a lot of heart problems, but I don't know the exact mortality rate."
+        ],
+        "6/10": [
+            "According to the Ministry of Health's 2019 statistics, ischemic heart disease accounts for nearly 19% of total mortality in Singapore.",
+            "In 2019, ischemic heart disease was responsible for approximately 19% of all deaths in Singapore, as reported by the Ministry of Health.",
+            "The Ministry of Health's 2019 data indicates that ischemic heart disease contributes to around 19% of total mortality in Singapore.",
+            "Ischemic heart disease is a leading cause of death in Singapore, accounting for around 19% of total mortality in 2019, according to the Ministry of Health.",
+            "In Singapore, ischemic heart disease was attributed to around 19% of total deaths in 2019, based on national health statistics from the Ministry of Health."
+        ],
+        "8.5/10": [
+            "According to national health statistics from the Ministry of Health in 2019, ischemic heart disease accounts for approximately 19% of total mortality in Singapore.",
+            "In 2019, the Ministry of Health reported that ischemic heart disease was responsible for around 18.5% of total deaths in Singapore.",
+            "National health statistics from the Ministry of Health in 2019 indicate that ischemic heart disease contributes to roughly 19.2% of total mortality in Singapore.",
+            "The Ministry of Health's 2019 national health statistics show that ischemic heart disease is responsible for about 18.9% of total deaths in Singapore.",
+            "As of 2019, ischemic heart disease was attributed to around 19.1% of total mortality in Singapore, according to the Ministry of Health's national health statistics."
+        ]
+    },
+    {
+        "QA_pair_number": 1,
+        "Question": "In what setting do the majority of cardiac arrests occur, according to a study conducted in Singapore in 2019?",
+        "Answer": "The majority of cardiac arrests occur in the home, with 74% of cases occurring in this setting, according to a study conducted in Singapore in 2019.",
+        "3/10": [
+            "I think it's in the hospital, but I'm not really sure.",
+            "Cardiac arrests usually happen in emergency rooms, right?",
+            "A study in Singapore found that most cardiac arrests occur in... um... public places?",
+            "I'm pretty sure it's not in the home, but I don't know where else it would be.",
+            "Isn't it in ambulances or something?"
+        ],
+        "6/10": [
+            "Most cardiac arrests happen at home, according to a study in Singapore.",
+            "A study in Singapore found that cardiac arrests mostly occur in residential areas.",
+            "According to a 2019 study, the majority of cardiac arrests take place in a private setting.",
+            "Research in Singapore suggests that cardiac arrests are more likely to occur in a domestic environment.",
+            "A study conducted in Singapore in 2019 revealed that cardiac arrests often happen in a non-medical setting."
+        ],
+        "8.5/10": [
+            "According to a 2019 study in Singapore, the majority of cardiac arrests, approximately 74%, occur in a residential setting.",
+            "A study conducted in Singapore in 2019 found that 74% of cardiac arrests take place in the home environment.",
+            "The home is the most common location for cardiac arrests, accounting for 74% of cases, as reported in a 2019 Singaporean study.",
+            "Research conducted in Singapore in 2019 revealed that the majority of cardiac arrests, 74%, occur in a domestic setting.",
+            "In Singapore, a 2019 study showed that 74% of cardiac arrests occur in the patient's home, highlighting the importance of prompt response in this setting."
+        ]
+    },
+    {
+        "QA_pair_number": 2,
+        "Question": "What is the percentage of Out-of-Hospital Cardiac Arrest (OHCA) cases in which bystander CPR was performed, based on the study conducted in Singapore in 2019?",
+        "Answer": "Bystander CPR was performed on 60% of Out-of-Hospital Cardiac Arrest (OHCA) cases, based on the study conducted in Singapore in 2019.",
+        "3/10": [
+            "poor answer 1",
+            "The majority of cardiac arrests occur in the community, with 34 of cases occurring in this setting, according to a study conducted in Singapore in 2019.",
+            "poor answer 3",
+            "The most common cause of cardiac arrests is ventricular fibrillation, with 44 of cases being attributed to this cause, according to a study conducted in Singapore in 2019.",
+            "poor answer 4",
+            "Bystander CPR was performed on 60 of Out-of-Hospital Cardiac Arrest cases, based on the study conducted in Singapore in 2019.",
+            "poor answer 5"
+        ],
+        "6/10": [
+            "According to a study in Singapore, around 60 percent of OHCA cases received bystander CPR.",
+            "In Singapore, a 2019 study found that bystander CPR was performed in roughly 60 percent of OHCA cases.",
+            "A study conducted in Singapore in 2019 reported that bystander CPR was performed in about 60 percent of cardiac arrest cases outside of hospitals.",
+            "In 2019, a study in Singapore found that bystander CPR was performed in approximately 60 percent of out-of-hospital cardiac arrests.",
+            "According to a 2019 study in Singapore, around 60 percent of cardiac arrests that occurred outside of hospitals received bystander CPR."
+        ],
+        "8.5/10": [
+            "According to a study conducted in Singapore in 2019, bystander CPR was performed in approximately 60% of Out-of-Hospital Cardiac Arrest cases.",
+            "In Singapore, a 2019 study found that bystander CPR was administered in around 60% of Out-of-Hospital Cardiac Arrest incidents.",
+            "A study conducted in Singapore in 2019 revealed that bystander CPR was performed in roughly 60% of Out-of-Hospital Cardiac Arrest cases.",
+            "In 2019, a study in Singapore reported that bystander CPR was performed in about 60% of Out-of-Hospital Cardiac Arrest cases.",
+            "According to a 2019 study in Singapore, around 60% of Out-of-Hospital Cardiac Arrest cases received bystander CPR."
+        ]
+    },
+    {
+        "QA_pair_number": 3,
+        "Question": "What is the primary factor that maximizes survival from sudden death, according to the text?",
+        "Answer": "The primary factor that maximizes survival from sudden death is the prompt application of basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs).",
+        "3/10": [
+            "It's like, um, getting help fast or something.",
+            "I think it's having a doctor nearby.",
+            "The primary factor is probably having a healthy heart.",
+            "It's definitely calling 911, that's what I would do.",
+            "I'm pretty sure it's taking medication or something."
+        ],
+        "6/10": [
+            "The primary factor that maximizes survival from sudden death is the timely administration of CPR and AEDs.",
+            "According to the text, prompt CPR and AED use are key to maximizing survival from sudden death.",
+            "Maximizing survival from sudden death requires the rapid application of basic life-saving skills, including CPR and AEDs.",
+            "The text suggests that survival from sudden death is largely dependent on the prompt use of CPR and AEDs.",
+            "CPR and AEDs are crucial in maximizing survival from sudden death, as stated in the text."
+        ],
+        "8.5/10": [
+            "The key to maximizing survival from sudden death is the timely administration of cardio-pulmonary resuscitation (CPR) and the use of automated external defibrillators (AEDs).",
+            "According to the text, the most critical factor in maximizing survival from sudden death is the prompt use of basic life-saving skills, including CPR and AEDs.",
+            "Maximizing survival from sudden death relies heavily on the swift application of cardio-pulmonary resuscitation (CPR) and automated external defibrillators (AEDs).",
+            "The primary factor that contributes to maximizing survival from sudden death is the rapid deployment of basic life-saving skills, specifically CPR and AEDs.",
+            "The text suggests that the most important factor in maximizing survival from sudden death is the immediate use of cardio-pulmonary resuscitation (CPR) and automated external defibrillators (AEDs)."
+        ]
+    },
+    {
+        "QA_pair_number": 4,
+        "Question": "What is the minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs)?",
+        "Answer": "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is the rescuer's two hands.",
+        "3/10": [
+            "You need to be a doctor to perform CPR and use an AED.",
+            "The minimum requirement is having a first aid kit nearby.",
+            "You need to have a lot of experience in emergency situations.",
+            "The minimum requirement is being able to run fast to get help.",
+            "You need to have a special certification from a medical school."
+        ],
+        "6/10": [
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is a willingness to act.",
+            "To perform CPR and use an AED, you need to be physically able to perform chest compressions and operate the device.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is a basic understanding of the procedure.",
+            "You need to be able to follow instructions to perform CPR and use an AED.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is access to the necessary equipment."
+        ],
+        "8.5/10": [
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is the ability to follow instructions.",
+            "To perform basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs), one must have a clear understanding of the emergency response plan.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is the presence of a trained bystander.",
+            "Basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) can be performed by anyone with a willingness to learn and act in an emergency.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is access to a phone to call for emergency services."
+        ]
+    },
+    {
+        "QA_pair_number": 5,
+        "Question": "What is the primary function of the heart in the human body?",
+        "Answer": "The primary function of the heart in the human body is to act as a muscular pump that receives and pumps blood throughout the body. It plays a crucial role in maintaining blood circulation, ensuring that oxygen and nutrients are delivered to all parts of the body, and removing waste products.",
+        "3/10": [
+            "The heart is like a machine that makes blood flow through the body.",
+            "The primary function of the heart is to make the blood go round and round.",
+            "The heart is a vital organ that does something with the blood, I think.",
+            "The heart is like a pump, but not like a water pump, more like a blood pump.",
+            "The heart is important for the body, it does something with the oxygen and stuff."
+        ],
+        "6/10": [
+            "The heart's main job is to pump blood throughout the body, making sure all parts get the oxygen and nutrients they need.",
+            "The primary function of the heart is to circulate blood, which carries oxygen and nutrients to the body's cells and removes waste products.",
+            "The heart acts as a pump, moving blood throughout the body to supply organs and tissues with oxygen and nutrients.",
+            "The heart's main function is to pump blood, which delivers oxygen and nutrients to the body's cells and takes away waste products.",
+            "The heart is responsible for pumping blood, which circulates oxygen and nutrients to the body's cells and removes waste products."
+        ],
+        "8.5/10": [
+            "The heart's primary function is to pump blood throughout the body, supplying organs and tissues with oxygen and nutrients, and removing waste products.",
+            "The heart acts as a vital pump, responsible for circulating blood throughout the body, ensuring the delivery of oxygen and essential nutrients to all organs and tissues.",
+            "The primary role of the heart is to maintain blood circulation, pumping oxygenated blood to the body's tissues and organs, and returning deoxygenated blood to the lungs.",
+            "The heart's main function is to pump blood throughout the body, providing organs and tissues with the necessary oxygen and nutrients, while also removing waste products.",
+            "The heart serves as a muscular pump, responsible for circulating blood throughout the body, supplying oxygen and nutrients to tissues and organs, and removing waste products."
+        ]
+    },
+    {
+        "QA_pair_number": 6,
+        "Question": "Which side of the heart receives oxygen-rich blood from the lungs and delivers it to the vital organs?",
+        "Answer": "The left side of the heart receives oxygen-rich blood from the lungs and delivers it to the vital organs.",
+        "3/10": null,
+        "6/10": [
+            "The heart's left side gets oxygen-rich blood from the lungs and sends it to the body's vital organs.",
+            "Oxygen-rich blood from the lungs goes to the left heart side, which then sends it to the vital organs.",
+            "The left heart side is responsible for receiving oxygen-rich blood from the lungs and delivering it to the body's vital organs.",
+            "The heart's left side receives oxygen-rich blood from the lungs and then distributes it to the vital organs.",
+            "Oxygen-rich blood from the lungs is received by the left heart side, which then circulates it to the vital organs."
+        ],
+        "8.5/10": [
+            "The oxygen-enriched blood from the lungs is received by the left side of the heart, which then distributes it to the vital organs.",
+            "The left side of the heart is responsible for receiving oxygen-rich blood from the lungs and pumping it to the body's vital organs.",
+            "Oxygen-rich blood from the lungs enters the left side of the heart, which then circulates it to the body's vital organs.",
+            "The left side of the heart plays a crucial role in receiving oxygen-rich blood from the lungs and delivering it to the vital organs of the body.",
+            "The oxygen-rich blood that comes from the lungs is pumped by the left side of the heart to the vital organs, ensuring their proper functioning."
+        ]
+    },
+    {
+        "QA_pair_number": 7,
+        "Question": "What is the name of the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": "The pulmonary veins are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart.",
+        "3/10": [
+            "I think it's the arteries or something?",
+            "The heart has like, tubes and stuff, right? Those ones.",
+            "Pulmonary... um, arteries? No, that can't be right...",
+            "The ones that go to the lungs, but not the bad air, the good air.",
+            "Is it the aorta? No, that's not it... uh, I forget."
+        ],
+        "6/10": [
+            "The vessels that bring oxygen-rich blood from the lungs to the heart are called pulmonary veins.",
+            "Pulmonary veins are responsible for transporting oxygenated blood from the lungs to the heart.",
+            "The blood vessels that carry oxygen-rich blood from the lungs to the heart are pulmonary veins.",
+            "Oxygen-rich blood from the lungs is carried to the heart through pulmonary veins.",
+            "Pulmonary veins are the vessels that transport oxygen-rich blood from the lungs to the heart."
+        ],
+        "8.5/10": [
+            "The blood vessels responsible for transporting oxygen-rich blood from the lungs to the left side of the heart are called pulmonary veins.",
+            "Pulmonary veins are the vessels that carry oxygenated blood from the lungs to the left atrium of the heart.",
+            "The pulmonary veins play a crucial role in transporting oxygen-rich blood from the lungs to the left side of the heart.",
+            "Oxygen-rich blood from the lungs is transported to the left side of the heart through the pulmonary veins.",
+            "The pulmonary veins are responsible for carrying oxygenated blood from the lungs to the left atrium, where it is then pumped to the rest of the body."
+        ]
+    }
+]
