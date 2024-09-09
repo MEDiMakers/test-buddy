@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.body {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.audio {
+  background-color: blueviolet;
+  padding: 20px;
+}
