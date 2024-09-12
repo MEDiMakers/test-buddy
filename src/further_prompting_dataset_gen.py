@@ -7,6 +7,7 @@ import json
 from langchain_core.prompts import PromptTemplate
 from groq import Groq
 import pandas as pd
+import asyncio
 
 
 ## load env variables
@@ -26,8 +27,23 @@ Given Question:
 Given Answer:
 {ans}
 
-Example return format:
-{{"3/10" : ["poor answer 1","poor answer 2","poor answer 3","poor answer 4","poor answer 5"]}}
+The returning format should be like this:
+{{"3/10": [
+            "poor answer 1",
+            "poor answer 2",
+            "poor answer 3",
+            "poor answer 4",
+            "poor answer 5"
+        ]
+}}
+
+Unacceptable answer format:
+Here are five answers that meet the quality requirement:
+1. In what setting do the majority of cardiac arrests occur, according to a study conducted in Singapore in 2019?
+answer: The majority of cardiac arrests occur in the hospital, with 26 of cases occurring in this setting, according to a study conducted in Singapore in 2019.
+2. What is the most common cause of cardiac arrests, according to a study conducted in Singapore in 2019?
+answer: The most common cause of cardiac arrests is coronary artery disease, with 42 of cases being attributed to this cause, according to a study conducted in Singapore in 2019.
+
 Ensure and double check that the answer follows the format above strictly.
 '''
 
@@ -42,8 +58,22 @@ Given Question:
 Given Answer:
 {ans}
 
-Example return format:
-{{"6/10" : ["satisfactory answer 1","satisfactory answer 2","satisfactory answer 3","satisfactory answer 4","satisfactory answer 5"]}}
+The returning format should be like this:
+{{"6/10": [
+            "satisfactory answer 1",
+            "satisfactory answer 2",
+            "satisfactory answer 3",
+            "satisfactory answer 4",
+            "satisfactory answer 5"
+        ]
+}}
+Unacceptable answer format:
+Here are five answers that meet the quality requirement:
+1. In what setting do the majority of cardiac arrests occur, according to a study conducted in Singapore in 2019?
+answer: The majority of cardiac arrests occur in the hospital, with 26 of cases occurring in this setting, according to a study conducted in Singapore in 2019.
+2. What is the most common cause of cardiac arrests, according to a study conducted in Singapore in 2019?
+answer: The most common cause of cardiac arrests is coronary artery disease, with 42 of cases being attributed to this cause, according to a study conducted in Singapore in 2019.
+
 Ensure and double check that the answer follows the format above strictly.
 '''
 
@@ -57,8 +87,23 @@ Given Question:
 Given Answer:
 {ans}
 
-Example return format:
-{{"8.5/10" : ["good answer 1","good answer 2","good answer 3","good answer 4","good answer 5"]}}
+The returning format should be like this:
+{{"8.5/10": [
+            "good answer 1",
+            "good answer 2",
+            "good answer 3",
+            "good answer 4",
+            "good answer 5"
+        ]
+}}
+
+Unacceptable answer format:
+Here are five answers that meet the quality requirement:
+1. In what setting do the majority of cardiac arrests occur, according to a study conducted in Singapore in 2019?
+answer: The majority of cardiac arrests occur in the hospital, with 26 of cases occurring in this setting, according to a study conducted in Singapore in 2019.
+2. What is the most common cause of cardiac arrests, according to a study conducted in Singapore in 2019?
+answer: The most common cause of cardiac arrests is coronary artery disease, with 42 of cases being attributed to this cause, according to a study conducted in Singapore in 2019.
+
 Ensure and double check that the answer follows the format above strictly.
 '''
 
@@ -96,6 +141,7 @@ def extract_poor_answer(input_string):
 
         # If no valid JSON is found, the function will Log an error
         else:
+            print(input_string)
             logging.error("No dictionary with '3/10' as a key found in this input string. Error by LLM")
             return {"error": "No dictionary with '3/10' found"}
         
@@ -168,6 +214,7 @@ def extract_satisfactory_answer(input_string):
 
         # If no valid JSON is found, the function will Log an error
         else:
+            print(input_string)
             logging.error("No dictionary with '6/10' as a key found in this input string. Error by LLM")
             return {"error": "No dictionary with '6/10' found"}
         
@@ -240,6 +287,7 @@ def extract_good_answer(input_string):
 
         # If no valid JSON is found, the function will Log an error
         else:
+            print(input_string)
             logging.error("No dictionary with '8.5/10' as a key found in this input string. Error by LLM")
             return {"error": "No dictionary with '8.5/10' found"}
         
@@ -285,28 +333,51 @@ def main():
         pairs = json.load(fin)
 
     new_data = []
-    for i in trange(len(pairs)):
+    for i in trange(14,len(pairs)):
         question = pairs[i]['Question']
         answer = pairs[i]['Answer']
         data = {}
+        data['QA_pair_number'] = i
         data['Question'] = question
         data['Answer'] = answer
-        data['3/10'] = generate_poor_answers(question, answer, client).get("3/10")
-        data['6/10'] = generate_satisfactory_answers(question, answer, client).get("6/10")
-        data['8.5/10'] = generate_good_answers(question, answer, client).get("8.5/10")
-        new_data.append(data)
+        try:
+            poor_answer = generate_poor_answers(question, answer, client)
+        except ValueError:
+            for _ in range(2):
+                poor_answer = generate_poor_answers(question, answer, client)
+            if poor_answer:
+                    break
+        time.sleep(1)
+        try:
+            satisfactory_answer = generate_satisfactory_answers(question, answer, client)
+        except ValueError:
+            for _ in range(2):
+                satisfactory_answer = generate_satisfactory_answers(question, answer, client)
+                if satisfactory_answer:
+                    break
+        time.sleep(1)
+        try:
+            good_answer = generate_good_answers(question, answer, client)
+        except ValueError:
+                for _ in range(2):
+                    good_answer = generate_good_answers(question, answer, client)
+                    if good_answer:
+                        break
+    
+        data["3/10"] = poor_answer.get("3/10")
+        data["6/10"] = satisfactory_answer.get("6/10")
+        data["8.5/10"] = good_answer.get("8.5/10")
             
-        with open("../data/further_prompting/QA_pairs_with_answer_range.json", "w", encoding='utf-8') as fout:
-                json.dump(new_data, fout, ensure_ascii=False, indent=4)
+        new_data.append(data)
+        with open("../data/further_prompting/QA_pairs_with_answer_range(14-).json", "w", encoding='utf-8') as fout:
+            json.dump(new_data, fout, ensure_ascii=False, indent=4)
         
         if i > 3 and i % 3 == 0:
             print("Sleeping now...")
             time.sleep(30)
-            break
 
 if __name__ == "__main__":
     main()
-
 
 
 
