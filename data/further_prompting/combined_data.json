@@ -1,0 +1,466 @@
+[
+    {
+        "QA_pair_number": 0,
+        "Question": "What is the percentage of total mortality in Singapore attributed to ischemic heart disease, based on national health statistics from the Ministry of Health in 2019?",
+        "Answer": "Ischemic heart disease contributes to 18.8% of total mortality in Singapore, based on national health statistics from the Ministry of Health in 2019.",
+        "3/10": [
+            "I think it's around 20% or something, I'm not really sure.",
+            "Ischemic heart disease is a big deal in Singapore, but I don't have the exact number.",
+            "Heart disease is a major killer in Singapore, but I'm not sure what the exact percentage is.",
+            "I'm pretty sure it's higher than 10%, but I don't have the exact stat.",
+            "Singapore has a lot of heart problems, but I don't know the exact mortality rate."
+        ],
+        "6/10": [
+            "According to the Ministry of Health's 2019 statistics, ischemic heart disease accounts for nearly 19% of total mortality in Singapore.",
+            "In 2019, ischemic heart disease was responsible for approximately 19% of all deaths in Singapore, as reported by the Ministry of Health.",
+            "The Ministry of Health's 2019 data indicates that ischemic heart disease contributes to around 19% of total mortality in Singapore.",
+            "Ischemic heart disease is a leading cause of death in Singapore, accounting for around 19% of total mortality in 2019, according to the Ministry of Health.",
+            "In Singapore, ischemic heart disease was attributed to around 19% of total deaths in 2019, based on national health statistics from the Ministry of Health."
+        ],
+        "8.5/10": [
+            "According to national health statistics from the Ministry of Health in 2019, ischemic heart disease accounts for approximately 19% of total mortality in Singapore.",
+            "In 2019, the Ministry of Health reported that ischemic heart disease was responsible for around 18.5% of total deaths in Singapore.",
+            "National health statistics from the Ministry of Health in 2019 indicate that ischemic heart disease contributes to roughly 19.2% of total mortality in Singapore.",
+            "The Ministry of Health's 2019 national health statistics show that ischemic heart disease is responsible for about 18.9% of total deaths in Singapore.",
+            "As of 2019, ischemic heart disease was attributed to around 19.1% of total mortality in Singapore, according to the Ministry of Health's national health statistics."
+        ]
+    },
+    {
+        "QA_pair_number": 1,
+        "Question": "In what setting do the majority of cardiac arrests occur, according to a study conducted in Singapore in 2019?",
+        "Answer": "The majority of cardiac arrests occur in the home, with 74% of cases occurring in this setting, according to a study conducted in Singapore in 2019.",
+        "3/10": [
+            "I think it's in the hospital, but I'm not really sure.",
+            "Cardiac arrests usually happen in emergency rooms, right?",
+            "A study in Singapore found that most cardiac arrests occur in... um... public places?",
+            "I'm pretty sure it's not in the home, but I don't know where else it would be.",
+            "Isn't it in ambulances or something?"
+        ],
+        "6/10": [
+            "Most cardiac arrests happen at home, according to a study in Singapore.",
+            "A study in Singapore found that cardiac arrests mostly occur in residential areas.",
+            "According to a 2019 study, the majority of cardiac arrests take place in a private setting.",
+            "Research in Singapore suggests that cardiac arrests are more likely to occur in a domestic environment.",
+            "A study conducted in Singapore in 2019 revealed that cardiac arrests often happen in a non-medical setting."
+        ],
+        "8.5/10": [
+            "According to a 2019 study in Singapore, the majority of cardiac arrests, approximately 74%, occur in a residential setting.",
+            "A study conducted in Singapore in 2019 found that 74% of cardiac arrests take place in the home environment.",
+            "The home is the most common location for cardiac arrests, accounting for 74% of cases, as reported in a 2019 Singaporean study.",
+            "Research conducted in Singapore in 2019 revealed that the majority of cardiac arrests, 74%, occur in a domestic setting.",
+            "In Singapore, a 2019 study showed that 74% of cardiac arrests occur in the patient's home, highlighting the importance of prompt response in this setting."
+        ]
+    },
+    {
+        "QA_pair_number": 2,
+        "Question": "What is the percentage of Out-of-Hospital Cardiac Arrest (OHCA) cases in which bystander CPR was performed, based on the study conducted in Singapore in 2019?",
+        "Answer": "Bystander CPR was performed on 60% of Out-of-Hospital Cardiac Arrest (OHCA) cases, based on the study conducted in Singapore in 2019.",
+        "3/10": [
+            "poor answer 1",
+            "The majority of cardiac arrests occur in the community, with 34 of cases occurring in this setting, according to a study conducted in Singapore in 2019.",
+            "poor answer 3",
+            "The most common cause of cardiac arrests is ventricular fibrillation, with 44 of cases being attributed to this cause, according to a study conducted in Singapore in 2019.",
+            "poor answer 4",
+            "Bystander CPR was performed on 60 of Out-of-Hospital Cardiac Arrest cases, based on the study conducted in Singapore in 2019.",
+            "poor answer 5"
+        ],
+        "6/10": [
+            "According to a study in Singapore, around 60 percent of OHCA cases received bystander CPR.",
+            "In Singapore, a 2019 study found that bystander CPR was performed in roughly 60 percent of OHCA cases.",
+            "A study conducted in Singapore in 2019 reported that bystander CPR was performed in about 60 percent of cardiac arrest cases outside of hospitals.",
+            "In 2019, a study in Singapore found that bystander CPR was performed in approximately 60 percent of out-of-hospital cardiac arrests.",
+            "According to a 2019 study in Singapore, around 60 percent of cardiac arrests that occurred outside of hospitals received bystander CPR."
+        ],
+        "8.5/10": [
+            "According to a study conducted in Singapore in 2019, bystander CPR was performed in approximately 60% of Out-of-Hospital Cardiac Arrest cases.",
+            "In Singapore, a 2019 study found that bystander CPR was administered in around 60% of Out-of-Hospital Cardiac Arrest incidents.",
+            "A study conducted in Singapore in 2019 revealed that bystander CPR was performed in roughly 60% of Out-of-Hospital Cardiac Arrest cases.",
+            "In 2019, a study in Singapore reported that bystander CPR was performed in about 60% of Out-of-Hospital Cardiac Arrest cases.",
+            "According to a 2019 study in Singapore, around 60% of Out-of-Hospital Cardiac Arrest cases received bystander CPR."
+        ]
+    },
+    {
+        "QA_pair_number": 3,
+        "Question": "What is the primary factor that maximizes survival from sudden death, according to the text?",
+        "Answer": "The primary factor that maximizes survival from sudden death is the prompt application of basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs).",
+        "3/10": [
+            "It's like, um, getting help fast or something.",
+            "I think it's having a doctor nearby.",
+            "The primary factor is probably having a healthy heart.",
+            "It's definitely calling 911, that's what I would do.",
+            "I'm pretty sure it's taking medication or something."
+        ],
+        "6/10": [
+            "The primary factor that maximizes survival from sudden death is the timely administration of CPR and AEDs.",
+            "According to the text, prompt CPR and AED use are key to maximizing survival from sudden death.",
+            "Maximizing survival from sudden death requires the rapid application of basic life-saving skills, including CPR and AEDs.",
+            "The text suggests that survival from sudden death is largely dependent on the prompt use of CPR and AEDs.",
+            "CPR and AEDs are crucial in maximizing survival from sudden death, as stated in the text."
+        ],
+        "8.5/10": [
+            "The key to maximizing survival from sudden death is the timely administration of cardio-pulmonary resuscitation (CPR) and the use of automated external defibrillators (AEDs).",
+            "According to the text, the most critical factor in maximizing survival from sudden death is the prompt use of basic life-saving skills, including CPR and AEDs.",
+            "Maximizing survival from sudden death relies heavily on the swift application of cardio-pulmonary resuscitation (CPR) and automated external defibrillators (AEDs).",
+            "The primary factor that contributes to maximizing survival from sudden death is the rapid deployment of basic life-saving skills, specifically CPR and AEDs.",
+            "The text suggests that the most important factor in maximizing survival from sudden death is the immediate use of cardio-pulmonary resuscitation (CPR) and automated external defibrillators (AEDs)."
+        ]
+    },
+    {
+        "QA_pair_number": 4,
+        "Question": "What is the minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs)?",
+        "Answer": "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is the rescuer's two hands.",
+        "3/10": [
+            "You need to be a doctor to perform CPR and use an AED.",
+            "The minimum requirement is having a first aid kit nearby.",
+            "You need to have a lot of experience in emergency situations.",
+            "The minimum requirement is being able to run fast to get help.",
+            "You need to have a special certification from a medical school."
+        ],
+        "6/10": [
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is a willingness to act.",
+            "To perform CPR and use an AED, you need to be physically able to perform chest compressions and operate the device.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is a basic understanding of the procedure.",
+            "You need to be able to follow instructions to perform CPR and use an AED.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is access to the necessary equipment."
+        ],
+        "8.5/10": [
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is the ability to follow instructions.",
+            "To perform basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs), one must have a clear understanding of the emergency response plan.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is the presence of a trained bystander.",
+            "Basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) can be performed by anyone with a willingness to learn and act in an emergency.",
+            "The minimum requirement for performing basic life-saving skills of cardio-pulmonary resuscitation (CPR) and use of automated external defibrillators (AEDs) is access to a phone to call for emergency services."
+        ]
+    },
+    {
+        "QA_pair_number": 5,
+        "Question": "What is the primary function of the heart in the human body?",
+        "Answer": "The primary function of the heart in the human body is to act as a muscular pump that receives and pumps blood throughout the body. It plays a crucial role in maintaining blood circulation, ensuring that oxygen and nutrients are delivered to all parts of the body, and removing waste products.",
+        "3/10": [
+            "The heart is like a machine that makes blood flow through the body.",
+            "The primary function of the heart is to make the blood go round and round.",
+            "The heart is a vital organ that does something with the blood, I think.",
+            "The heart is like a pump, but not like a water pump, more like a blood pump.",
+            "The heart is important for the body, it does something with the oxygen and stuff."
+        ],
+        "6/10": [
+            "The heart's main job is to pump blood throughout the body, making sure all parts get the oxygen and nutrients they need.",
+            "The primary function of the heart is to circulate blood, which carries oxygen and nutrients to the body's cells and removes waste products.",
+            "The heart acts as a pump, moving blood throughout the body to supply organs and tissues with oxygen and nutrients.",
+            "The heart's main function is to pump blood, which delivers oxygen and nutrients to the body's cells and takes away waste products.",
+            "The heart is responsible for pumping blood, which circulates oxygen and nutrients to the body's cells and removes waste products."
+        ],
+        "8.5/10": [
+            "The heart's primary function is to pump blood throughout the body, supplying organs and tissues with oxygen and nutrients, and removing waste products.",
+            "The heart acts as a vital pump, responsible for circulating blood throughout the body, ensuring the delivery of oxygen and essential nutrients to all organs and tissues.",
+            "The primary role of the heart is to maintain blood circulation, pumping oxygenated blood to the body's tissues and organs, and returning deoxygenated blood to the lungs.",
+            "The heart's main function is to pump blood throughout the body, providing organs and tissues with the necessary oxygen and nutrients, while also removing waste products.",
+            "The heart serves as a muscular pump, responsible for circulating blood throughout the body, supplying oxygen and nutrients to tissues and organs, and removing waste products."
+        ]
+    },
+    {
+        "QA_pair_number": 6,
+        "Question": "Which side of the heart receives oxygen-rich blood from the lungs and delivers it to the vital organs?",
+        "Answer": "The left side of the heart receives oxygen-rich blood from the lungs and delivers it to the vital organs.",
+        "3/10": null,
+        "6/10": [
+            "The heart's left side gets oxygen-rich blood from the lungs and sends it to the body's vital organs.",
+            "Oxygen-rich blood from the lungs goes to the left heart side, which then sends it to the vital organs.",
+            "The left heart side is responsible for receiving oxygen-rich blood from the lungs and delivering it to the body's vital organs.",
+            "The heart's left side receives oxygen-rich blood from the lungs and then distributes it to the vital organs.",
+            "Oxygen-rich blood from the lungs is received by the left heart side, which then circulates it to the vital organs."
+        ],
+        "8.5/10": [
+            "The oxygen-enriched blood from the lungs is received by the left side of the heart, which then distributes it to the vital organs.",
+            "The left side of the heart is responsible for receiving oxygen-rich blood from the lungs and pumping it to the body's vital organs.",
+            "Oxygen-rich blood from the lungs enters the left side of the heart, which then circulates it to the body's vital organs.",
+            "The left side of the heart plays a crucial role in receiving oxygen-rich blood from the lungs and delivering it to the vital organs of the body.",
+            "The oxygen-rich blood that comes from the lungs is pumped by the left side of the heart to the vital organs, ensuring their proper functioning."
+        ]
+    },
+    {
+        "QA_pair_number": 7,
+        "Question": "What is the name of the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart?",
+        "Answer": "The pulmonary veins are the blood vessels that carry oxygen-rich blood from the lungs to the left side of the heart.",
+        "3/10": [
+            "I think it's the arteries or something?",
+            "The heart has like, tubes and stuff, right? Those ones.",
+            "Pulmonary... um, arteries? No, that can't be right...",
+            "The ones that go to the lungs, but not the bad air, the good air.",
+            "Is it the aorta? No, that's not it... uh, I forget."
+        ],
+        "6/10": [
+            "The vessels that bring oxygen-rich blood from the lungs to the heart are called pulmonary veins.",
+            "Pulmonary veins are responsible for transporting oxygenated blood from the lungs to the heart.",
+            "The blood vessels that carry oxygen-rich blood from the lungs to the heart are pulmonary veins.",
+            "Oxygen-rich blood from the lungs is carried to the heart through pulmonary veins.",
+            "Pulmonary veins are the vessels that transport oxygen-rich blood from the lungs to the heart."
+        ],
+        "8.5/10": [
+            "The blood vessels responsible for transporting oxygen-rich blood from the lungs to the left side of the heart are called pulmonary veins.",
+            "Pulmonary veins are the vessels that carry oxygenated blood from the lungs to the left atrium of the heart.",
+            "The pulmonary veins play a crucial role in transporting oxygen-rich blood from the lungs to the left side of the heart.",
+            "Oxygen-rich blood from the lungs is transported to the left side of the heart through the pulmonary veins.",
+            "The pulmonary veins are responsible for carrying oxygenated blood from the lungs to the left atrium, where it is then pumped to the rest of the body."
+        ]
+    },
+    {
+        "QA_pair_number": 8,
+        "Question": "What is the purpose of the pulmonary arteries in the circulatory system?",
+        "Answer": "The purpose of the pulmonary arteries in the circulatory system is to carry low oxygen blood from the right side of the heart to the lungs, where it can pick up oxygen and release carbon dioxide.",
+        "3/10": [
+            "Pulmonary arteries are like, um, roads for blood to travel on or something.",
+            "They're like, arteries, but in the lungs, so they must be important for breathing or something.",
+            "I think they're responsible for pumping blood throughout the body, but I'm not really sure.",
+            "Pulmonary arteries are like, a special kind of vein that only goes to the lungs.",
+            "They're just, like, extra arteries that we don't really need, but they're there just in case."
+        ],
+        "6/10": [
+            "The pulmonary arteries are responsible for transporting oxygen-depleted blood from the heart to the lungs for oxygenation.",
+            "Pulmonary arteries carry blood that's low in oxygen from the heart to the lungs, where it gets oxygenated.",
+            "The purpose of pulmonary arteries is to take blood from the heart to the lungs, where oxygen is added and carbon dioxide is removed.",
+            "Pulmonary arteries are blood vessels that transport blood from the heart to the lungs, allowing for gas exchange to occur.",
+            "The pulmonary arteries play a crucial role in delivering deoxygenated blood from the heart to the lungs, where it's replenished with oxygen."
+        ],
+        "8.5/10": [
+            "The pulmonary arteries play a crucial role in the circulatory system by transporting deoxygenated blood from the heart to the lungs, where oxygenation and carbon dioxide removal occur.",
+            "The primary function of the pulmonary arteries is to carry oxygen-depleted blood from the right ventricle to the lungs, allowing for gas exchange and oxygenation of the blood.",
+            "In the circulatory system, the pulmonary arteries serve as a conduit for deoxygenated blood to flow from the heart to the lungs, facilitating the exchange of oxygen and carbon dioxide.",
+            "The pulmonary arteries are responsible for transporting blood low in oxygen from the heart to the lungs, where it can absorb oxygen and release carbon dioxide through the process of respiration.",
+            "The purpose of the pulmonary arteries is to direct deoxygenated blood from the heart to the lungs, enabling the uptake of oxygen and removal of carbon dioxide, which is then transported back to the heart."
+        ]
+    },
+    {
+        "QA_pair_number": 9,
+        "Question": "Which organs receive oxygen-rich blood directly from the left side of the heart?",
+        "Answer": "The vital organs that receive oxygen-rich blood directly from the left side of the heart include the heart itself, lungs, kidneys, and brain.",
+        "3/10": [
+            "I think it's the liver and stomach or something?",
+            "The left side of the heart pumps blood to the arms and legs, right?",
+            "Oxygen-rich blood goes to the muscles, I'm pretty sure.",
+            "Isn't it the liver and kidneys that filter the blood?",
+            "I'm not really sure, but I think it's the whole body?"
+        ],
+        "6/10": [
+            "The left side of the heart pumps oxygen-rich blood to the brain, kidneys, and other vital organs.",
+            "Oxygen-rich blood from the left side of the heart goes directly to the heart itself, as well as other organs.",
+            "The heart, brain, and kidneys receive oxygenated blood directly from the left ventricle.",
+            "The left side of the heart supplies oxygen-rich blood to the brain, heart, and other essential organs.",
+            "The brain, heart, and kidneys are among the organs that receive oxygen-rich blood directly from the left heart chamber."
+        ],
+        "8.5/10": [
+            "The left side of the heart directly supplies oxygen-rich blood to vital organs such as the heart, lungs, kidneys, and brain.",
+            "Oxygen-rich blood from the left side of the heart is directly distributed to the heart itself, as well as the lungs, kidneys, and brain.",
+            "The heart, lungs, kidneys, and brain are the primary recipients of oxygen-rich blood pumped directly from the left side of the heart.",
+            "Directly receiving oxygen-rich blood from the left side of the heart are the heart, lungs, kidneys, and brain, which are essential for maintaining overall health.",
+            "The left side of the heart pumps oxygen-rich blood directly to the heart, lungs, kidneys, and brain, ensuring these vital organs function properly."
+        ]
+    },
+    {
+        "QA_pair_number": 10,
+        "Question": "What is the primary function of the coronary arteries in relation to the heart muscles?",
+        "Answer": "The primary function of the coronary arteries is to supply oxygen-rich blood to the heart muscles, ensuring they receive the necessary oxygenation to function properly.",
+        "3/10": [
+            "The coronary arteries are like roads that take oxygen to the heart, kinda like how cars take people to work.",
+            "Coronary arteries are important for the heart, but I'm not really sure what they do.",
+            "The heart muscles need oxygen, and the coronary arteries help with that, I think.",
+            "Coronary arteries are like tubes that carry stuff to the heart, but I'm not sure what kind of stuff.",
+            "The coronary arteries are part of the heart, and they do something important, but I'm not really sure what."
+        ],
+        "6/10": [
+            "The coronary arteries are responsible for providing blood to the heart, which is necessary for its proper functioning.",
+            "The primary role of the coronary arteries is to deliver oxygenated blood to the heart muscles, allowing them to work efficiently.",
+            "Coronary arteries supply blood to the heart, ensuring it gets the oxygen it needs to pump blood effectively.",
+            "The coronary arteries' main job is to bring oxygen-rich blood to the heart, which is essential for its normal operation.",
+            "The heart muscles rely on the coronary arteries to receive the oxygen they need to function correctly."
+        ],
+        "8.5/10": [
+            "The coronary arteries play a crucial role in providing oxygenated blood to the heart muscles, enabling them to contract and pump blood efficiently.",
+            "The primary role of the coronary arteries is to deliver oxygen-rich blood to the myocardium, supporting the heart's ability to function optimally.",
+            "The coronary arteries are responsible for supplying the heart muscles with the necessary oxygen and nutrients, allowing them to perform their pumping function effectively.",
+            "The coronary arteries serve as the primary blood vessels that provide oxygenated blood to the heart muscles, ensuring their proper functioning and overall cardiac health.",
+            "The coronary arteries have the essential function of delivering oxygen-rich blood to the heart muscles, which is vital for maintaining the heart's pumping action and overall cardiovascular function."
+        ]
+    },
+    {
+        "QA_pair_number": 11,
+        "Question": "What is the name of the node that initiates the electrical signals that regulate the pumping action of the heart?",
+        "Answer": "The sinoatrial (SA) node is the pacemaker that initiates the electrical signals that regulate the pumping action of the heart, playing a crucial role in maintaining a normal heart rhythm.",
+        "3/10": [
+            "I think it's like, a special node thingy that makes the heart beat",
+            "The heart has like, a special pacemaker thing that makes it go",
+            "It's called the heartbeat node or something, I'm pretty sure",
+            "I'm not really sure, but I think it's something to do with the heart's rhythm",
+            "Isn't it just called the heart node? That's what I've always heard"
+        ],
+        "6/10": [
+            "The SA node is responsible for regulating the heartbeat.",
+            "The sinoatrial node is the part of the heart that controls the heartbeat.",
+            "The heart's natural pacemaker is called the sinoatrial node.",
+            "The SA node is the heart's internal clock, regulating its rhythm.",
+            "The sinoatrial node is the heart's pacemaker, controlling its contractions."
+        ],
+        "8.5/10": [
+            "The sinoatrial node, also known as the SA node, is responsible for generating the electrical impulses that control the heartbeat.",
+            "The heart's natural pacemaker, the sinoatrial node, initiates the electrical signals that regulate the heart's pumping action.",
+            "The sinoatrial node, located in the right atrium, is the primary source of electrical signals that control the heart's rhythm and pumping action.",
+            "The SA node, a small group of cells in the right atrium, is responsible for initiating the electrical signals that regulate the heartbeat and maintain a normal heart rhythm.",
+            "The sinoatrial node, a specialized group of cells in the heart, generates the electrical impulses that control the heart's pumping action and rhythm."
+        ]
+    },
+    {
+        "QA_pair_number": 12,
+        "Question": "What is the normal range of heartbeats per minute in a healthy individual?",
+        "Answer": "In a healthy individual, the normal range of heartbeats per minute is 60-100 beats per minute, which is a vital indicator of cardiovascular health.",
+        "3/10": [
+            "I think it's like, um, 50 to 150 beats per minute or something?",
+            "Heartbeats per minute? Isn't that like, a medical thing? I'm not a doctor...",
+            "I'm pretty sure it's different for men and women, but I don't know the exact numbers...",
+            "Isn't the normal range like, 40 to 120 beats per minute? Or is that for blood pressure?",
+            "I'm not really sure, but I think it's around 70 beats per minute... or is that my resting heart rate?"
+        ],
+        "6/10": [
+            "A healthy individual's heartbeat typically falls between 60-100 beats per minute, which is crucial for overall health.",
+            "The normal range of heartbeats per minute in a healthy person is around 60-100, which is an important indicator of cardiovascular wellness.",
+            "In general, a healthy individual's heart rate is usually between 60-100 beats per minute, which is vital for maintaining good health.",
+            "The heartbeat of a healthy person typically ranges from 60-100 beats per minute, which is essential for a healthy heart.",
+            "A normal heart rate for a healthy individual is typically in the range of 60-100 beats per minute, which is important for overall cardiovascular health."
+        ],
+        "8.5/10": [
+            "A healthy individual's heart rate typically falls within the range of 60-100 beats per minute, which is a key indicator of overall cardiovascular well-being.",
+            "In general, a normal heart rate for a healthy person is between 60 and 100 beats per minute, which is an important metric for assessing heart health.",
+            "The normal range of heartbeats per minute in a healthy individual is typically considered to be between 60 and 100, which is a vital sign of cardiovascular health.",
+            "For a healthy person, the normal heart rate range is usually between 60 and 100 beats per minute, which is an important indicator of heart function and overall health.",
+            "In a healthy individual, the heart rate typically ranges from 60 to 100 beats per minute, which is a critical indicator of cardiovascular health and function."
+        ]
+    },
+    {
+        "QA_pair_number": 13,
+        "Question": "What medical device is used to detect and record the electrical signals of the heart?",
+        "Answer": "An electrocardiogram (ECG) is a medical device used to detect and record the electrical signals of the heart, providing valuable information for diagnosing and monitoring various heart conditions.",
+        "3/10": [
+            "I think it's like a heart monitor thingy?",
+            "It's that machine that goes beep beep, right?",
+            "Is it a stethoscope? I'm pretty sure it's a stethoscope...",
+            "Uh, I'm not really sure, but I think it starts with an 'E'?",
+            "Isn't it just called a heart tester or something?"
+        ],
+        "6/10": [
+            "An ECG is a device that measures the heart's electrical activity.",
+            "The medical device used to detect and record heart signals is called an electrocardiogram.",
+            "To diagnose heart conditions, doctors use a device called an electrocardiogram to record heart signals.",
+            "An electrocardiogram is a medical tool that tracks the heart's electrical signals.",
+            "Heart signals are recorded using a device called an electrocardiogram, or ECG for short."
+        ],
+        "8.5/10": [
+            "An electrocardiogram, also known as an ECG or EKG, is a medical device that records the heart's electrical activity, helping doctors diagnose heart conditions and monitor cardiac health.",
+            "A device called an electrocardiogram, or ECG for short, is used to detect and record the electrical signals of the heart, providing crucial information for heart condition diagnosis and treatment.",
+            "The medical device used to detect and record the electrical signals of the heart is called an electrocardiogram, which is essential for identifying heart rhythm abnormalities and other cardiac issues.",
+            "Electrocardiograms, commonly referred to as ECGs or EKGs, are medical devices that capture the heart's electrical signals, enabling healthcare professionals to diagnose and manage various heart conditions.",
+            "An electrocardiogram, a non-invasive medical device, is used to detect and record the heart's electrical signals, offering valuable insights into heart function and helping doctors diagnose cardiac problems."
+        ]
+    },
+    {
+        "QA_pair_number": 14,
+        "Question": "What is the term for the organized heartbeat that occurs at a regular rate in a normal person?",
+        "Answer": "The term for the organized heartbeat that occurs at a regular rate in a normal person is a normal heart rhythm or sinus rhythm, which is characterized by a consistent and coordinated contraction of the heart muscles.",
+        "3/10": [
+            "I think it's like, a normal heartbeat thingy?",
+            "Is it, like, cardiac arrest or something?",
+            "Uh, rhythm... heart... normal... yeah, that's it!",
+            "I'm pretty sure it's just called 'heartbeat'",
+            "Isn't it just, like, when your heart beats normally?"
+        ],
+        "6/10": [
+            "The term for the organized heartbeat that occurs at a regular rate in a normal person is called a normal heartbeat.",
+            "A normal person's heartbeat is called a sinus rhythm, which is a regular heartbeat.",
+            "The organized heartbeat that occurs at a regular rate in a normal person is referred to as a regular heartbeat or sinus rhythm.",
+            "In a normal person, the heartbeat is called a sinus rhythm, which is a regular and organized heartbeat.",
+            "A normal person's heartbeat is characterized by a regular rhythm, also known as a sinus rhythm."
+        ],
+        "8.5/10": [
+            "The term for the organized heartbeat that occurs at a regular rate in a normal person is known as a normal sinus rhythm, which is characterized by a consistent heartbeat.",
+            "A normal person's heartbeat is referred to as a sinus rhythm, which is a regular and organized heartbeat that occurs at a consistent rate.",
+            "The medical term for a regular heartbeat in a normal person is sinus rhythm, which is a normal and organized heartbeat that occurs at a consistent rate.",
+            "In a normal person, the heartbeat is referred to as a sinus rhythm, which is a regular and organized heartbeat that occurs at a consistent rate, typically between 60-100 beats per minute.",
+            "The organized heartbeat that occurs at a regular rate in a normal person is medically known as a sinus rhythm, which is a normal and healthy heartbeat pattern."
+        ]
+    },
+    {
+        "QA_pair_number": 15,
+        "Question": "What is the normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG)?",
+        "Answer": "The normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG), is 60 beats per minute. This is calculated by counting the number of QRS complexes in a 6-second strip, which corresponds to 300 large squares, and dividing it by 5 to get the heart rate in beats per minute.",
+        "3/10": [
+            "I think it's like, around 50 or 60 beats per minute? I'm not really sure.",
+            "The normal heart rate is whatever the doctor says it is. They're the expert, not me.",
+            "Isn't it different for everyone? Like, some people have a faster heart rate than others?",
+            "I'm pretty sure it's 70 beats per minute. Or is that the blood pressure?",
+            "Uh, I don't know. Can you just look it up on Google or something?"
+        ],
+        "6/10": [
+            "A normal heart rate is usually between 50-100 beats per minute, as shown on an ECG.",
+            "The heart rate on an ECG is typically around 60-70 beats per minute in a normal sinus rhythm.",
+            "An ECG will usually show a heart rate of 60-80 beats per minute in a healthy individual.",
+            "In a normal sinus rhythm, the heart rate on an ECG is usually around 60 beats per minute, give or take a few.",
+            "A normal heart rate on an ECG is typically in the range of 50-90 beats per minute, depending on the individual."
+        ],
+        "8.5/10": [
+            "A normal sinus rhythm on an electrocardiogram (ECG) typically indicates a heart rate of 60-100 beats per minute, with 60 beats per minute being the average.",
+            "The normal heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG), is typically between 60-100 beats per minute, with an average of 60.",
+            "On an electrocardiogram (ECG), a normal sinus rhythm is characterized by a heart rate of 60-100 beats per minute, with 60 beats per minute being the normal value.",
+            "A normal electrocardiogram (ECG) reading indicates a heart rate of 60 beats per minute, which is calculated by counting the number of QRS complexes in a 6-second strip.",
+            "The heart rate in beats per minute, as indicated by a normal sinus rhythm on an electrocardiogram (ECG), is typically around 60 beats per minute, which is a normal value."
+        ]
+    },
+    {
+        "QA_pair_number": 16,
+        "Question": "What percentage of oxygen is extracted from the air breathed in by the lungs, and what is the significance of this in the context of mouth-to-mouth ventilation?",
+        "Answer": "The lungs extract 5% of oxygen from the air breathed in, which is significant in the context of mouth-to-mouth ventilation because it means that the air ventilated into a cardiac arrest casualty can deliver sufficient oxygen to save and sustain life. This is possible because the rescuer's exhaled breath contains approximately 16% oxygen, which is sufficient to sustain life.",
+        "3/10": [
+            "I think it's like 20% or something, and that's important for mouth-to-mouth because, you know, you need oxygen to live and stuff.",
+            "The lungs take in, like, a lot of oxygen, and that's good for mouth-to-mouth because it helps the person breathe again.",
+            "Oxygen is, like, super important for the body, and when you do mouth-to-mouth, you're giving the person oxygen, so that's good.",
+            "I'm pretty sure it's 10% or 15% or something, and that's significant because it means the person can, you know, not die.",
+            "The lungs do their thing with oxygen, and mouth-to-mouth is important because it helps the person's heart start beating again or something."
+        ],
+        "6/10": [
+            "The lungs extract a small percentage of oxygen from the air breathed in, which is sufficient for mouth-to-mouth ventilation because the rescuer's exhaled breath still contains a significant amount of oxygen.",
+            "In mouth-to-mouth ventilation, the oxygen extracted from the air breathed in by the lungs is not as crucial as the oxygen present in the rescuer's exhaled breath, which can still sustain life.",
+            "The lungs extract a limited amount of oxygen from the air, but this is compensated by the oxygen-rich air provided by the rescuer during mouth-to-mouth ventilation.",
+            "The percentage of oxygen extracted by the lungs is not as important as the fact that the rescuer's breath contains enough oxygen to support life during mouth-to-mouth ventilation.",
+            "The oxygen extracted by the lungs is sufficient for mouth-to-mouth ventilation because the rescuer's exhaled breath contains a higher concentration of oxygen than the air breathed in."
+        ],
+        "8.5/10": [
+            "The lungs extract a small percentage of oxygen from the air breathed in, approximately 5%, which is crucial in mouth-to-mouth ventilation as it allows the rescuer's exhaled breath to provide sufficient oxygen to sustain life.",
+            "In the context of mouth-to-mouth ventilation, the 5% oxygen extraction rate by the lungs is significant because it enables the rescuer's exhaled breath, containing around 16% oxygen, to deliver enough oxygen to save a cardiac arrest casualty.",
+            "During mouth-to-mouth ventilation, the lungs' ability to extract 5% of oxygen from the air breathed in is vital, as it allows the rescuer's exhaled breath to provide a sufficient amount of oxygen to sustain life, despite containing only 16% oxygen.",
+            "The lungs' oxygen extraction rate of 5% is critical in mouth-to-mouth ventilation, as it means that the rescuer's exhaled breath, which contains approximately 16% oxygen, can provide enough oxygen to support life in a cardiac arrest casualty.",
+            "In the context of cardiac arrest, the 5% oxygen extraction rate by the lungs is significant because it enables mouth-to-mouth ventilation to deliver sufficient oxygen to sustain life, with the rescuer's exhaled breath containing around 16% oxygen."
+        ]
+    },
+    {
+        "QA_pair_number": 17,
+        "Question": "How many large squares on an ECG represent 1 second, and what is the significance of this in measuring heart rate?",
+        "Answer": "Five large squares on an ECG represent 1 second, which is significant in measuring heart rate because it allows us to calculate the heart rate by counting the number of QRS complexes in a 6-second strip and dividing it by 5. This method is useful in determining the heart rate of a patient, especially in emergency situations.",
+        "3/10": [
+            "I think it's like, 3 or 4 squares or something, and it's important for measuring heart rate, but I'm not really sure why.",
+            "The ECG thingy has squares on it, and they represent time, but I don't know how many seconds each one is.",
+            "It's 10 squares per second, and that's how you calculate heart rate, but I'm not really sure what the formula is.",
+            "I'm pretty sure it's 2 squares per second, and you count the QRS thingies to get the heart rate, but I'm not really sure.",
+            "The squares on the ECG are just for show, they don't really mean anything, but the heart rate is important in emergency situations."
+        ],
+        "6/10": [
+            "On an ECG, five large squares equal one second, which helps calculate heart rate by counting QRS complexes in a certain time frame.",
+            "The significance of five large squares on an ECG being one second is that it allows for heart rate calculation, especially in emergency situations.",
+            "One second on an ECG is represented by five large squares, which is important for determining heart rate by counting QRS complexes.",
+            "Five large squares on an ECG represent one second, making it possible to calculate heart rate by counting QRS complexes in a specific time period.",
+            "The one-second mark on an ECG is indicated by five large squares, which is crucial for calculating heart rate, particularly in emergency situations."
+        ],
+        "8.5/10": [
+            "On an ECG, five large squares equal one second, which is crucial in determining heart rate by counting the QRS complexes in a 6-second strip and dividing by 5, allowing for quick assessment in emergency situations.",
+            "The ECG's large squares represent 0.2 seconds each, so five of them equal one second, enabling healthcare professionals to calculate heart rate by counting QRS complexes in a 6-second strip and dividing by 5, particularly useful in urgent care settings.",
+            "In ECG interpretation, five large squares correspond to a one-second interval, facilitating heart rate calculation by counting QRS complexes in a 6-second strip and dividing by 5, a vital skill in emergency medicine.",
+            "On an electrocardiogram, five large squares signify a one-second duration, allowing clinicians to determine heart rate by counting QRS complexes in a 6-second strip and dividing by 5, a critical skill in cardiac care.",
+            "The ECG's grid system is designed such that five large squares represent one second, enabling healthcare providers to calculate heart rate by counting QRS complexes in a 6-second strip and dividing by 5, a valuable tool in rapid patient assessment."
+        ]
+    }
+]
