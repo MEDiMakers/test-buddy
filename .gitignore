@@ -3,3 +3,8 @@
 
 # env folders
 test_buddy
+data/jerry_data
+venv/
+data/export
+
+notebook/exp_finetune/

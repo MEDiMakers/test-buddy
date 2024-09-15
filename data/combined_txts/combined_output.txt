@@ -83,21 +83,16 @@ The essential steps for helping a cardiac arrest victim are illustrated in a sys
 
 First Ring: Prevention 
 Prevention is better than intervention. A healthy diet and lifestyle can reduce the risk of heart diseases. Going for regular medical check-ups can help detect problems early and prompt the individuals to seek treatment early and adjust their diet and lifestyles. 
-
 Second Ring: Early Activation and Automated external defibrillators (AEDs) Access 
 Call for ambulance (dial 995) and get an Automated external defibrillators (AEDs) if visible and near-by. Follow the Singapore Civil Defence Force (SCDF) dispatcher’s instructions. 
-
 Third Ring: Early cardio-pulmonary resuscitation (CPR) 
 The brain cells start dying within 4-6 minutes of cardiac arrest. Cardio-pulmonary resuscitation (CPR) must be initiated as soon as possible to provide blood and oxygen flow to the brain and heart. 
-
 Fourth Ring: Early Defibrillation 
 Automated external defibrillators (AEDs) are increasingly available in the community, at lift lobbies, void decks, gymnasium, shopping malls, hotels, airports and schools etc. Apply onto the casualty and be ready to defibrillate. 
-
 Fifth Ring: Emergency Medical Services (Ambulance) 
 Quick access to the scene and transport to the hospital makes a difference to the casualty’s chances of survival. 
 Sixth Ring: Advanced Cardiac Life Support
 Medical teams will provide advanced cardiac life support at the hospital with the use of Intravenous/Intraosseous (IV/IO) medication and delivery of oxygen via mechanical systems (ie. Bag-Valve Masks and ventilators). 
-
 Seventh Ring: Recovery 
 To ensure a good survival outcome after OHCA requires continued community and medical support (ie. social services, physio/occupational therapy, nutritional guidance, etc) and therapy to re-habilitate the individual back to normalcy. 
 
@@ -113,6 +108,7 @@ Accept the myResponder alert and proceed to the specified location.
 - Upon reaching the patient, perform CPR or apply an AED.
 - Hand over the case to the Singapore Civil Defence Force (SCDF) paramedics upon their arrival.
 
+
 Minor Fire
 - Accept the myResponder alert and go to the designated location.
 - Extinguish the fire using available resources such as extinguishers, buckets of water, domestic water taps, hoses, or drencher systems designed for rubbish chutes.
@@ -122,8 +118,6 @@ Major Incident
 - Accept the myResponder alert but do not approach closer to the specified location.
 - Provide SCDF with up to three photos and one video of the developing incident, if it is safe to do so.
 - Follow any instructions for evacuation immediately.
-
-
 
 
 3.9: CHILD/INFANT DEFIBRILLATION
@@ -185,15 +179,18 @@ For Cardiopulmonary Resuscitation (CPR) to be effective, the casualty must be ly
 (A) Ask someone to get an Automated External Defibrillator (AED) 
 - Send someone to get an Automated External Defibrillator (AED) if there is one within a 60-second walking distance. The Singapore Civil Defence Force (SCDF) emergency medical dispatcher may be able to locate the nearest Automated External Defibrillator (AED) and summon help from Cardiopulmonary Resuscitation CPR-trained rescuers in the vicinity. However, if you are the lone rescuer, do not leave the casualty. 
 
+
 (B) Check for normal Breathing
 - Look for the rise and fall of the chest. 
 - Do not take more than 10 seconds.
 - It is important to recognize that gasping is NOT normal breathing but a sign of cardiac arrest. Start chest compressions immediately if you are unsure whether the casualty has abnormal breathing or gasping. (See https://youtu.be/T85vd3CBs04 for video of contrast between gasping and normal breathing) 
 
+
 For trained healthcare providers:
 - Checking of carotid pulse and breathing (not more than 10 seconds) should be done. 
 - Check for carotid pulse when checking for normal breathing. Slide your fingers down to the groove at the side of the neck near you (this is the location of the carotid pulse).
 - If unsure about the presence of pulse and normal breathing at the end of 10 seconds, assume cardiac arrest and commence chest compressions. 
+
 
 (C) Chest Compressions
 - Site of chest compression should be at the centre of the chest at the lower half of the sternum (breastbone).
@@ -285,7 +282,6 @@ Mild
 - Partial Airway Obstruction (Able to produce sound, breathe or cough). 
 - Do not interfere
   - Allow the casualty to clear airway by coughing. Continue to check for deterioration (inability to produce sound, breathe or cough) or until obstruction is relieved. Consider calling 995 for Singapore Civil Defence Force Emergency Medical Services (SCDF EMS) if repeated attempts by casualty are not successful *Avoid feeding the casualty water/food and do not shake the casualty in a attempt to dislodge the foreign body. 
-  
 Severe 
 - Complete Airway Obstruction (Unable to produce sound, breathe or cough). 
 - Conscious 
@@ -327,10 +323,12 @@ Continue to check for deterioration (inability to produce sound, breathe, or cou
 Consider calling 995 for Singapore Civil Defence Force EMS if repeated attempts by the casualty are not successful.
 Note: Avoid feeding the casualty water/food and do not shake the casualty in an attempt to dislodge the foreign body.
 
+
 2. Severe: Complete Airway Obstruction
 (Unable to produce sound, breathe, or cough)
 If Conscious:
 Perform 5 back blows and 5 chest thrusts until the foreign body is expelled or the casualty becomes unconscious.
+
 
 If Unconscious:
 Place the casualty in a supine position on a flat and firm surface.
@@ -366,11 +364,13 @@ Place your middle and index fingers (third and second) next to your ring (fourth
 - If a foreign body is seen, place the infant on a firm flat surface and remove the foreign body with your little finger.
 - Repeat back blows and chest thrusts until the foreign body is expelled or the infant becomes unconscious. Figure 7-7 – Deliver 5 chest thrusts. Note: 
 
+
 Note:  
 - Do not tip-toe when performing back blows and chest thrusts as the rescuer may lose balance and fall.
 - Each back blow and chest thrust should be delivered with sufficient force and with the intention of expelling the foreign body.
 - If foreign body is seen, maintain open airway with Chin-Lift and insert the little finger of your other hand into the infant’s mouth along the inside of the cheek.
 - Use a hooking action to dislodge the foreign body and manoeuvre it out of the mouth. Take care not to force the foreign body deeper into the throat. This manoeuvre is known as the finger sweep.
+
 
 Note:
 - Do not perform blind finger sweep. Blind finger sweep may push the object back or further into the airway.
@@ -394,7 +394,6 @@ Step 5: Bag-Valve-Mask (BVM) ventilation
 
 
 Flow chart showing the summary of Unconscious Infant Foreign Body Airway Obstruction (FBAO) Relief for Healthcare Providers:
-
 1. Safely position the unconscious casualty on a flat and firm surface.
 2. Shout for Help:
    - Shout "Help!" and call 995 for the Singapore Civil Defence Force (Singapore Civil Defence Force), following the dispatcher’s instructions.
@@ -412,7 +411,6 @@ Flow chart showing the summary of Unconscious Infant Foreign Body Airway Obstruc
          - Re-attempt Head-Tilt-Chin-Lift (HTCL) and provide 1 ventilation again.
            - If chest rises: Follow the same steps as above.
            - If chest does not rise: Continue the cycle of chest compressions and rechecking for Foreign Body (FB).
-
    - If no Foreign Body (FB) is seen:
      - Check for normal breathing and pulse (not more than 10 seconds).
        - If pulse is present but not breathing, start rescue breathing.
@@ -629,23 +627,18 @@ Here is a detailed step-by-step flow of the chart:
 
 1. Check for Danger (D):
 Ensure the area is safe for both the rescuer and the casualty.
-
 2. Check Responsiveness (R):
 Try to get a response from the casualty.
-
 3. Shout for Help (S):
 (a) Shout "Help!"
 (b) Call 995 for Singapore Civil Defence Force Emergency Medical Services (SCDF EMS) and follow the dispatcher’s instructions or activate the emergency response system (for in-facility/in-hospital cardiac arrest).
-
 4. Get the Automated External Defibrillator (AED) (A):
 If there is another person around, ask him/her to get the Automated External Defibrillator (AED).
 If alone, do not leave the casualty.
-
 5. Check for Normal Breathing and Pulse (B):
 Look for the rise and fall of the chest (not more than 10 seconds).
 If normal breathing (gasping is not normal breathing) is absent or unsure, start Cardiopulmonary Resuscitation (CPR).
 Healthcare Provider only: Check for carotid pulse as well.
-
 6. Provide Continuous Chest Compressions (C):
 Expose the chest adequately.
 Perform chest compressions:
@@ -658,9 +651,7 @@ Healthcare Provider only: After 30 chest compressions
     Provide 2 ventilations via Bag-Valve-Mask (BVM)
     1 second per ventilation
     Tidal Volume 400-600 milliliters or chest rises
-
 7. Automated External Defibrillator (AED) Arrives:
-
 Check for Automated External Defibrillator (AED) Hazards:
     Wet surfaces
     Metallic surfaces
@@ -779,10 +770,8 @@ Step 4: Chest thrusts
 If the casualty becomes unconscious, proceed with the following steps. 
 Step 1: Position the casualty  
 - Support and position the casualty lying on his/her back on a firm flat surface . 
-
 Step 2: Activate the Emergency Medical Service (EMS)  
 - Rescuer shouts: “Help! Call ambulance 995  and get an AED !” However, if there is another person around, ask him/her to call 995 for Singapore Civil Defence Force EMS and get an AED.  
-
 Step 3: Start 30 chest compressions  
 Locate the landmark and perform 30 chest compressions using the same location and techniques used for chest compressions in CPR. (Refer to Adult CPR, page 17 to 26; or Child CPR, page 48 to 53)  
 
@@ -798,8 +787,8 @@ Note:
 - However, if there are no objects found in the mouth, repeat steps 3 and 4 until object has been removed.  
 - For lay rescuers – Once object has been removed, check for breathing. If breathing is absent, repeat steps 3 and 4 until breathing resumes or emergency help arrives.  For trained healthcare providers – See step 5. 
 
-For Trained Healthcare Providers:
- 
+
+For Trained Healthcare Providers: 
 Step 5: Bag-valve-mask (BVM) ventilation  
 - Attempt one v entilation via BVM (1st ventilation). If BVM is not available and you are willing and trained, you may provide mouth-to-mouth ventilations.   
 - Perform a Head-Tilt, Chin-Lift manoeuvre. An open airway will ensure ventilations are effective. 
@@ -832,8 +821,8 @@ Ensure that the rescuer operates in a safe environment. Resuscitation should sta
 - Avoid violent shaking of the infant as this may result in injury.   
 - Avoid unnecessary movements of the neck to prevent injuries to the head and neck.  
  
-For CPR to be effective, the infant must be lying on his/her back on a firm, flat surface. If the infant  is lying face down (prone position), or on his/her side, rescuer will need to roll the infant over onto his/her back.   
 
+For CPR to be effective, the infant must be lying on his/her back on a firm, flat surface. If the infant  is lying face down (prone position), or on his/her side, rescuer will need to roll the infant over onto his/her back.   
 (S) Shout to get help  
 If the infant is unresponsive, shout to get help from bystanders to call 995 for Singapore Civil Defence Force EMS or activate the emergency response system (for in-facility/in-hospital cardiac arrest). If alone, use a handphone to call 995 for Singapore Civil Defence Force and put on speaker phone mode. An Singapore Civil Defence Force emergency medical dispatcher can help a lay rescuer recognise cardiac arrest, and once this is established, the dispatcher will guide the rescuer to begin CPR by providing instructions on how to perform Chest Compressions via a handphone.  
 - In a situation where a lone rescuer found an unresponsive infant in a remote area with no accessibility to activate emergency medical service, it is necessary for the lone rescuer to assess the infant’s responsiveness and breathing. If normal breathing is absent, CPR (chest compressions and ventilations) should commence immediately and continued for at least two minutes before leaving the infant to seek nearby assistance or obtain phone access and return to the infant immediately to continue CPR. However, in the process, if there is another person around, ask him/her to call 995 for Singapore Civil Defence Force EMS and get an AED. 
@@ -846,13 +835,14 @@ If the infant is unresponsive, shout to get help from bystanders to call 995 for
 - Do not take more than 10 seconds.  
 - It is important to recognize that gasping is NOT normal breathing but a sign of cardiac arrest. Start chest compressions immediately if you unsure whether the casualty has abnormal breathing or gasping. 
  
+
 For trained healthcare providers only  
 - Locate the brachial pulse (inner aspect of the upper arm, between the infant’s elbow and shoulder) with the index and middle fingers.  
 - Apply gentle pressure and feel for the pulse at the same time as checking for normal breathing . 
 - Checking for normal breathing and pulse should not take more than 10 seconds.  
 - If unsure about the presence of pulse and normal breathing  at the end of 10 seconds, assume cardiac arrest and commence chest compressions.  
 
- 
+
 (C) Chest Compressions  
 - Site of chest compression should be at the centre of the chest at the lower half of the sternum (breastbone). Ensure adequate exposure of the chest.  Locate the correct hand position for chest compressions:  
     - Use your index finger to d raw an imaginary line 
