@@ -4,12 +4,12 @@ from groq import Groq
 import keyboard
 
 class Hear:
-    def __init__(self):
+    def __init__(self, headset = "(Jabra Elite 7 Pro)"):
         self.recorder = None
         self.command = [
             'ffmpeg',
             '-f', 'dshow',
-            '-i', 'audio=Headset (Jabra Elite 7 Pro)',
+            '-i', f'audio=Headset {headset}',
             'output.wav'
         ]
     
@@ -32,12 +32,12 @@ class Hear:
                 temperature = temperature
             )
 
-            print(transcription.text)
+            return transcription.text
 
 
 
-if __name__ == "__main__":
-    hear = Hear()
-    API_KEY = "Write your own API"
-    x = input(API_KEY)
-    hear.start(API_KEY=x)
+# if __name__ == "__main__":
+#     hear = Hear()
+#     API_KEY = "Write your own API"
+#     x = input(API_KEY)
+#     hear.start(API_KEY=x)
