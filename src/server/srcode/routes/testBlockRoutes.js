@@ -3,6 +3,7 @@ import pool from '../dbConnect.js';
 import calculateSimilarityScore from '../calculateSimilarityScore.js';
 const router = express.Router();
 
+//Receives response from user, calculates score and conditionally produces new prompt
 router.post('/:blockID/response', async (req, res) => {
     const { blockID } = req.params;
     const {prompt, answer} = req.body;

@@ -6,6 +6,7 @@ import fetchUserId from '../fetchUserId.js';
 const router = express.Router();
 dotenv.config();
 
+// Creates new chat for the user
 router.get('/:username/new', async (req, res) => {
     const { username } = req.params;
     try {
@@ -47,6 +48,8 @@ router.get('/:username/new', async (req, res) => {
     }
 });
 
+//Retrieves all chats (full info) of the user
+//TO DO: Enhance load times through pagination
 router.get('/fetch/all/:username', async (req, res) => {
     const { username } = req.params;
 

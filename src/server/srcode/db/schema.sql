@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS Chats (
 CREATE INDEX idx_chats_user_id ON Chats(user_id);
 
 -- Create TestBlocks Table
+-- TO DO: Change prompt field to foreign key pointing to question bank
 CREATE TABLE IF NOT EXISTS TestBlocks (
     id SERIAL PRIMARY KEY,
     chat_id INT REFERENCES Chats(id) ON DELETE CASCADE,

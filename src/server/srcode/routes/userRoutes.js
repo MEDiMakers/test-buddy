@@ -3,6 +3,7 @@ import pool from '../dbConnect.js';
 const router = express.Router();
 
 
+//Creates new user
 router.get('/create/:username', async (req, res) => {
     const { username } = req.params;
 
@@ -31,6 +32,7 @@ router.get('/create/:username', async (req, res) => {
     }
 });
 
+//Fetches user id for the given username
 router.get('/fetchID/:username', async (req, res) => {
     const { username } = req.params;
 
