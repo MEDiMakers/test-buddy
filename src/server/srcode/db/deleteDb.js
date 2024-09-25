@@ -1,4 +1,4 @@
-import pool from "../dbConnect.js";
+import pool from '../dbConnect.js';
 /**
  * Drops all tables in the current database.
  */
