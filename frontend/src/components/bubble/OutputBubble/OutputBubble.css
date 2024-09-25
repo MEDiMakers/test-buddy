@@ -1,29 +1,29 @@
-.speech-bubble {
+.output-bubble {
   position: relative;
   background: #ffffff;
   border-radius: 20px;
   padding: 20px;
-  max-width: 300px;
-  max-height: 80vh; /* Limit height to avoid overflow */
-  overflow-y: auto; /* Add scroll if content overflows */
+  max-width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   word-wrap: break-word;
   text-align: left;
 }
 
-.speech-bubble.left {
+.output-bubble.left {
   margin-right: auto;
   margin-left: 20px;
 }
 
-.speech-bubble.right {
+.output-bubble.right {
   margin-left: auto;
   margin-right: 20px;
   text-align: right;
 }
 
-.speech-bubble-tip {
+.output-bubble-tip {
   content: "";
   position: absolute;
   bottom: -16px;
@@ -31,13 +31,12 @@
   border-style: solid;
 }
 
-.speech-bubble-tip.left {
+.output-bubble-tip.left {
   left: 20px;
   border-color: #ffffff transparent transparent transparent;
 }
 
-.speech-bubble-tip.right {
+.output-bubble-tip.right {
   right: 20px;
   border-color: #ffffff transparent transparent transparent;
 }
-

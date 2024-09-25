@@ -11,6 +11,10 @@
 }
 
 .audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
   background-color: blueviolet;
   padding: 20px;
 }
