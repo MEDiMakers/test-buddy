@@ -7,12 +7,15 @@ import re
 
 from llama_index.legacy import Document
 from llama_index.legacy.schema import TextNode
-from llama_index.legacy.node_parser import SentenceWindowNodeParser, SemanticSplitterNodeParser
+from llama_index.legacy.node_parser import (
+    SentenceWindowNodeParser,
+    SemanticSplitterNodeParser,
+)
 from llama_index.legacy.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.legacy.finetuning import (
     generate_qa_embedding_pairs,
     EmbeddingQAFinetuneDataset,
-) 
+)
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
@@ -20,17 +23,20 @@ from groq import Groq
 
 ## load evv variables
 from dotenv import load_dotenv
+
 load_dotenv()
-GROQ_API_KEY       = os.environ["GROQ_API_KEY"]
-CHAT_MODEL         = "llama3-70b-8192"
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+CHAT_MODEL = "llama3-70b-8192"
 client = Groq()
 
 import logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 
-GENERATE_QUESTION_PROMPT = \
-'''You are a professor with deep expertise in medical aid, particularly in the context of hospital nursing practices. 
+GENERATE_QUESTION_PROMPT = """You are a professor with deep expertise in medical aid, particularly in the context of hospital nursing practices. 
 You have been tasked with creating high-quality test questions for an upcoming examination based on the content of a medical information manual used by hospital nurses in Singapore.
 
 Your objective is to generate 5 test questions that accurately assess the understanding and application of the information contained within the text corpus provided below.
@@ -44,11 +50,10 @@ Text Corpus:
 Do not provide the answers.
 {format_instructions}
 Ensure and double check that the answer is in accordance to the format above.
-'''
+"""
 
 
-GENERATE_ANSWER_PROMPT = \
-'''You are a professor proficient in medical aid with extensive experience in hospital nursing practices. 
+GENERATE_ANSWER_PROMPT = """You are a professor proficient in medical aid with extensive experience in hospital nursing practices. 
 You have been tasked with generating answers for a test based on the content of a medical information manual used by hospital nurses in Singapore.
 
 Your goal is to produce answers that not only reference the text corpus provided below but also reflect the depth of understanding, critical thinking, and practical application that a seasoned nurse or medical professional would demonstrate.
@@ -64,7 +69,7 @@ List of questions:
 {format_instructions}
 
 Ensure and double check that the answer is in accordance to the format above.
-'''
+"""
 
 
 def extract_answer(input_string):
@@ -89,21 +94,21 @@ def extract_answer(input_string):
     """
     # Find the start and end indices of the JSON data within the input string
     # Assuming the JSON data starts with '{' and ends with '}'
-    json_start = input_string.find('{')
-    json_end = input_string.rfind('}') + 1
-    
+    json_start = input_string.find("{")
+    json_end = input_string.rfind("}") + 1
+
     # If either the start or end index is not found, raise an error
     if json_start == -1 or json_end == -1:
         raise ValueError("Invalid input: No JSON data found.")
 
     # Extract the substring that potentially contains the JSON data
     json_data = input_string[json_start:json_end]
-    
+
     try:
         # Attempt to convert the JSON string to a Python dictionary
         data_dict = json.loads(json_data)
         return data_dict
-    
+
     except json.JSONDecodeError:
         # If JSON decoding fails, search for a JSON object containing the 'questions' key
         # Using regex to match a pattern that includes the 'questions' key
@@ -118,7 +123,9 @@ def extract_answer(input_string):
 
         # If no valid JSON is found, the function will Log an error
         else:
-            logging.error("No dictionary with 'questions' as a key found in this input string. Error by LLM")
+            logging.error(
+                "No dictionary with 'questions' as a key found in this input string. Error by LLM"
+            )
             return {"error": "No dictionary with questions found"}
 
 
@@ -144,8 +151,10 @@ def generate_questions(page_text, question_prompt, client):
 
     # Define a Pydantic model for the expected question structure
     class Questions(BaseModel):
-        questions: str = Field(description="Question about the content in the text corpus")
-    
+        questions: str = Field(
+            description="Question about the content in the text corpus"
+        )
+
     # Initialize a JSON output parser using the defined Pydantic model
     parser = JsonOutputParser(pydantic_object=Questions)
 
@@ -154,20 +163,15 @@ def generate_questions(page_text, question_prompt, client):
         template=question_prompt,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
-    ) 
-    
+    )
+
     # Format the final prompt with the actual text data
     final_prompt = prompt.format(text=page_text)
 
     # Generate the completion by interacting with the language model API
     completion = client.chat.completions.create(
         model=CHAT_MODEL,
-        messages=[
-            {
-                "role": "user",
-                "content": final_prompt
-            }
-        ],
+        messages=[{"role": "user", "content": final_prompt}],
         temperature=0,  # Control the randomness of the output (lower means less random)
         max_tokens=1024,  # Limit the response length
         top_p=1,  # Nucleus sampling parameter (1 means only the most likely tokens are considered)
@@ -176,22 +180,22 @@ def generate_questions(page_text, question_prompt, client):
     )
 
     # Initialize an empty string to accumulate the response content
-    answer = ''''''
+    answer = """"""
     for chunk in completion:
         # Append each chunk of content to the answer string
         answer += chunk.choices[0].delta.content or ""
-    
+
     # Extract the questions from the accumulated response content
     question_dict = extract_answer(answer)
 
     # Log an error if the response contains an 'error' key
     if "error" in question_dict:
         logging.error(f"{question_dict['error']}")
-    
+
     # Return the dictionary containing the generated questions
     return question_dict
-    
-    
+
+
 def generate_answers(page_text, questions, answer_prompt, client):
     """
     Generates answers based on a list of questions and a text corpus using a language model.
@@ -215,8 +219,10 @@ def generate_answers(page_text, questions, answer_prompt, client):
 
     # Define a Pydantic model for the expected answer structure
     class AnswerList(BaseModel):
-        answers: list = Field(description="Answer to the question with reference to the content in the text corpus")
-    
+        answers: list = Field(
+            description="Answer to the question with reference to the content in the text corpus"
+        )
+
     # Initialize a JSON output parser using the defined Pydantic model
     parser = JsonOutputParser(pydantic_object=AnswerList)
 
@@ -225,20 +231,15 @@ def generate_answers(page_text, questions, answer_prompt, client):
         template=answer_prompt,
         input_variables=["text", "question_list"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
-    ) 
-    
+    )
+
     # Format the final prompt with the actual text data and question list
     final_prompt = prompt.format(text=page_text, question_list=questions)
 
     # Generate the completion by interacting with the language model API
     completion = client.chat.completions.create(
         model=CHAT_MODEL,
-        messages=[
-            {
-                "role": "user",
-                "content": final_prompt
-            }
-        ],
+        messages=[{"role": "user", "content": final_prompt}],
         temperature=0,  # Control the randomness of the output (lower means less random)
         max_tokens=1024,  # Limit the response length
         top_p=1,  # Nucleus sampling parameter (1 means only the most likely tokens are considered)
@@ -247,18 +248,18 @@ def generate_answers(page_text, questions, answer_prompt, client):
     )
 
     # Initialize an empty string to accumulate the response content
-    answer = ''''''
+    answer = """"""
     for chunk in completion:
         # Append each chunk of content to the answer string
         answer += chunk.choices[0].delta.content or ""
-    
+
     # Extract the answers from the accumulated response content
     answer_dict = extract_answer(answer)
 
     # Log an error if the response contains an 'error' key
     if "error" in answer_dict:
         logging.error(f"{answer_dict['error']}")
-    
+
     # Return the dictionary containing the generated answers
     return answer_dict
 
@@ -285,11 +286,11 @@ def generate_section_QA_pairs(section_text, client, question_prompt, answer_prom
     question_dict = generate_questions(section_text, question_prompt, client)
     print(question_dict)
     # Extract the list of questions from the generated question dictionary
-    if 'error' in question_dict:
+    if "error" in question_dict:
         question_dict = generate_questions(section_text, question_prompt, client)
-        
-    question_list = [q_pair for q_pair in question_dict['questions']]
-        
+
+    question_list = [q_pair for q_pair in question_dict["questions"]]
+
     # Convert the list of questions to a JSON-formatted string
     question_str = json.dumps(question_list)
 
@@ -300,15 +301,15 @@ def generate_section_QA_pairs(section_text, client, question_prompt, answer_prom
     answer_list = answer_dict["answers"]
 
     # Extract the list of questions again for pairing with answers
-    question_list = question_dict['questions']
+    question_list = question_dict["questions"]
 
     # Initialize an empty list to store the QA pairs
     qa_pairs = []
-    
+
     # Pair each question with its corresponding answer and append to the QA pairs list
     for i in range(len(question_list)):
         qa_pairs.append({"Question": question_list[i], "Answer": answer_list[i]})
-    
+
     # Return the list of question-answer pairs
     return qa_pairs
 
@@ -323,32 +324,36 @@ def generate_all_qa_pairs():
 
     Returns:
         None
-    """     
-    
+    """
+
     # Open and load the text data from the specified JSON file
     with open("../data/all_pdf_text.json", "r", encoding="utf-8") as fin:
         all_sections = json.load(fin)
-    
+
     # Initialize an empty list to store all QA pairs
     all_pairs = []
 
     # Iterate over each section of text to generate QA pairs
     for i in trange(len(all_sections)):
         # Generate QA pairs for the current section
-        section_qa_pair = generate_section_QA_pairs(all_sections[i], client, GENERATE_QUESTION_PROMPT, GENERATE_ANSWER_PROMPT)
-        
+        section_qa_pair = generate_section_QA_pairs(
+            all_sections[i], client, GENERATE_QUESTION_PROMPT, GENERATE_ANSWER_PROMPT
+        )
+
         # Extend the list of all QA pairs with the newly generated pairs
         all_pairs.extend(section_qa_pair)
-        
+
         # Write the QA pairs to a JSON file after each iteration to avoid data loss
-        with open("../data/2_Draft_QA_pairs_generated.json", "w", encoding='utf-8') as fout:
+        with open(
+            "../data/2_Draft_QA_pairs_generated.json", "w", encoding="utf-8"
+        ) as fout:
             json.dump(all_pairs, fout, ensure_ascii=False, indent=4)
-            
+
         # Implement a delay after every 30 sections to avoid exceeding the API rate limit
         if i > 10 and i % 11 == 0:
             print("limit reached.. sleeping now...\n")
             time.sleep(62)
 
+
 if __name__ == "__main__":
     generate_all_qa_pairs()
-
