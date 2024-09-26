@@ -1,0 +1,24 @@
+.speech-bubble {
+  position: relative;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 300px;
+  max-height: 80vh; /* Limit the height to 80% of the viewport height */
+  overflow-y: auto; /* Add a scrollbar if content overflows */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  word-wrap: break-word; /* Ensure long words break to fit within the bubble */
+  text-align: left; /* Align text to the left for better readability */
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 20px; /* Adjust this value as needed for the tip location */
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #ffffff transparent;
+  margin-left: -15px;
+}

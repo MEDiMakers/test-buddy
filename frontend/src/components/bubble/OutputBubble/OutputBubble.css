@@ -1,0 +1,42 @@
+.output-bubble {
+  position: relative;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.output-bubble.left {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.output-bubble.right {
+  margin-left: auto;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.output-bubble-tip {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  border-width: 16px 16px 0;
+  border-style: solid;
+}
+
+.output-bubble-tip.left {
+  left: 20px;
+  border-color: #ffffff transparent transparent transparent;
+}
+
+.output-bubble-tip.right {
+  right: 20px;
+  border-color: #ffffff transparent transparent transparent;
+}
