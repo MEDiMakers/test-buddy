@@ -6,7 +6,7 @@ import dropAllTables from '../db/deleteDb.js';
 const resetMiddleware = (req, res, next) => {
     const { password } = req.headers;
     const correctPassword = process.env.DB_PASSWORD;
-
+    console.log(password);
     if (password === correctPassword) {
         next();
     } else {

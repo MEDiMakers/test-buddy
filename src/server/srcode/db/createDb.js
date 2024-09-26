@@ -12,7 +12,10 @@ const createDataBase = async () => {
 
     // Read SQL file
     const sqlPath = path.join(getDirname(import.meta.url), 'schema.sql');
+    console.log('Reading schema from:', sqlPath);
+
     const sql = await fs.readFile(sqlPath, 'utf8');
+    console.log('Executing SQL script:', sql);
 
     // Execute SQL script
     await client.query(sql);
